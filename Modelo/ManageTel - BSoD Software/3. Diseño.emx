@@ -9,12 +9,14 @@
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_rJmCgEIIEeOpNrFH38e2Nw" name="Negocio">
     <eAnnotations xmi:id="_rLECIEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FSLS8ElyEeOJerZXhKkQ2A" name="ClienteTransfer"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_vg2WoEIIEeOpNrFH38e2Nw" name="Presentación">
     <eAnnotations xmi:id="_vg3kwEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="Integración">
     <eAnnotations xmi:id="_xrKSEEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pCvBsElxEeOJerZXhKkQ2A" name="ClienteDAO"/>
   </packagedElement>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_gn8otkIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
