@@ -9,14 +9,65 @@
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_rJmCgEIIEeOpNrFH38e2Nw" name="Negocio">
     <eAnnotations xmi:id="_rLECIEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_FSLS8ElyEeOJerZXhKkQ2A" name="ClienteTransfer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FSLS8ElyEeOJerZXhKkQ2A" name="TransferClientes">
+      <ownedAttribute xmi:id="_bwzFwEyLEeOgg5tTjd_OLg" name="DNI" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_c2sW0EyLEeOgg5tTjd_OLg" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_c7KAEEyLEeOgg5tTjd_OLg" name="apellido" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_c9AaMEyLEeOgg5tTjd_OLg" name="numTelefono" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_u7sNUEyLEeOgg5tTjd_OLg" name="getDNI"/>
+      <ownedOperation xmi:id="_u9QTkEyLEeOgg5tTjd_OLg" name="setDNI"/>
+      <ownedOperation xmi:id="_u_GGoEyLEeOgg5tTjd_OLg" name="getNombre"/>
+      <ownedOperation xmi:id="_vBxnMEyLEeOgg5tTjd_OLg" name="setNombre"/>
+      <ownedOperation xmi:id="_vDdCMEyLEeOgg5tTjd_OLg" name="getNumTelefono"/>
+      <ownedOperation xmi:id="_vFebcEyLEeOgg5tTjd_OLg" name="setNumTelefono"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YZNUUEyKEeOgg5tTjd_OLg" name="Cliente">
+      <ownedAttribute xmi:id="_ph898EyKEeOgg5tTjd_OLg" name="DNI" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_t8TCUEyKEeOgg5tTjd_OLg" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_vuZ5IEyKEeOgg5tTjd_OLg" name="apellidos" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_z_0D8EyKEeOgg5tTjd_OLg" name="numTelefono" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_g6ixUEyMEeOgg5tTjd_OLg" name="SAClientes">
+      <ownedOperation xmi:id="_wKTgEEyMEeOgg5tTjd_OLg" name="anadirCliente"/>
+      <ownedOperation xmi:id="_SOpIIEyNEeOgg5tTjd_OLg" name="obtenerTodoslosClientes"/>
+      <ownedOperation xmi:id="_OLZ8MEyNEeOgg5tTjd_OLg" name="actualizarCliente"/>
+      <ownedOperation xmi:id="_wLyGwEyMEeOgg5tTjd_OLg" name="borrarCliente"/>
+      <ownedOperation xmi:id="_wNTwwEyMEeOgg5tTjd_OLg" name="obtenerCliente"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_vg2WoEIIEeOpNrFH38e2Nw" name="Presentación">
     <eAnnotations xmi:id="_vg3kwEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="Integración">
     <eAnnotations xmi:id="_xrKSEEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_pCvBsElxEeOJerZXhKkQ2A" name="ClienteDAO"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pCvBsElxEeOJerZXhKkQ2A" name="DAOCliente">
+      <ownedOperation xmi:id="_ppiekEyIEeOgg5tTjd_OLg" name="getCliente"/>
+      <ownedOperation xmi:id="_r3e80EyIEeOgg5tTjd_OLg" name="addCliente">
+        <ownedParameter xmi:id="_4CikcEyIEeOgg5tTjd_OLg" name="Parámetro1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-x70oEyIEeOgg5tTjd_OLg" name="Cliente"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tGfGkEyIEeOgg5tTjd_OLg" name="updateCliente"/>
+      <ownedOperation xmi:id="_uZx6cEyIEeOgg5tTjd_OLg" name="getAllClientes"/>
+      <ownedOperation xmi:id="_vr-iIEyIEeOgg5tTjd_OLg" name="deleteCliente"/>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_gn8otkIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
