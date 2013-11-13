@@ -4,9 +4,6 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_fK7REEIIEeOpNrFH38e2Nw" name="2. Casos de uso">
   <eAnnotations xmi:id="_fK7REUIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-  <packageImport xmi:id="_fK7REkIIEeOpNrFH38e2Nw">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_pJWzoEIJEeOpNrFH38e2Nw" name="Clientes">
     <eAnnotations xmi:id="_pJWzoUIJEeOpNrFH38e2Nw" source="uml2.diagrams"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_xUNVMEIJEeOpNrFH38e2Nw" name="Clientes">
