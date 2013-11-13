@@ -2,25 +2,42 @@
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_gn8oskIIEeOpNrFH38e2Nw" name="3. Diseño">
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_gn8oskIIEeOpNrFH38e2Nw" name="3. Diseño">
   <eAnnotations xmi:id="_gn8os0IIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-  <packageImport xmi:id="_gn8otEIIEeOpNrFH38e2Nw">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  <packageImport xmi:id="_uhmYsEyTEeOxv54tlzE5kw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_rJmCgEIIEeOpNrFH38e2Nw" name="Negocio">
-    <eAnnotations xmi:id="_rLECIEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
+    <eAnnotations xmi:id="_rLECIEIIEeOpNrFH38e2Nw" source="uml2.diagrams">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_1S1G0EyREeOxv54tlzE5kw" type="Class" name="DiagramaDeClase1">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_2NVnQEyREeOxv54tlzE5kw" element="_g6ixUEyMEeOgg5tTjd_OLg" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2NVnQkyREeOxv54tlzE5kw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_2NVnQ0yREeOxv54tlzE5kw" width="530" height="530"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2NVnREyREeOxv54tlzE5kw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2NVnRUyREeOxv54tlzE5kw" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2NVnRkyREeOxv54tlzE5kw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2NVnR0yREeOxv54tlzE5kw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2NVnSEyREeOxv54tlzE5kw" visible="false" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2NVnSUyREeOxv54tlzE5kw" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2NVnSkyREeOxv54tlzE5kw" visible="false" type="SignalCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2NVnQUyREeOxv54tlzE5kw" x="2376" y="1716"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
     <packagedElement xmi:type="uml:Class" xmi:id="_FSLS8ElyEeOJerZXhKkQ2A" name="TransferClientes">
       <ownedAttribute xmi:id="_bwzFwEyLEeOgg5tTjd_OLg" name="DNI" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_c2sW0EyLEeOgg5tTjd_OLg" name="nombre" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_c7KAEEyLEeOgg5tTjd_OLg" name="apellido" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_c9AaMEyLEeOgg5tTjd_OLg" name="numTelefono" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_u7sNUEyLEeOgg5tTjd_OLg" name="getDNI"/>
       <ownedOperation xmi:id="_u9QTkEyLEeOgg5tTjd_OLg" name="setDNI"/>
@@ -31,24 +48,45 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_YZNUUEyKEeOgg5tTjd_OLg" name="Cliente">
       <ownedAttribute xmi:id="_ph898EyKEeOgg5tTjd_OLg" name="DNI" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_t8TCUEyKEeOgg5tTjd_OLg" name="nombre" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_vuZ5IEyKEeOgg5tTjd_OLg" name="apellidos" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_z_0D8EyKEeOgg5tTjd_OLg" name="numTelefono" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_g6ixUEyMEeOgg5tTjd_OLg" name="SAClientes">
-      <ownedOperation xmi:id="_wKTgEEyMEeOgg5tTjd_OLg" name="anadirCliente"/>
-      <ownedOperation xmi:id="_SOpIIEyNEeOgg5tTjd_OLg" name="obtenerTodoslosClientes"/>
-      <ownedOperation xmi:id="_OLZ8MEyNEeOgg5tTjd_OLg" name="actualizarCliente"/>
-      <ownedOperation xmi:id="_wLyGwEyMEeOgg5tTjd_OLg" name="borrarCliente"/>
-      <ownedOperation xmi:id="_wNTwwEyMEeOgg5tTjd_OLg" name="obtenerCliente"/>
+      <ownedOperation xmi:id="_wKTgEEyMEeOgg5tTjd_OLg" name="anadirCliente">
+        <ownedParameter xmi:id="_1mOHcEySEeOxv54tlzE5kw" name="idCliente" direction="return">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_3pbVUEySEeOxv54tlzE5kw" name="Cliente" type="_YZNUUEyKEeOgg5tTjd_OLg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_SOpIIEyNEeOgg5tTjd_OLg" name="obtenerTodoslosClientes">
+        <ownedParameter xmi:id="_SAjaEEyTEeOxv54tlzE5kw" name="listaClientes" direction="return">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Interface"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OLZ8MEyNEeOgg5tTjd_OLg" name="actualizarCliente">
+        <ownedParameter xmi:id="_-LX00EyREeOxv54tlzE5kw" name="Cliente" type="_YZNUUEyKEeOgg5tTjd_OLg"/>
+        <ownedParameter xmi:id="_NlGtAEyUEeOxv54tlzE5kw" name="Parámetro1" type="_4rfZ0EyTEeOxv54tlzE5kw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wLyGwEyMEeOgg5tTjd_OLg" name="borrarCliente">
+        <ownedParameter xmi:id="_9TGTkEySEeOxv54tlzE5kw" name="idCliente">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wNTwwEyMEeOgg5tTjd_OLg" name="obtenerCliente">
+        <ownedParameter xmi:id="_A-x7IEyTEeOxv54tlzE5kw" name="Cliente" type="_YZNUUEyKEeOgg5tTjd_OLg" direction="return"/>
+        <ownedParameter xmi:id="_GGteQEyTEeOxv54tlzE5kw" name="idCliente">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_vg2WoEIIEeOpNrFH38e2Nw" name="Presentación">
@@ -69,6 +107,7 @@
       <ownedOperation xmi:id="_vr-iIEyIEeOgg5tTjd_OLg" name="deleteCliente"/>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4rfZ0EyTEeOxv54tlzE5kw" name="void"/>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_gn8otkIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
