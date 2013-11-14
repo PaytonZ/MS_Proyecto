@@ -1292,28 +1292,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v6PcIEIKEeOpNrFH38e2Nw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_gIflMEILEeOpNrFH38e2Nw" name="Paquete1">
-      <eAnnotations xmi:id="_gIgMQEILEeOpNrFH38e2Nw" source="uml2.diagrams" references="_gIgMQUILEeOpNrFH38e2Nw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gIgMQUILEeOpNrFH38e2Nw" type="Freeform" name="Principal">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
-    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_jVRqQEILEeOpNrFH38e2Nw" name="Interfaz1"/>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_jjKVQEILEeOpNrFH38e2Nw" name="Artefacto1"/>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_m0Su0EILEeOpNrFH38e2Nw" name="Colaboración1">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_m0XnUEILEeOpNrFH38e2Nw" name="Interacción1">
-        <eAnnotations xmi:id="_m0j0kEILEeOpNrFH38e2Nw" source="uml2.diagrams">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_m0j0kUILEeOpNrFH38e2Nw" type="Sequence" element="_m0XnUEILEeOpNrFH38e2Nw" name="DiagramaDeSecuencia1" measurementUnit="Himetric">
-            <children xmi:type="umlnotation:UMLShape" xmi:id="_m0j0kkILEeOpNrFH38e2Nw" element="_m0XnUEILEeOpNrFH38e2Nw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_m0j0k0ILEeOpNrFH38e2Nw" type="interaction_compartment"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_m0j0lEILEeOpNrFH38e2Nw" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m0j0lUILEeOpNrFH38e2Nw" x="793" y="793"/>
-            </children>
-          </contents>
-        </eAnnotations>
-      </ownedBehavior>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_pJXasEIJEeOpNrFH38e2Nw" name="Habitaciones">
     <eAnnotations xmi:id="_pJXasUIJEeOpNrFH38e2Nw" source="uml2.diagrams"/>
