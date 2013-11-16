@@ -775,7 +775,33 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="Integración">
     <eAnnotations xmi:id="_xrKSEEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_w7IwkE0PEeORQI7pZIWD9Q" name="reservas"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_w7IwkE0PEeORQI7pZIWD9Q" name="reservas">
+      <packagedElement xmi:type="uml:Package" xmi:id="_m9sJ4E7ZEeODfo0qbPNkDg" name="dao">
+        <packagedElement xmi:type="uml:Package" xmi:id="_2b8AkE7ZEeODfo0qbPNkDg" name="imp">
+          <eAnnotations xmi:id="_S9160E7aEeODfo0qbPNkDg" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_S9160U7aEeODfo0qbPNkDg" type="Class" name="dao reserva implementacion">
+              <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_eJKjwE7aEeODfo0qbPNkDg" element="_4pHp0E7ZEeODfo0qbPNkDg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+                <children xmi:type="notation:DecorationNode" xmi:id="_eLh7QE7aEeODfo0qbPNkDg" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_eLh7QU7aEeODfo0qbPNkDg" width="530" height="530"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_eL-nME7aEeODfo0qbPNkDg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_eL-nMU7aEeODfo0qbPNkDg" type="Kind"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_eL-nMk7aEeODfo0qbPNkDg" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_eL-nM07aEeODfo0qbPNkDg" type="Parent"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_eMRiIE7aEeODfo0qbPNkDg" type="AttributeCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_eOqHwE7aEeODfo0qbPNkDg" type="OperationCompartment"/>
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_ePZuoE7aEeODfo0qbPNkDg" visible="false" type="SignalCompartment"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eJKjwU7aEeODfo0qbPNkDg" x="2248" y="2487"/>
+              </children>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+          <packagedElement xmi:type="uml:Class" xmi:id="_6-XC4E7ZEeODfo0qbPNkDg" name="DAOReservaImp" clientDependency="_Qoel8E7aEeODfo0qbPNkDg"/>
+          <packagedElement xmi:type="uml:Realization" xmi:id="_Qoel8E7aEeODfo0qbPNkDg" supplier="_4pHp0E7ZEeODfo0qbPNkDg" client="_6-XC4E7ZEeODfo0qbPNkDg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_4pHp0E7ZEeODfo0qbPNkDg" name="DAOReserva"/>
+      </packagedElement>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_w7JXoE0PEeORQI7pZIWD9Q" name="habitaciones"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_w7JXoU0PEeORQI7pZIWD9Q" name="empleados"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_w7J-sE0PEeORQI7pZIWD9Q" name="tareas"/>
@@ -814,7 +840,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_AWONQE0KEeORQI7pZIWD9Q" name="imp">
           <eAnnotations xmi:id="_AWPbYE0KEeORQI7pZIWD9Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GUwBME0KEeORQI7pZIWD9Q" type="Class" name="daoclienteimp">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GUwBME0KEeORQI7pZIWD9Q" type="Class" name="dao cliente implementacion">
               <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_HhT68E0KEeORQI7pZIWD9Q" element="_pCvBsElxEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="notation:DecorationNode" xmi:id="_Hhe6EE0KEeORQI7pZIWD9Q" type="ImageCompartment">
                   <layoutConstraint xmi:type="notation:Size" xmi:id="_Hhe6EU0KEeORQI7pZIWD9Q" width="530" height="530"/>
