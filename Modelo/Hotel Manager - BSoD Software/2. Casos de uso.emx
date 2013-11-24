@@ -275,9 +275,9 @@
       </eAnnotations>
       <ownedUseCase xmi:id="_8niDkEIJEeOpNrFH38e2Nw" name="Dar de alta Cliente">
         <eAnnotations xmi:id="_faVesEILEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_IdcvQEh5EeOJerZXhKkQ2A" name="Dar de alta cliente">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_IdcvQEh5EeOJerZXhKkQ2A" name="Dar de alta un cliente">
           <eAnnotations xmi:id="_IgI24Eh5EeOJerZXhKkQ2A" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IgI24Uh5EeOJerZXhKkQ2A" type="Activity" element="_IdcvQEh5EeOJerZXhKkQ2A" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IgI24Uh5EeOJerZXhKkQ2A" type="Activity" element="_IdcvQEh5EeOJerZXhKkQ2A" name="Diagrama actividad dar de alta un cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_IgI24kh5EeOJerZXhKkQ2A" type="Activity Frame" element="_IdcvQEh5EeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_IgI240h5EeOJerZXhKkQ2A" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_xOfJ4ElrEeOJerZXhKkQ2A" element="_xLzCQElrEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -455,7 +455,7 @@
       <ownedUseCase xmi:id="_84tTIEIJEeOpNrFH38e2Nw" name="Consultar cliente">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_3S9YUElsEeOJerZXhKkQ2A" name="Consultar cliente">
           <eAnnotations xmi:id="_3THJUElsEeOJerZXhKkQ2A" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_3THJUUlsEeOJerZXhKkQ2A" type="Activity" element="_3S9YUElsEeOJerZXhKkQ2A" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_3THJUUlsEeOJerZXhKkQ2A" type="Activity" element="_3S9YUElsEeOJerZXhKkQ2A" name="Diagrama actividad consultar cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_3THJUklsEeOJerZXhKkQ2A" type="Activity Frame" element="_3S9YUElsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_3THJU0lsEeOJerZXhKkQ2A" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_3-ir8UlsEeOJerZXhKkQ2A" element="_3-isIklsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -633,9 +633,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_9Ptd4EIJEeOpNrFH38e2Nw" name="Modificar cliente">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_lFEEgElsEeOJerZXhKkQ2A" name="Modificar cliente">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_lFEEgElsEeOJerZXhKkQ2A" name="Modificar un cliente">
           <eAnnotations xmi:id="_lFEEgUlsEeOJerZXhKkQ2A" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_lFEEgklsEeOJerZXhKkQ2A" type="Activity" element="_lFEEgElsEeOJerZXhKkQ2A" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_lFEEgklsEeOJerZXhKkQ2A" type="Activity" element="_lFEEgElsEeOJerZXhKkQ2A" name="Diagrama actividad modificar un cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_lFEEg0lsEeOJerZXhKkQ2A" type="Activity Frame" element="_lFEEgElsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lFEEhElsEeOJerZXhKkQ2A" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_o0CQoUlsEeOJerZXhKkQ2A" element="_o0LauElsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -815,7 +815,7 @@
       <ownedUseCase xmi:id="_9hCecEIJEeOpNrFH38e2Nw" name="Consultar lista de clientes">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_WwqVUEltEeOJerZXhKkQ2A" name="Consultar lista de clientes">
           <eAnnotations xmi:id="_WwqVUUltEeOJerZXhKkQ2A" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WwqVUkltEeOJerZXhKkQ2A" type="Activity" element="_WwqVUEltEeOJerZXhKkQ2A" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WwqVUkltEeOJerZXhKkQ2A" type="Activity" element="_WwqVUEltEeOJerZXhKkQ2A" name="Diagrama actividad consultar lista de clientes" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_WwqVU0ltEeOJerZXhKkQ2A" type="Activity Frame" element="_WwqVUEltEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_WwqVVEltEeOJerZXhKkQ2A" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_lRObwUltEeOJerZXhKkQ2A" element="_lRYM7kltEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -993,9 +993,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_a6vjYEIKEeOpNrFH38e2Nw" name="Dar de baja Cliente">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_WY2HsElsEeOJerZXhKkQ2A" name="Dar de baja cliente">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_WY2HsElsEeOJerZXhKkQ2A" name="Dar de baja un cliente">
           <eAnnotations xmi:id="_WY2HsUlsEeOJerZXhKkQ2A" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WY2HsklsEeOJerZXhKkQ2A" type="Activity" element="_WY2HsElsEeOJerZXhKkQ2A" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WY2HsklsEeOJerZXhKkQ2A" type="Activity" element="_WY2HsElsEeOJerZXhKkQ2A" name="Diagrama actividad dar de baja un cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_WY2Hs0lsEeOJerZXhKkQ2A" type="Activity Frame" element="_WY2HsElsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_WY2HtElsEeOJerZXhKkQ2A" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_YuaQ4UlsEeOJerZXhKkQ2A" element="_YukB9klsEeOJerZXhKkQ2A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -1604,9 +1604,9 @@
         </contents>
       </eAnnotations>
       <ownedUseCase xmi:id="_IV9n8FLREeOwSbbeCRsgAQ" name="Dar de alta habitación">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_mhCqAFLSEeOwSbbeCRsgAQ" name="Dar de alta habitación">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_mhCqAFLSEeOwSbbeCRsgAQ" name="Dar de alta una habitación">
           <eAnnotations xmi:id="_mhD4IFLSEeOwSbbeCRsgAQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mhEfMFLSEeOwSbbeCRsgAQ" type="Activity" element="_mhCqAFLSEeOwSbbeCRsgAQ" name="Diagrama de Actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mhEfMFLSEeOwSbbeCRsgAQ" type="Activity" element="_mhCqAFLSEeOwSbbeCRsgAQ" name="Diagrama de actividad dar de alta una habitación" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_mhEfMVLSEeOwSbbeCRsgAQ" type="Activity Frame" element="_mhCqAFLSEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_mhEfMlLSEeOwSbbeCRsgAQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_27dOAFLSEeOwSbbeCRsgAQ" element="_27fqQFLSEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -1782,9 +1782,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_-ryMMFLREeOwSbbeCRsgAQ" name="Dar de baja habitación">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_EsYAMFLTEeOwSbbeCRsgAQ" name="Dar de baja habitación">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_EsYAMFLTEeOwSbbeCRsgAQ" name="Dar de baja una habitación">
           <eAnnotations xmi:id="_EsZ1YFLTEeOwSbbeCRsgAQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_EsZ1YVLTEeOwSbbeCRsgAQ" type="Activity" element="_EsYAMFLTEeOwSbbeCRsgAQ" name="Diagrama de Actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_EsZ1YVLTEeOwSbbeCRsgAQ" type="Activity" element="_EsYAMFLTEeOwSbbeCRsgAQ" name="Diagrama de actividad dar de baja una habitación" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_EsZ1YlLTEeOwSbbeCRsgAQ" type="Activity Frame" element="_EsYAMFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_EsZ1Y1LTEeOwSbbeCRsgAQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_PxFDwFLTEeOwSbbeCRsgAQ" element="_PxHgAFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -1962,9 +1962,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_B4G-QFLSEeOwSbbeCRsgAQ" name="Modificar habitación">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_c_7qsFLTEeOwSbbeCRsgAQ" name="Modificar habitación">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_c_7qsFLTEeOwSbbeCRsgAQ" name="Modificar una habitación">
           <eAnnotations xmi:id="_c_840FLTEeOwSbbeCRsgAQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_c_840VLTEeOwSbbeCRsgAQ" type="Activity" element="_c_7qsFLTEeOwSbbeCRsgAQ" name="Diagrama de Actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_c_840VLTEeOwSbbeCRsgAQ" type="Activity" element="_c_7qsFLTEeOwSbbeCRsgAQ" name="Diagrama de actividad una habitación" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_c_840lLTEeOwSbbeCRsgAQ" type="Activity Frame" element="_c_7qsFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_c_8401LTEeOwSbbeCRsgAQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_kd54IFLTEeOwSbbeCRsgAQ" element="_kd8UYFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -2144,7 +2144,7 @@
       <ownedUseCase xmi:id="_Hr6I4FLSEeOwSbbeCRsgAQ" name="Consultar habitación">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_sAMk4FLTEeOwSbbeCRsgAQ" name="Consultar habitación">
           <eAnnotations xmi:id="_sANzAFLTEeOwSbbeCRsgAQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_sANzAVLTEeOwSbbeCRsgAQ" type="Activity" element="_sAMk4FLTEeOwSbbeCRsgAQ" name="Diagrama de Actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_sANzAVLTEeOwSbbeCRsgAQ" type="Activity" element="_sAMk4FLTEeOwSbbeCRsgAQ" name="Diagrama de actividad consultar una habitación" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_sANzAlLTEeOwSbbeCRsgAQ" type="Activity Frame" element="_sAMk4FLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_sANzA1LTEeOwSbbeCRsgAQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_0K1EAFLTEeOwSbbeCRsgAQ" element="_0K3gQFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -2324,7 +2324,7 @@
       <ownedUseCase xmi:id="_MRzV8FLSEeOwSbbeCRsgAQ" name="Consultar lista de habitaciones">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_-t-5sFLTEeOwSbbeCRsgAQ" name="Consultar lista de habitaciones">
           <eAnnotations xmi:id="_-t_gwFLTEeOwSbbeCRsgAQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-t_gwVLTEeOwSbbeCRsgAQ" type="Activity" element="_-t-5sFLTEeOwSbbeCRsgAQ" name="Diagrama de Actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-t_gwVLTEeOwSbbeCRsgAQ" type="Activity" element="_-t-5sFLTEeOwSbbeCRsgAQ" name="Diagrama de actividad consultar lista de habitaciones" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_-uAH0FLTEeOwSbbeCRsgAQ" type="Activity Frame" element="_-t-5sFLTEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_-uAH0VLTEeOwSbbeCRsgAQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_FywkAFLUEeOwSbbeCRsgAQ" element="_FyzAQFLUEeOwSbbeCRsgAQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -2884,7 +2884,7 @@
       <ownedUseCase xmi:id="_rBnrsE4QEeOMk9UeQ3hpQQ" name="Dar de alta una reserva">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_Nn7wsE4XEeOMk9UeQ3hpQQ" name="Dar de alta una reserva">
           <eAnnotations xmi:id="_Nn7wsU4XEeOMk9UeQ3hpQQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Nn7wsk4XEeOMk9UeQ3hpQQ" type="Activity" element="_Nn7wsE4XEeOMk9UeQ3hpQQ" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Nn7wsk4XEeOMk9UeQ3hpQQ" type="Activity" element="_Nn7wsE4XEeOMk9UeQ3hpQQ" name="Diagrama actividad dar de alta una reserva" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_Nn7ws04XEeOMk9UeQ3hpQQ" type="Activity Frame" element="_Nn7wsE4XEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Nn7wtE4XEeOMk9UeQ3hpQQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_OCDg4U4XEeOMk9UeQ3hpQQ" element="_OCMq_E4XEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -3160,7 +3160,7 @@
       <ownedUseCase xmi:id="_yS2BIE4REeOMk9UeQ3hpQQ" name="Dar de baja una reserva">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_71XqwE7WEeODfo0qbPNkDg" name="Dar de baja una reserva">
           <eAnnotations xmi:id="_77KwwE7WEeODfo0qbPNkDg" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_77UhwE7WEeODfo0qbPNkDg" type="Activity" element="_71XqwE7WEeODfo0qbPNkDg" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_77UhwE7WEeODfo0qbPNkDg" type="Activity" element="_71XqwE7WEeODfo0qbPNkDg" name="Diagrama actividad dar de baja una reserva" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_77UhwU7WEeODfo0qbPNkDg" type="Activity Frame" element="_71XqwE7WEeODfo0qbPNkDg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_77Uhwk7WEeODfo0qbPNkDg" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_NYUkIE7XEeODfo0qbPNkDg" element="_NZELAE7XEeODfo0qbPNkDg" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -3436,7 +3436,7 @@
       <ownedUseCase xmi:id="_rILC0E4UEeOMk9UeQ3hpQQ" name="Modificar una reserva">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_bcKc4E7YEeODfo0qbPNkDg" name="Modificar una reserva">
           <eAnnotations xmi:id="_cMXKwE7YEeODfo0qbPNkDg" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_cMXKwU7YEeODfo0qbPNkDg" type="Activity" element="_bcKc4E7YEeODfo0qbPNkDg" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_cMXKwU7YEeODfo0qbPNkDg" type="Activity" element="_bcKc4E7YEeODfo0qbPNkDg" name="Diagrama actividad modificar una reserva" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_cMXKwk7YEeODfo0qbPNkDg" type="Activity Frame" element="_bcKc4E7YEeODfo0qbPNkDg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_cMXKw07YEeODfo0qbPNkDg" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_nh9xEE7YEeODfo0qbPNkDg" element="_niO20E7YEeODfo0qbPNkDg" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -3712,7 +3712,7 @@
       <ownedUseCase xmi:id="_zKc3ME4UEeOMk9UeQ3hpQQ" name="Consultar una reserva">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_E_XYYE4XEeOMk9UeQ3hpQQ" name="Consultar una reserva">
           <eAnnotations xmi:id="_E_XYYU4XEeOMk9UeQ3hpQQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_E_XYYk4XEeOMk9UeQ3hpQQ" type="Activity" element="_E_XYYE4XEeOMk9UeQ3hpQQ" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_E_XYYk4XEeOMk9UeQ3hpQQ" type="Activity" element="_E_XYYE4XEeOMk9UeQ3hpQQ" name="Diagrama actividad consultar una reserva" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_E_XYY04XEeOMk9UeQ3hpQQ" type="Activity Frame" element="_E_XYYE4XEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_E_XYZE4XEeOMk9UeQ3hpQQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_FdNK8U4XEeOMk9UeQ3hpQQ" element="_FdNLIk4XEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -3892,7 +3892,7 @@
       <ownedUseCase xmi:id="_55N1QE4UEeOMk9UeQ3hpQQ" name="Consultar todas las reservas">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_GcCAIE4WEeOMk9UeQ3hpQQ" name="Consultar todas las reservas">
           <eAnnotations xmi:id="_GcCAIU4WEeOMk9UeQ3hpQQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GcCAIk4WEeOMk9UeQ3hpQQ" type="Activity" element="_GcCAIE4WEeOMk9UeQ3hpQQ" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GcCAIk4WEeOMk9UeQ3hpQQ" type="Activity" element="_GcCAIE4WEeOMk9UeQ3hpQQ" name="Diagrama actividad consultar todas las reservas" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_GcCAI04WEeOMk9UeQ3hpQQ" type="Activity Frame" element="_GcCAIE4WEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_GcCAJE4WEeOMk9UeQ3hpQQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_yZb_EU4WEeOMk9UeQ3hpQQ" element="_yZb_Qk4WEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -4072,7 +4072,7 @@
       <ownedUseCase xmi:id="_DKi2sE4VEeOMk9UeQ3hpQQ" name="Consultar reservas de un cliente">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_LkC4QE4VEeOMk9UeQ3hpQQ" name="Consultar reservas de un cliente">
           <eAnnotations xmi:id="_LkC4QU4VEeOMk9UeQ3hpQQ" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LkC4Qk4VEeOMk9UeQ3hpQQ" type="Activity" element="_LkC4QE4VEeOMk9UeQ3hpQQ" name="Diagrama de actividad" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LkC4Qk4VEeOMk9UeQ3hpQQ" type="Activity" element="_LkC4QE4VEeOMk9UeQ3hpQQ" name="Diagrama de actividad consultar reservas de un cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_LkC4Q04VEeOMk9UeQ3hpQQ" type="Activity Frame" element="_LkC4QE4VEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LkC4RE4VEeOMk9UeQ3hpQQ" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_UpHmYE4VEeOMk9UeQ3hpQQ" element="_Uo91YE4VEeOMk9UeQ3hpQQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -4775,10 +4775,10 @@
           </edges>
         </contents>
       </eAnnotations>
-      <ownedUseCase xmi:id="_Y1QlMFTwEeOj-u513EyW5g" name="Mostrar Empleados asociados a Tarea">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_potlMFT5EeOj-u513EyW5g" name="Mostrar empleados asociados a tarea">
+      <ownedUseCase xmi:id="_Y1QlMFTwEeOj-u513EyW5g" name="Mostrar empleados asociados a tarea">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_potlMFT5EeOj-u513EyW5g" name="Mostrar empleados asociados a una tarea">
           <eAnnotations xmi:id="_potlMVT5EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_potlMlT5EeOj-u513EyW5g" type="Activity" element="_potlMFT5EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_potlMlT5EeOj-u513EyW5g" type="Activity" element="_potlMFT5EeOj-u513EyW5g" name="Diagrama actividad mostrar empleados asociados a una tarea" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_potlM1T5EeOj-u513EyW5g" type="Activity Frame" element="_potlMFT5EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_potlNFT5EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_qNnpEVT5EeOj-u513EyW5g" element="_qNnpEFT5EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -4953,10 +4953,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_PVLWEFTwEeOj-u513EyW5g" name="Modificar Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_5d-DIFT4EeOj-u513EyW5g" name="Modificar Empleado">
+      <ownedUseCase xmi:id="_PVLWEFTwEeOj-u513EyW5g" name="Modificar un empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_5d-DIFT4EeOj-u513EyW5g" name="Modificar un empleado">
           <eAnnotations xmi:id="_5eEJwFT4EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_5eEJwVT4EeOj-u513EyW5g" type="Activity" element="_5d-DIFT4EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_5eEJwVT4EeOj-u513EyW5g" type="Activity" element="_5d-DIFT4EeOj-u513EyW5g" name="Diagrama actividad modificar un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_5eEJwlT4EeOj-u513EyW5g" type="Activity Frame" element="_5d-DIFT4EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_5eEJw1T4EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_7rHQIVT4EeOj-u513EyW5g" element="_7rHQIFT4EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -5158,10 +5158,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_kNfBsFTwEeOj-u513EyW5g" name="Dar de baja Tarea de Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_tzTBMFT3EeOj-u513EyW5g" name="Dar de baja tarea de Empleado">
+      <ownedUseCase xmi:id="_kNfBsFTwEeOj-u513EyW5g" name="Dar de baja tarea de empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_tzTBMFT3EeOj-u513EyW5g" name="Dar de baja una tarea de un empleado">
           <eAnnotations xmi:id="_tzTBMVT3EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_tzTBMlT3EeOj-u513EyW5g" type="Activity" element="_tzTBMFT3EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_tzTBMlT3EeOj-u513EyW5g" type="Activity" element="_tzTBMFT3EeOj-u513EyW5g" name="Diagrama actividad dar de baja una tarea de un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_tzTBM1T3EeOj-u513EyW5g" type="Activity Frame" element="_tzTBMFT3EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_tzTBNFT3EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_wKErUVT3EeOj-u513EyW5g" element="_wKErUFT3EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -5365,10 +5365,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_NjBb8FTwEeOj-u513EyW5g" name="Dar de baja Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_L0G-4FT3EeOj-u513EyW5g" name="Dar de baja Empleado">
+      <ownedUseCase xmi:id="_NjBb8FTwEeOj-u513EyW5g" name="Dar de baja empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_L0G-4FT3EeOj-u513EyW5g" name="Dar de baja a un empleado">
           <eAnnotations xmi:id="_L0G-4VT3EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_L0G-4lT3EeOj-u513EyW5g" type="Activity" element="_L0G-4FT3EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_L0G-4lT3EeOj-u513EyW5g" type="Activity" element="_L0G-4FT3EeOj-u513EyW5g" name="Diagrama actividad dar de baja a un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_L0G-41T3EeOj-u513EyW5g" type="Activity Frame" element="_L0G-4FT3EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_L0G-5FT3EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_OIZ8wVT3EeOj-u513EyW5g" element="_OIZ8wFT3EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -5542,10 +5542,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_FiIusFTwEeOj-u513EyW5g" name="Dar de alta Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_rhlSsFT2EeOj-u513EyW5g" name="Dar de alta Empleado">
+      <ownedUseCase xmi:id="_FiIusFTwEeOj-u513EyW5g" name="Dar de alta empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_rhlSsFT2EeOj-u513EyW5g" name="Dar de alta un empleado">
           <eAnnotations xmi:id="_rhlSsVT2EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_rhlSslT2EeOj-u513EyW5g" type="Activity" element="_rhlSsFT2EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_rhlSslT2EeOj-u513EyW5g" type="Activity" element="_rhlSsFT2EeOj-u513EyW5g" name="Diagrama actividad dar de alta un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_rhlSs1T2EeOj-u513EyW5g" type="Activity Frame" element="_rhlSsFT2EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rhlStFT2EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_wHsiMFT2EeOj-u513EyW5g" element="_wHmbkFT2EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -5722,10 +5722,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_VdIy0FTwEeOj-u513EyW5g" name="Consultar Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_FUK8cFT2EeOj-u513EyW5g" name="Consultar Empleado">
+      <ownedUseCase xmi:id="_VdIy0FTwEeOj-u513EyW5g" name="Consultar empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_FUK8cFT2EeOj-u513EyW5g" name="Consultar un empleado">
           <eAnnotations xmi:id="_FUK8cVT2EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FURDEFT2EeOj-u513EyW5g" type="Activity" element="_FUK8cFT2EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FURDEFT2EeOj-u513EyW5g" type="Activity" element="_FUK8cFT2EeOj-u513EyW5g" name="Diagrama actividad consultar un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_FURDEVT2EeOj-u513EyW5g" type="Activity Frame" element="_FUK8cFT2EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_FURDElT2EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_Iqdi0FT2EeOj-u513EyW5g" element="_IqXcMFT2EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -5899,10 +5899,10 @@
           </edge>
         </ownedBehavior>
       </ownedUseCase>
-      <ownedUseCase xmi:id="_iY8h8FTwEeOj-u513EyW5g" name="Dar de alta tarea a Empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_Mlbq8FTzEeOj-u513EyW5g" name="Dar de alta tarea a Empleado">
+      <ownedUseCase xmi:id="_iY8h8FTwEeOj-u513EyW5g" name="Dar de alta tarea empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_Mlbq8FTzEeOj-u513EyW5g" name="Dar de alta tarea a un empleado">
           <eAnnotations xmi:id="_MlhxkFTzEeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_MlhxkVTzEeOj-u513EyW5g" type="Activity" element="_Mlbq8FTzEeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_MlhxkVTzEeOj-u513EyW5g" type="Activity" element="_Mlbq8FTzEeOj-u513EyW5g" name="Diagrama actividad dar de alta una tarea a un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_MlhxklTzEeOj-u513EyW5g" type="Activity Frame" element="_Mlbq8FTzEeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Mlhxk1TzEeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_eoPJEFTzEeOj-u513EyW5g" element="_eoJCcFTzEeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -6469,9 +6469,9 @@
         </contents>
       </eAnnotations>
       <ownedUseCase xmi:id="_yeTmgFTxEeOj-u513EyW5g" name="Dar de alta tarea">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_a12mIFT_EeOj-u513EyW5g" name="Dar de alta tarea">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_a12mIFT_EeOj-u513EyW5g" name="Dar de alta una tarea">
           <eAnnotations xmi:id="_a12mIVT_EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_a12mIlT_EeOj-u513EyW5g" type="Activity" element="_a12mIFT_EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_a12mIlT_EeOj-u513EyW5g" type="Activity" element="_a12mIFT_EeOj-u513EyW5g" name="Diagrama actividad dar de alta una tarea" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_a12mI1T_EeOj-u513EyW5g" type="Activity Frame" element="_a12mIFT_EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_a12mJFT_EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_dDwoIFT_EeOj-u513EyW5g" element="_dDqhgFT_EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -6648,9 +6648,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_IugSIFTyEeOj-u513EyW5g" name="Dar de baja tarea">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_9irKgFT_EeOj-u513EyW5g" name="Dar de baja tarea">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_9irKgFT_EeOj-u513EyW5g" name="Dar de baja una tarea">
           <eAnnotations xmi:id="_9irKgVT_EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_9irKglT_EeOj-u513EyW5g" type="Activity" element="_9irKgFT_EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_9irKglT_EeOj-u513EyW5g" type="Activity" element="_9irKgFT_EeOj-u513EyW5g" name="Diagrama actividad dar de baja una tarea" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_9irKg1T_EeOj-u513EyW5g" type="Activity Frame" element="_9irKgFT_EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9irKhFT_EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_97wY4VT_EeOj-u513EyW5g" element="_97wY4FT_EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -6828,9 +6828,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_VFBi4FTyEeOj-u513EyW5g" name="Consultar tarea">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_zaO3sFT7EeOj-u513EyW5g" name="Consultar tarea">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_zaO3sFT7EeOj-u513EyW5g" name="Consultar una tarea">
           <eAnnotations xmi:id="_zaO3sVT7EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zaO3slT7EeOj-u513EyW5g" type="Activity" element="_zaO3sFT7EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zaO3slT7EeOj-u513EyW5g" type="Activity" element="_zaO3sFT7EeOj-u513EyW5g" name="Diagrama actividad consultar una tarea" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_zaO3s1T7EeOj-u513EyW5g" type="Activity Frame" element="_zaO3sFT7EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_zaO3tFT7EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_DXha0FT8EeOj-u513EyW5g" element="_DXbUMFT8EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -7007,7 +7007,7 @@
       <ownedUseCase xmi:id="_afNToFTyEeOj-u513EyW5g" name="Consultar lista de tareas">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_NOPdwFT7EeOj-u513EyW5g" name="Consulta lista de tareas">
           <eAnnotations xmi:id="_NOPdwVT7EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NOPdwlT7EeOj-u513EyW5g" type="Activity" element="_NOPdwFT7EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NOPdwlT7EeOj-u513EyW5g" type="Activity" element="_NOPdwFT7EeOj-u513EyW5g" name="Diagrama actividad consultar lista de tareas" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_NOPdw1T7EeOj-u513EyW5g" type="Activity Frame" element="_NOPdwFT7EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_NOPdxFT7EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_O-ZMwFT7EeOj-u513EyW5g" element="_O-TGIFT7EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -7115,9 +7115,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_gOApgFTyEeOj-u513EyW5g" name="Modificar tarea">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_fX5YgFUAEeOj-u513EyW5g" name="Actividad1">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_fX5YgFUAEeOj-u513EyW5g" name="Modificar una tarea">
           <eAnnotations xmi:id="_fX5YgVUAEeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fX5YglUAEeOj-u513EyW5g" type="Activity" element="_fX5YgFUAEeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fX5YglUAEeOj-u513EyW5g" type="Activity" element="_fX5YgFUAEeOj-u513EyW5g" name="Diagrama actividad modificar una tarea" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_fX5Yg1UAEeOj-u513EyW5g" type="Activity Frame" element="_fX5YgFUAEeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_fX5YhFUAEeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_hnI3QVUAEeOj-u513EyW5g" element="_hnI3QFUAEeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -7319,9 +7319,9 @@
         </ownedBehavior>
       </ownedUseCase>
       <ownedUseCase xmi:id="_zBk2MFTyEeOj-u513EyW5g" name="Consultar tareas de empleado">
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_OdjCIFT-EeOj-u513EyW5g" name="Consultar tareas de empleado">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_OdjCIFT-EeOj-u513EyW5g" name="Consultar las tareas de un empleado">
           <eAnnotations xmi:id="_OdjCIVT-EeOj-u513EyW5g" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_OdjCIlT-EeOj-u513EyW5g" type="Activity" element="_OdjCIFT-EeOj-u513EyW5g" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_OdjCIlT-EeOj-u513EyW5g" type="Activity" element="_OdjCIFT-EeOj-u513EyW5g" name="Diagrama actividad consultar las tareas de un empleado" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_OdjCI1T-EeOj-u513EyW5g" type="Activity Frame" element="_OdjCIFT-EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_OdjCJFT-EeOj-u513EyW5g" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_2wHHAFT-EeOj-u513EyW5g" element="_2wBAYFT-EeOj-u513EyW5g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -7828,7 +7828,7 @@
         <eAnnotations xmi:id="_gl_1a1LiEeOkuPthKw0UVA" source="uml2.diagrams"/>
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_gl_1bFLiEeOkuPthKw0UVA" name="Dar de alta un departamento">
           <eAnnotations xmi:id="_gl_1bVLiEeOkuPthKw0UVA" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_1blLiEeOkuPthKw0UVA" type="Activity" element="_gl_1bFLiEeOkuPthKw0UVA" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_1blLiEeOkuPthKw0UVA" type="Activity" element="_gl_1bFLiEeOkuPthKw0UVA" name="Diagrama actividad dar de alta un departamento" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_gl_1b1LiEeOkuPthKw0UVA" type="Activity Frame" element="_gl_1bFLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gl_1cFLiEeOkuPthKw0UVA" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_gl_1cVLiEeOkuPthKw0UVA" element="_gl_1zVLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -8006,7 +8006,7 @@
       <ownedUseCase xmi:id="_gl_15VLiEeOkuPthKw0UVA" name="Consultar departamento">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_gl_15lLiEeOkuPthKw0UVA" name="Consultar un departamento">
           <eAnnotations xmi:id="_gl_151LiEeOkuPthKw0UVA" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_16FLiEeOkuPthKw0UVA" type="Activity" element="_gl_15lLiEeOkuPthKw0UVA" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_16FLiEeOkuPthKw0UVA" type="Activity" element="_gl_15lLiEeOkuPthKw0UVA" name="Diagrama actividad consultar un departamento" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_gl_16VLiEeOkuPthKw0UVA" type="Activity Frame" element="_gl_15lLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gl_16lLiEeOkuPthKw0UVA" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_gl_161LiEeOkuPthKw0UVA" element="_gl_2SVLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -8186,7 +8186,7 @@
       <ownedUseCase xmi:id="_gl_2YVLiEeOkuPthKw0UVA" name="Modificar un departamento">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_gl_2YlLiEeOkuPthKw0UVA" name="Modificar un departamento">
           <eAnnotations xmi:id="_gl_2Y1LiEeOkuPthKw0UVA" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_2ZFLiEeOkuPthKw0UVA" type="Activity" element="_gl_2YlLiEeOkuPthKw0UVA" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_2ZFLiEeOkuPthKw0UVA" type="Activity" element="_gl_2YlLiEeOkuPthKw0UVA" name="Diagrama actividad modificar un departamento" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_gl_2ZVLiEeOkuPthKw0UVA" type="Activity Frame" element="_gl_2YlLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gl_2ZlLiEeOkuPthKw0UVA" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_gl_2Z1LiEeOkuPthKw0UVA" element="_gl_2xVLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -8366,7 +8366,7 @@
       <ownedUseCase xmi:id="_gl_23VLiEeOkuPthKw0UVA" name="Consultar lista de departamentos">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_gl_23lLiEeOkuPthKw0UVA" name="Consultar lista de departamentos">
           <eAnnotations xmi:id="_gl_231LiEeOkuPthKw0UVA" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_24FLiEeOkuPthKw0UVA" type="Activity" element="_gl_23lLiEeOkuPthKw0UVA" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_24FLiEeOkuPthKw0UVA" type="Activity" element="_gl_23lLiEeOkuPthKw0UVA" name="Diagrama actividad consultar lista de departamentos" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_gl_24VLiEeOkuPthKw0UVA" type="Activity Frame" element="_gl_23lLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gl_24lLiEeOkuPthKw0UVA" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_gl_241LiEeOkuPthKw0UVA" element="_gl_3QVLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
@@ -8546,7 +8546,7 @@
       <ownedUseCase xmi:id="_gl_3WVLiEeOkuPthKw0UVA" name="Dar de baja un departamento">
         <ownedBehavior xmi:type="uml:Activity" xmi:id="_gl_3WlLiEeOkuPthKw0UVA" name="Dar de baja un departamento">
           <eAnnotations xmi:id="_gl_3W1LiEeOkuPthKw0UVA" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_3XFLiEeOkuPthKw0UVA" type="Activity" element="_gl_3WlLiEeOkuPthKw0UVA" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gl_3XFLiEeOkuPthKw0UVA" type="Activity" element="_gl_3WlLiEeOkuPthKw0UVA" name="Diagrama actividad dar de baja un departamento" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLFrame" xmi:id="_gl_3XVLiEeOkuPthKw0UVA" type="Activity Frame" element="_gl_3WlLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gl_3XlLiEeOkuPthKw0UVA" type="ActivityCompartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_gl_3X1LiEeOkuPthKw0UVA" element="_gl_3vVLiEeOkuPthKw0UVA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
