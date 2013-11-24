@@ -1,14 +1,15 @@
 /**
  * 
  */
-package Integración.clientes.dao;
+package integración.clientes.dao;
 
-import Negocio.clientes.TransferCliente;
+import negocio.clientes.TransferCliente;
+import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface DAOCliente {
@@ -19,7 +20,7 @@ public interface DAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Clase idCliente);
+	public TransferCliente getCliente(Integer idCliente);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -28,7 +29,7 @@ public interface DAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase addCliente(TransferCliente cliente);
+	public Integer addCliente(TransferCliente cliente);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -45,7 +46,7 @@ public interface DAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Interfaz getAllClientes();
+	public List getAllClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -54,5 +55,5 @@ public interface DAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object deleteCliente(Clase idCliente);
+	public Object deleteCliente(Integer idCliente);
 }

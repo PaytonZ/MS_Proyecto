@@ -736,14 +736,6 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o2uC4U7rEeOy-7FMu9HQKQ" points="[-7, 24, -16, -45]$[-15, 39, -24, -30]"/>
           </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ZvDxIU70EeOy-7FMu9HQKQ" element="_ZvDxIE70EeOy-7FMu9HQKQ" source="_NTSxsE38EeO_s5EIjyAJqw" target="_NAaR8E38EeO_s5EIjyAJqw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_ZvDxI070EeOy-7FMu9HQKQ" type="NameLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZvDxJU70EeOy-7FMu9HQKQ" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZvDxJk70EeOy-7FMu9HQKQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZvDxJE70EeOy-7FMu9HQKQ" y="-186"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZvDxIk70EeOy-7FMu9HQKQ" points="[-1342, -633, 4791, 2243]$[-1342, -2749, 4791, 127]$[-5901, -2749, 232, 127]"/>
-          </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_D8aU4FD8EeOEZZHAwxdNog" element="_D8EWoFD8EeOEZZHAwxdNog" source="_Ug8goE37EeO_s5EIjyAJqw" target="_v53MkFD7EeOEZZHAwxdNog" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_D8bjAFD8EeOEZZHAwxdNog" type="NameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_D8cKEFD8EeOEZZHAwxdNog" type="Stereotype"/>
@@ -2560,18 +2552,22 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-BQogE3vEeOnwZnA8BLNdA" name="Dispatcher">
-        <generalization xmi:id="_qHUx4FHaEeOpQYXWWsNwnQ" general="_dIoOMFHXEeOpQYXWWsNwnQ"/>
-        <ownedOperation xmi:id="_EwnugFFIEeOZkpA6zjdLWw" name="redirect">
-          <ownedParameter xmi:id="_NGOukFFIEeOZkpA6zjdLWw" name="respuestacomando" type="_EeT2YE3uEeOnwZnA8BLNdA">
-            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_NYotMFFIEeOZkpA6zjdLWw" name="">
-              <language></language>
-              <body></body>
-            </defaultValue>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_LaB3EU4JEeOMMLo_SYkG7A" name="aplicacion">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-BQogE3vEeOnwZnA8BLNdA" name="Dispatcher">
+          <generalization xmi:id="_qHUx4FHaEeOpQYXWWsNwnQ" general="_dIoOMFHXEeOpQYXWWsNwnQ"/>
+          <ownedOperation xmi:id="_EwnugFFIEeOZkpA6zjdLWw" name="redirect">
+            <ownedParameter xmi:id="_NGOukFFIEeOZkpA6zjdLWw" name="respuestacomando" type="_EeT2YE3uEeOnwZnA8BLNdA">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_NYotMFFIEeOZkpA6zjdLWw" name="">
+                <language></language>
+                <body></body>
+              </defaultValue>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dIoOMFHXEeOpQYXWWsNwnQ" name="DispatcherImp"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qk3kMFEDEeOEZZHAwxdNog" name="ControladorAplicacionImp" clientDependency="_utrzsFEDEeOEZZHAwxdNog _CZVcAE3wEeOnwZnA8BLNdA _uR2JUE3vEeOnwZnA8BLNdA _myjTsFEEEeOEZZHAwxdNog">
+          <generalization xmi:id="_JbGykFFGEeOZkpA6zjdLWw" general="_8zp30E3tEeOnwZnA8BLNdA"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_8zp30E3tEeOnwZnA8BLNdA" name="ControladorAplicacion" clientDependency="_wWbTIFEDEeOEZZHAwxdNog" isAbstract="true">
           <eAnnotations xmi:id="_VNLgEE3xEeOnwZnA8BLNdA" source="http://www.eclipse.org/uml2/2.0.0/UML">
             <details xmi:id="_V_dRkE3xEeOnwZnA8BLNdA" key="Singleton"/>
@@ -2582,63 +2578,27 @@
           </ownedOperation>
           <ownedOperation xmi:id="_unkzoE3tEeOnwZnA8BLNdA" name="handleRequest" isAbstract="true">
             <ownedParameter xmi:id="_PPl8wE3wEeOnwZnA8BLNdA" name="evento">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=codigo%5D$uml.Class"/>
               <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_SgjgsFExEeOZkpA6zjdLWw" name="">
                 <language></language>
                 <body></body>
               </defaultValue>
             </ownedParameter>
             <ownedParameter xmi:id="_QWBZUE3wEeOnwZnA8BLNdA" name="datos">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_uR2JUE3vEeOnwZnA8BLNdA" name="requiere" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_qk3kMFEDEeOEZZHAwxdNog"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_CZVcAE3wEeOnwZnA8BLNdA" supplier="_-BQogE3vEeOnwZnA8BLNdA" client="_qk3kMFEDEeOEZZHAwxdNog"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_wWbTIFEDEeOEZZHAwxdNog" supplier="_qk3kMFEDEeOEZZHAwxdNog" client="_8zp30E3tEeOnwZnA8BLNdA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_utrzsFEDEeOEZZHAwxdNog" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_qk3kMFEDEeOEZZHAwxdNog"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_myjTsFEEEeOEZZHAwxdNog" supplier="_ALuxMFD_EeOEZZHAwxdNog" client="_qk3kMFEDEeOEZZHAwxdNog"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ALuxMFD_EeOEZZHAwxdNog" name="CommandFactory" clientDependency="_gpC60FEwEeOZkpA6zjdLWw _hb298FHXEeOpQYXWWsNwnQ" isAbstract="true">
-        <eAnnotations xmi:id="_LIMewFD_EeOEZZHAwxdNog" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <details xmi:id="_LIMewVD_EeOEZZHAwxdNog" key="Singleton"/>
-        </eAnnotations>
-        <ownedAttribute xmi:id="_PU-2AFEEEeOEZZHAwxdNog" name="commandFactoryInstance" visibility="private" isStatic="true" type="_ALuxMFD_EeOEZZHAwxdNog"/>
-        <interfaceRealization xmi:id="_gpC60FEwEeOZkpA6zjdLWw" supplier="_JgrREFEwEeOZkpA6zjdLWw" client="_ALuxMFD_EeOEZZHAwxdNog" contract="_JgrREFEwEeOZkpA6zjdLWw"/>
-        <ownedOperation xmi:id="_PddckFEEEeOEZZHAwxdNog" name="getInstance" isStatic="true">
-          <ownedParameter xmi:id="_Tq5GUFEEEeOEZZHAwxdNog" name="Parámetro1" type="_JgrREFEwEeOZkpA6zjdLWw" direction="return"/>
-        </ownedOperation>
-        <ownedOperation xmi:id="_SY4RgFHYEeOpQYXWWsNwnQ" name="nuevoComando" isAbstract="true">
-          <ownedParameter xmi:id="_YuSUYFHYEeOpQYXWWsNwnQ" name="Parámetro1" type="_-7yB8E3tEeOnwZnA8BLNdA" direction="return"/>
-          <ownedParameter xmi:id="_ZSmPMFKEEeOdKJL3-j-oAQ" name="id_comando">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cudSEFKEEeOdKJL3-j-oAQ" name="">
-              <language></language>
-              <body></body>
-            </defaultValue>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_qk3kMFEDEeOEZZHAwxdNog" name="ControladorAplicacionImp" clientDependency="_utrzsFEDEeOEZZHAwxdNog _CZVcAE3wEeOnwZnA8BLNdA _uR2JUE3vEeOnwZnA8BLNdA _myjTsFEEEeOEZZHAwxdNog">
-        <generalization xmi:id="_JbGykFFGEeOZkpA6zjdLWw" general="_8zp30E3tEeOnwZnA8BLNdA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_utrzsFEDEeOEZZHAwxdNog" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_qk3kMFEDEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_I6qd8FEEEeOEZZHAwxdNog" name="CommandFactoryImp" clientDependency="_lBnysFEyEeOZkpA6zjdLWw _Q3UM0FFDEeOZkpA6zjdLWw">
-        <generalization xmi:id="_wE_FEFKIEeOdKJL3-j-oAQ" general="_ALuxMFD_EeOEZZHAwxdNog"/>
-        <interfaceRealization xmi:id="_Q3UM0FFDEeOZkpA6zjdLWw" supplier="_JgrREFEwEeOZkpA6zjdLWw" client="_I6qd8FEEEeOEZZHAwxdNog" contract="_JgrREFEwEeOZkpA6zjdLWw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_myjTsFEEEeOEZZHAwxdNog" supplier="_ALuxMFD_EeOEZZHAwxdNog" client="_qk3kMFEDEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_JgrREFEwEeOZkpA6zjdLWw" name="CommandFactory">
-        <ownedOperation xmi:id="_tJy3sFEGEeOEZZHAwxdNog" name="getCommand">
-          <ownedParameter xmi:id="_Ea4_oFEHEeOEZZHAwxdNog" name="Parámetro1" type="_-7yB8E3tEeOnwZnA8BLNdA" direction="return"/>
-          <ownedParameter xmi:id="_IbhjgFEHEeOEZZHAwxdNog" name="commandName">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_lBnysFEyEeOZkpA6zjdLWw" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_UdMnAFFGEeOZkpA6zjdLWw" name="AltaCliente">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_UdMnAFFGEeOZkpA6zjdLWw" name="Diagrama de secuencia alta cliente">
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UdOcMFFGEeOZkpA6zjdLWw" name="AltaCliente">
           <eAnnotations xmi:id="_UdPqUFFGEeOZkpA6zjdLWw" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UdPqUVFGEeOZkpA6zjdLWw" type="Sequence" element="_UdOcMFFGEeOZkpA6zjdLWw" name="AltaCliente" measurementUnit="Himetric">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UdPqUVFGEeOZkpA6zjdLWw" type="Sequence" element="_UdOcMFFGEeOZkpA6zjdLWw" name="Diagrama de secuencia alta cliente" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_UdPqUlFGEeOZkpA6zjdLWw" element="_UdOcMFFGEeOZkpA6zjdLWw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_UdPqU1FGEeOZkpA6zjdLWw" type="interaction_compartment">
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_aqR1ElHaEeOpQYXWWsNwnQ" element="_aqR1EFHaEeOpQYXWWsNwnQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -2910,8 +2870,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ly8K0FFGEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción2" operation="_unkzoE3tEeOnwZnA8BLNdA"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_rEBC4FFGEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío3" operation="_PddckFEEEeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_rEBC4VFGEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción3" operation="_PddckFEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_vGWP4FFGEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío4" operation="_tJy3sFEGEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_vGW28FFGEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción4" operation="_tJy3sFEGEeOEZZHAwxdNog"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_vGWP4FFGEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío4"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_vGW28FFGEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción4"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_2llBkFFGEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío5" operation="_GHokoE3uEeOnwZnA8BLNdA"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2llBkVFGEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción5" operation="_GHokoE3uEeOnwZnA8BLNdA"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_-4_pQFFGEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío6"/>
@@ -2920,8 +2880,6 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_L0BVQVFHEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción7" operation="_ywtig04JEeOMMLo_SYkG7A"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_EwoVkFFIEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío8" operation="_EwnugFFIEeOZkpA6zjdLWw"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Ewo8oFFIEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción8" operation="_EwnugFFIEeOZkpA6zjdLWw"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_dIoOMFHXEeOpQYXWWsNwnQ" name="DispatcherImp"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_hb298FHXEeOpQYXWWsNwnQ" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_ALuxMFD_EeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_FeUqIFHZEeOpQYXWWsNwnQ" name="Eventodeoperacióndeenvío9" operation="_SY4RgFHYEeOpQYXWWsNwnQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_FeebIFHZEeOpQYXWWsNwnQ" name="Eventodeoperaciónderecepción9" operation="_SY4RgFHYEeOpQYXWWsNwnQ"/>
     </packagedElement>
@@ -3006,6 +2964,28 @@
           </edges>
         </contents>
       </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ALuxMFD_EeOEZZHAwxdNog" name="CommandFactory" clientDependency="_hb298FHXEeOpQYXWWsNwnQ" isAbstract="true">
+        <eAnnotations xmi:id="_LIMewFD_EeOEZZHAwxdNog" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_LIMewVD_EeOEZZHAwxdNog" key="Singleton"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_PU-2AFEEEeOEZZHAwxdNog" name="commandFactoryInstance" visibility="private" isStatic="true" type="_ALuxMFD_EeOEZZHAwxdNog"/>
+        <ownedOperation xmi:id="_PddckFEEEeOEZZHAwxdNog" name="getInstance" isStatic="true">
+          <ownedParameter xmi:id="_Tq5GUFEEEeOEZZHAwxdNog" name="Parámetro1" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_SY4RgFHYEeOpQYXWWsNwnQ" name="nuevoComando" isAbstract="true">
+          <ownedParameter xmi:id="_YuSUYFHYEeOpQYXWWsNwnQ" name="Parámetro1" type="_-7yB8E3tEeOnwZnA8BLNdA" direction="return"/>
+          <ownedParameter xmi:id="_ZSmPMFKEEeOdKJL3-j-oAQ" name="id_comando">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cudSEFKEEeOdKJL3-j-oAQ" name="">
+              <language></language>
+              <body></body>
+            </defaultValue>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_I6qd8FEEEeOEZZHAwxdNog" name="CommandFactoryImp" clientDependency="_lBnysFEyEeOZkpA6zjdLWw">
+        <generalization xmi:id="_wE_FEFKIEeOdKJL3-j-oAQ" general="_ALuxMFD_EeOEZZHAwxdNog"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_EeT2YE3uEeOnwZnA8BLNdA" name="ResponseCommand" clientDependency="_3PSFwFU_EeOHbf1wwOYV_Q">
         <ownedAttribute xmi:id="_ghIA4E3uEeOnwZnA8BLNdA" name="evento" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
@@ -3015,12 +2995,12 @@
         </ownedAttribute>
         <interfaceRealization xmi:id="_3PSFwFU_EeOHbf1wwOYV_Q" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_EeT2YE3uEeOnwZnA8BLNdA" contract="_-7yB8E3tEeOnwZnA8BLNdA"/>
         <ownedOperation xmi:id="_ywUxsFVAEeOHbf1wwOYV_Q" name="getResponseEvent">
-          <ownedParameter xmi:id="_8zWV0FVAEeOHbf1wwOYV_Q" name="Parámetro1" direction="return">
+          <ownedParameter xmi:id="_8zWV0FVAEeOHbf1wwOYV_Q" name="evento" direction="return">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_0GALMFVAEeOHbf1wwOYV_Q" name="getResponseData">
-          <ownedParameter xmi:id="_9unEMFVAEeOHbf1wwOYV_Q" name="Parámetro1" direction="return">
+          <ownedParameter xmi:id="_9unEMFVAEeOHbf1wwOYV_Q" name="datos" direction="return">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
@@ -3028,9 +3008,9 @@
       <packagedElement xmi:type="uml:Interface" xmi:id="_-7yB8E3tEeOnwZnA8BLNdA" name="Command" clientDependency="_URrBcE3uEeOnwZnA8BLNdA _kMKKUFEyEeOZkpA6zjdLWw">
         <ownedOperation xmi:id="_GHokoE3uEeOnwZnA8BLNdA" name="execute">
           <ownedParameter xmi:id="_b3bR4E3uEeOnwZnA8BLNdA" name="datos">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_YtFc0E3uEeOnwZnA8BLNdA" name="Parámetro1" type="_EeT2YE3uEeOnwZnA8BLNdA" direction="return"/>
+          <ownedParameter xmi:id="_YtFc0E3uEeOnwZnA8BLNdA" name="respuesta" type="_EeT2YE3uEeOnwZnA8BLNdA" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_URrBcE3uEeOnwZnA8BLNdA" name="" supplier="_EeT2YE3uEeOnwZnA8BLNdA" client="_-7yB8E3tEeOnwZnA8BLNdA"/>
@@ -3110,6 +3090,8 @@
         <ownedAttribute xmi:id="_pdfsUFKLEeOdKJL3-j-oAQ" name="controladorAplicacionImp" type="_qk3kMFEDEeOEZZHAwxdNog"/>
         <ownedAttribute xmi:id="_sz8DsFKLEeOdKJL3-j-oAQ" name="commandFactory" type="_ALuxMFD_EeOEZZHAwxdNog"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_lBnysFEyEeOZkpA6zjdLWw" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_hb298FHXEeOpQYXWWsNwnQ" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_ALuxMFD_EeOEZZHAwxdNog"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="integración">
@@ -3175,14 +3157,6 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fcfSAVE5EeOZkpA6zjdLWw" y="-168"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fceq8VE5EeOZkpA6zjdLWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_fcf5EFE5EeOZkpA6zjdLWw" element="_ZvDxIE70EeOy-7FMu9HQKQ" source="_fcaZgFE5EeOZkpA6zjdLWw" target="_ezuB0FE5EeOZkpA6zjdLWw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_fcggIFE5EeOZkpA6zjdLWw" type="NameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_fcggIlE5EeOZkpA6zjdLWw" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_fchHMFE5EeOZkpA6zjdLWw" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fcggIVE5EeOZkpA6zjdLWw" y="-168"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fcf5EVE5EeOZkpA6zjdLWw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_SPXt8FKNEeOdKJL3-j-oAQ" element="_SPUqoFKNEeOdKJL3-j-oAQ" source="_t8EhAFE5EeOZkpA6zjdLWw" target="_kU5ggFE7EeOZkpA6zjdLWw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_SPYVAFKNEeOdKJL3-j-oAQ" type="NameLabel">
@@ -3331,8 +3305,8 @@
           <message xmi:id="_zhSuAlFCEeOZkpA6zjdLWw" name="getInstance" messageSort="reply" receiveEvent="_zhTVEFFCEeOZkpA6zjdLWw" sendEvent="_zhSuAVFCEeOZkpA6zjdLWw" connector="_zhTVEVFCEeOZkpA6zjdLWw"/>
           <message xmi:id="_KMqSsFFDEeOZkpA6zjdLWw" name="getInstance" receiveEvent="_KMq5wVFDEeOZkpA6zjdLWw" sendEvent="_KMq5wFFDEeOZkpA6zjdLWw" connector="_KMsH4VFDEeOZkpA6zjdLWw"/>
           <message xmi:id="_KMrg0lFDEeOZkpA6zjdLWw" name="getInstance" messageSort="reply" receiveEvent="_KMsH4FFDEeOZkpA6zjdLWw" sendEvent="_KMrg0VFDEeOZkpA6zjdLWw" connector="_KMsH4VFDEeOZkpA6zjdLWw"/>
-          <message xmi:id="_UXNbIFFDEeOZkpA6zjdLWw" name="getCommand" receiveEvent="_UXOCMFFDEeOZkpA6zjdLWw" sendEvent="_UXNbIVFDEeOZkpA6zjdLWw" connector="_L4Gg0lFDEeOZkpA6zjdLWw"/>
-          <message xmi:id="_UXOpQVFDEeOZkpA6zjdLWw" name="getCommand" messageSort="reply" receiveEvent="_UXOpQlFDEeOZkpA6zjdLWw" sendEvent="_UXOpQFFDEeOZkpA6zjdLWw" connector="_L4Gg0lFDEeOZkpA6zjdLWw"/>
+          <message xmi:id="_UXNbIFFDEeOZkpA6zjdLWw" name="\Sin especificar\" receiveEvent="_UXOCMFFDEeOZkpA6zjdLWw" sendEvent="_UXNbIVFDEeOZkpA6zjdLWw" connector="_L4Gg0lFDEeOZkpA6zjdLWw"/>
+          <message xmi:id="_UXOpQVFDEeOZkpA6zjdLWw" name="\Sin especificar\" messageSort="reply" receiveEvent="_UXOpQlFDEeOZkpA6zjdLWw" sendEvent="_UXOpQFFDEeOZkpA6zjdLWw" connector="_L4Gg0lFDEeOZkpA6zjdLWw"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_BnsKIFEFEeOEZZHAwxdNog" name=""/>
         <ownedAttribute xmi:id="_G6dEQVEFEeOEZZHAwxdNog" name="cliente" type="_GmN5oFEFEeOEZZHAwxdNog"/>
@@ -3414,9 +3388,8 @@
               </edges>
             </contents>
           </eAnnotations>
-          <packagedElement xmi:type="uml:Class" xmi:id="_lgt_4E0IEeORQI7pZIWD9Q" name="DAOClienteImp" clientDependency="_RG8CcE38EeO_s5EIjyAJqw _SKMPME38EeO_s5EIjyAJqw _YKLbsE38EeO_s5EIjyAJqw _FRfB8E39EeO_s5EIjyAJqw _ZvDxIE70EeOy-7FMu9HQKQ">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lgt_4E0IEeORQI7pZIWD9Q" name="DAOClienteImp" clientDependency="_RG8CcE38EeO_s5EIjyAJqw _SKMPME38EeO_s5EIjyAJqw _YKLbsE38EeO_s5EIjyAJqw _FRfB8E39EeO_s5EIjyAJqw">
             <interfaceRealization xmi:id="_FRfB8E39EeO_s5EIjyAJqw" supplier="_pCvBsElxEeOJerZXhKkQ2A" client="_lgt_4E0IEeORQI7pZIWD9Q" contract="_pCvBsElxEeOJerZXhKkQ2A"/>
-            <interfaceRealization xmi:id="_ZvDxIE70EeOy-7FMu9HQKQ" supplier="_pCvBsElxEeOJerZXhKkQ2A" client="_lgt_4E0IEeORQI7pZIWD9Q" contract="_pCvBsElxEeOJerZXhKkQ2A"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Dependency" xmi:id="_RG8CcE38EeO_s5EIjyAJqw" supplier="_yeAKQE37EeO_s5EIjyAJqw" client="_lgt_4E0IEeORQI7pZIWD9Q"/>
           <packagedElement xmi:type="uml:Dependency" xmi:id="_SKMPME38EeO_s5EIjyAJqw" supplier="_2FahYE3xEeOnwZnA8BLNdA" client="_lgt_4E0IEeORQI7pZIWD9Q"/>
@@ -3434,8 +3407,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_9G3WkFFBEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción2" operation="_PddckFEEEeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_0DLTEFFCEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío3" operation="_sDCyYFEDEeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_0DLTEVFCEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción3" operation="_sDCyYFEDEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Urdz4FFDEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío4" operation="_tJy3sFEGEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Urea8FFDEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción4" operation="_tJy3sFEGEeOEZZHAwxdNog"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Urdz4FFDEeOZkpA6zjdLWw" name="Eventodeoperacióndeenvío4"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Urea8FFDEeOZkpA6zjdLWw" name="Eventodeoperaciónderecepción4"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_SksoQFKOEeOdKJL3-j-oAQ" name="Clientes">
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Skt2YFKOEeOdKJL3-j-oAQ" name="Interacción1">
           <eAnnotations xmi:id="_SkvrkFKOEeOdKJL3-j-oAQ" source="uml2.diagrams">

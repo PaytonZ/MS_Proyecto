@@ -1,14 +1,14 @@
 /**
  * 
  */
-package Negocio.transacciones;
+package negocio.transacciones;
 
-import Negocio.transacciones.conexiones.Connection;
+import negocio.transacciones.conexiones.Connection;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransactionMySQL implements Transaction {
@@ -60,7 +60,7 @@ public class TransactionMySQL implements Transaction {
 	 * @see Transaction#getResource()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase getResource() {
+	public Transaction getResource() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

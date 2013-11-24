@@ -1,15 +1,15 @@
 /**
  * 
  */
-package Presentación.comandos.cliente;
+package presentación.comandos.cliente;
 
-import Presentación.comandos.Command;
-import Presentación.comandos.ResponseCommand;
+import presentación.comandos.Command;
+import presentación.comandos.ResponseCommand;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class CommandAltaCliente implements Command {

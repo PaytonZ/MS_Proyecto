@@ -1,12 +1,12 @@
 /**
  * 
  */
-package Negocio.transacciones;
+package negocio.transacciones;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransactionFactory implements Transaction {
@@ -51,7 +51,7 @@ public class TransactionFactory implements Transaction {
 	 * @see Transaction#getResource()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase getResource() {
+	public Transaction getResource() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

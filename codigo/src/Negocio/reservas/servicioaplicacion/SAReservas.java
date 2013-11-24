@@ -1,24 +1,18 @@
 /**
  * 
  */
-package Negocio.reservas.servicioaplicacion;
+package negocio.reservas.servicioaplicacion;
 
-import Negocio.reservas.TransferReserva;
+import negocio.reservas.TransferReserva;
+import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface SAReservas {
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	Object atributo1 = null;
-
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
@@ -34,7 +28,7 @@ public interface SAReservas {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase anadirReserva(TransferReserva reserva);
+	public Integer anadirReserva(TransferReserva reserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -42,7 +36,7 @@ public interface SAReservas {
 	 * @param idReserva
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void borrarReserva(Clase idReserva);
+	public void borrarReserva(Integer idReserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -51,7 +45,7 @@ public interface SAReservas {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferReserva obtenerReserva(Clase idReserva);
+	public TransferReserva obtenerReserva(Integer idReserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -59,5 +53,5 @@ public interface SAReservas {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Interfaz obtenerTodaslasReservas();
+	public List obtenerTodaslasReservas();
 }

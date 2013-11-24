@@ -1,24 +1,25 @@
 /**
  * 
  */
-package Integración.clientes.dao.imp;
+package integración.clientes.dao.imp;
 
-import Integración.clientes.dao.DAOCliente;
-import Negocio.clientes.TransferCliente;
+import integración.clientes.dao.DAOCliente;
+import negocio.clientes.TransferCliente;
+import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class DAOClienteImp implements DAOCliente, DAOCliente {
+public class DAOClienteImp implements DAOCliente {
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getCliente(Clase idCliente)
+	 * @see DAOCliente#getCliente(Integer idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Clase idCliente) {
+	public TransferCliente getCliente(Integer idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -30,7 +31,7 @@ public class DAOClienteImp implements DAOCliente, DAOCliente {
 	 * @see DAOCliente#addCliente(TransferCliente cliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase addCliente(TransferCliente cliente) {
+	public Integer addCliente(TransferCliente cliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -54,7 +55,7 @@ public class DAOClienteImp implements DAOCliente, DAOCliente {
 	 * @see DAOCliente#getAllClientes()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Interfaz getAllClientes() {
+	public List getAllClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -63,10 +64,10 @@ public class DAOClienteImp implements DAOCliente, DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#deleteCliente(Clase idCliente)
+	 * @see DAOCliente#deleteCliente(Integer idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object deleteCliente(Clase idCliente) {
+	public Object deleteCliente(Integer idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

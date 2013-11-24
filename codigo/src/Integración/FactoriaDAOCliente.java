@@ -1,14 +1,14 @@
 /**
  * 
  */
-package Integración;
+package integración;
 
-import Integración.clientes.dao.DAOCliente;
+import integración.clientes.dao.DAOCliente;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
+ * @author dserrano
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public abstract class FactoriaDAOCliente {
@@ -25,12 +25,7 @@ public abstract class FactoriaDAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public DAOCliente generaDAOCliente() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-		return null;
-		// end-user-code
-	}
+	public abstract DAOCliente generaDAOCliente();
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -38,7 +33,7 @@ public abstract class FactoriaDAOCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FactoriaDAOCliente getInstance() {
+	public static FactoriaDAOCliente getInstance() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
