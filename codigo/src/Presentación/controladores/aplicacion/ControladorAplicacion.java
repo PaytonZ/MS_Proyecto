@@ -6,7 +6,7 @@ package presentación.controladores.aplicacion;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public abstract class ControladorAplicacion {
@@ -37,5 +37,5 @@ public abstract class ControladorAplicacion {
 	 * @param datos
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public abstract void handleRequest(Integer evento, Object datos);
+	public abstract void handleRequest(Integer evento, Clase datos);
 }

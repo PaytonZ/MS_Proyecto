@@ -4,13 +4,13 @@
 package negocio.clientes.serviciosaplicacion.imp;
 
 import negocio.clientes.serviciosaplicacion.SAClientes;
+import static negocio.transacciones.TransactionFactory.*;
 import negocio.clientes.TransferCliente;
-import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class SAClientesImp implements SAClientes {
@@ -19,7 +19,7 @@ public class SAClientesImp implements SAClientes {
 	 * @see SAClientes#anadirCliente(TransferCliente cliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirCliente(TransferCliente cliente) {
+	public Clase anadirCliente(TransferCliente cliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -31,7 +31,7 @@ public class SAClientesImp implements SAClientes {
 	 * @see SAClientes#obtenerTodoslosClientes()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public List obtenerTodoslosClientes() {
+	public Interfaz obtenerTodoslosClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -52,10 +52,10 @@ public class SAClientesImp implements SAClientes {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAClientes#borrarCliente(Integer idCliente)
+	 * @see SAClientes#borrarCliente(Clase idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object borrarCliente(Integer idCliente) {
+	public Object borrarCliente(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -64,10 +64,10 @@ public class SAClientesImp implements SAClientes {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAClientes#obtenerCliente(Integer idCliente)
+	 * @see SAClientes#obtenerCliente(Clase idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente obtenerCliente(Integer idCliente) {
+	public TransferCliente obtenerCliente(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

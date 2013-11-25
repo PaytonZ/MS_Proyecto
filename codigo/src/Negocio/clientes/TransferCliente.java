@@ -6,7 +6,7 @@ package negocio.clientes;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransferCliente {
@@ -33,7 +33,7 @@ public class TransferCliente {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Long numTelefono;
+	private Integer numTelefono;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
@@ -60,7 +60,7 @@ public class TransferCliente {
 	 * @param DNI
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setDNI(String DNI) {
+	public void setDNI(Clase DNI) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -73,7 +73,7 @@ public class TransferCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public String getNombre() {
+	public Clase getNombre() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -86,7 +86,7 @@ public class TransferCliente {
 	 * @param nombre
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setNombre(String nombre) {
+	public void setNombre(Clase nombre) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -99,7 +99,7 @@ public class TransferCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Long getNumTelefono() {
+	public Clase getNumTelefono() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -112,7 +112,7 @@ public class TransferCliente {
 	 * @param telefono
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setNumTelefono(Long telefono) {
+	public void setNumTelefono(Clase telefono) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -125,7 +125,7 @@ public class TransferCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public String getPrimerApellido() {
+	public Clase getPrimerApellido() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -138,7 +138,7 @@ public class TransferCliente {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public String getSegundoApellido() {
+	public Clase getSegundoApellido() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

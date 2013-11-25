@@ -5,21 +5,20 @@ package integración.clientes.dao.imp;
 
 import integración.clientes.dao.DAOCliente;
 import negocio.clientes.TransferCliente;
-import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class DAOClienteImp implements DAOCliente {
+public class DAOClienteImp implements DAOCliente, DAOCliente {
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getCliente(Integer idCliente)
+	 * @see DAOCliente#getCliente(Clase idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Integer idCliente) {
+	public TransferCliente getCliente(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -31,7 +30,7 @@ public class DAOClienteImp implements DAOCliente {
 	 * @see DAOCliente#addCliente(TransferCliente cliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer addCliente(TransferCliente cliente) {
+	public Clase addCliente(TransferCliente cliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -55,7 +54,7 @@ public class DAOClienteImp implements DAOCliente {
 	 * @see DAOCliente#getAllClientes()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public List getAllClientes() {
+	public Interfaz getAllClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -64,10 +63,10 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#deleteCliente(Integer idCliente)
+	 * @see DAOCliente#deleteCliente(Clase idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object deleteCliente(Integer idCliente) {
+	public Object deleteCliente(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

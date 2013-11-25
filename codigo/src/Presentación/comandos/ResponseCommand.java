@@ -6,7 +6,7 @@ package presentación.comandos;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class ResponseCommand implements Command {
@@ -15,13 +15,13 @@ public class ResponseCommand implements Command {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Integer evento;
+	private Clase evento;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Object datos;
+	private Clase datos;
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -29,7 +29,7 @@ public class ResponseCommand implements Command {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer getResponseEvent() {
+	public Clase getResponseEvent() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -42,7 +42,7 @@ public class ResponseCommand implements Command {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object getResponseData() {
+	public Clase getResponseData() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -51,10 +51,10 @@ public class ResponseCommand implements Command {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see Command#execute(Object datos)
+	 * @see Command#execute(Clase datos)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public ResponseCommand execute(Object datos) {
+	public ResponseCommand execute(Clase datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

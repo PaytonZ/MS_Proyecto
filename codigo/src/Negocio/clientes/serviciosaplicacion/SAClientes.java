@@ -4,12 +4,11 @@
 package negocio.clientes.serviciosaplicacion;
 
 import negocio.clientes.TransferCliente;
-import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface SAClientes {
@@ -20,7 +19,7 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirCliente(TransferCliente cliente);
+	public Clase anadirCliente(TransferCliente cliente);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -28,7 +27,7 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public List obtenerTodoslosClientes();
+	public Interfaz obtenerTodoslosClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -46,7 +45,7 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object borrarCliente(Integer idCliente);
+	public Object borrarCliente(Clase idCliente);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -55,5 +54,5 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente obtenerCliente(Integer idCliente);
+	public TransferCliente obtenerCliente(Clase idCliente);
 }

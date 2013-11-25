@@ -3,12 +3,10 @@
  */
 package negocio.reservas;
 
-import java.util.Date;
-
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransferReserva {
@@ -17,37 +15,37 @@ public class TransferReserva {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Integer numeroReserva;
+	private Clase numeroReserva;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Integer numeroHabitacion;
+	private Clase numeroHabitacion;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private String DNI;
+	private Clase DNI;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Date fechaReserva;
+	private Clase fechaReserva;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Date fechaSalida;
+	private Clase fechaSalida;
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Date fechaEntrada;
+	private Clase fechaEntrada;
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -55,7 +53,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public String getDNI() {
+	public Clase getDNI() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -68,7 +66,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Date getFechaEntrada() {
+	public Clase getFechaEntrada() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -81,7 +79,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Date getFechaReserva() {
+	public Clase getFechaReserva() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -94,7 +92,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Date getFechaSalida() {
+	public Clase getFechaSalida() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -107,7 +105,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer getNumeroHabitacion() {
+	public Clase getNumeroHabitacion() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -120,7 +118,7 @@ public class TransferReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer getNumeroReserva() {
+	public Clase getNumeroReserva() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -133,7 +131,7 @@ public class TransferReserva {
 	 * @param dni
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setDNI(String dni) {
+	public void setDNI(Clase dni) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -146,7 +144,7 @@ public class TransferReserva {
 	 * @param fechaEntrada
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFechaEntrada(Date fechaEntrada) {
+	public void setFechaEntrada(Clase fechaEntrada) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -159,7 +157,7 @@ public class TransferReserva {
 	 * @param fechaReserva
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFechaReserva(Date fechaReserva) {
+	public void setFechaReserva(Clase fechaReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -172,7 +170,7 @@ public class TransferReserva {
 	 * @param fechaSalida
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFechaSalida(Date fechaSalida) {
+	public void setFechaSalida(Clase fechaSalida) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -185,7 +183,7 @@ public class TransferReserva {
 	 * @param numeroHabitacion
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setNumeroHabitacion(Integer numeroHabitacion) {
+	public void setNumeroHabitacion(Clase numeroHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -198,7 +196,7 @@ public class TransferReserva {
 	 * @param numeroReserva
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setNumeroReserva(Integer numeroReserva) {
+	public void setNumeroReserva(Clase numeroReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 

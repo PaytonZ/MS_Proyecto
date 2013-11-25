@@ -4,12 +4,12 @@
 package integración.reservas.dao;
 
 import negocio.reservas.TransferReserva;
-import java.util.List;
+import java.util.ArrayList;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface DAOReserva {
@@ -26,17 +26,19 @@ public interface DAOReserva {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idReserva
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void deleteReserva(Integer idReserva);
+	public Boolean deleteReserva(Clase idReserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param listaReservas
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void getAllReservas(List listaReservas);
+	public ArrayList getAllReservas(Interfaz listaReservas);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -45,13 +47,14 @@ public interface DAOReserva {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferReserva getReserva(Integer idReserva);
+	public TransferReserva getReserva(Clase idReserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param reserva
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void updateReserva(TransferReserva reserva);
+	public Boolean updateReserva(TransferReserva reserva);
 }

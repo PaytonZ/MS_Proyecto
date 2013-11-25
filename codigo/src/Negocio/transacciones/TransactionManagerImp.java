@@ -6,7 +6,7 @@ package negocio.transacciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransactionManagerImp extends TransactionManager {
@@ -16,4 +16,40 @@ public class TransactionManagerImp extends TransactionManager {
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	private ConcurrentHashMapThreadTransaction concurrentHashMapThreadTransaction;
+
+	/** 
+	 * (sin Javadoc)
+	 * @see TransactionManager#nuevaTransaccion()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Transaction nuevaTransaccion() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * (sin Javadoc)
+	 * @see TransactionManager#getTransaccion()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Transaction getTransaccion() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * (sin Javadoc)
+	 * @see TransactionManager#eliminaTransaccion()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Boolean eliminaTransaccion() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
 }

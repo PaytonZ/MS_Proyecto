@@ -5,12 +5,12 @@ package integración.reservas.dao.imp;
 
 import integración.reservas.dao.DAOReserva;
 import negocio.reservas.TransferReserva;
-import java.util.List;
+import java.util.ArrayList;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class DAOReservaImp implements DAOReserva {
@@ -28,34 +28,34 @@ public class DAOReservaImp implements DAOReserva {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#deleteReserva(Integer idReserva)
+	 * @see DAOReserva#deleteReserva(Clase idReserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void deleteReserva(Integer idReserva) {
+	public Boolean deleteReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-
+		return null;
 		// end-user-code
 	}
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#getAllReservas(List listaReservas)
+	 * @see DAOReserva#getAllReservas(Interfaz listaReservas)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void getAllReservas(List listaReservas) {
+	public ArrayList getAllReservas(Interfaz listaReservas) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-
+		return null;
 		// end-user-code
 	}
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#getReserva(Integer idReserva)
+	 * @see DAOReserva#getReserva(Clase idReserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferReserva getReserva(Integer idReserva) {
+	public TransferReserva getReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -67,10 +67,10 @@ public class DAOReservaImp implements DAOReserva {
 	 * @see DAOReserva#updateReserva(TransferReserva reserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void updateReserva(TransferReserva reserva) {
+	public Boolean updateReserva(TransferReserva reserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-
+		return null;
 		// end-user-code
 	}
 }

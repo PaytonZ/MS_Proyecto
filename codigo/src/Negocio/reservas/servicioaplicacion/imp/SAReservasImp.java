@@ -4,13 +4,13 @@
 package negocio.reservas.servicioaplicacion.imp;
 
 import negocio.reservas.servicioaplicacion.SAReservas;
+import static negocio.transacciones.TransactionFactory.*;
 import negocio.reservas.TransferReserva;
-import java.util.List;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class SAReservasImp implements SAReservas {
@@ -31,7 +31,7 @@ public class SAReservasImp implements SAReservas {
 	 * @see SAReservas#anadirReserva(TransferReserva reserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirReserva(TransferReserva reserva) {
+	public Clase anadirReserva(TransferReserva reserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -40,10 +40,10 @@ public class SAReservasImp implements SAReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAReservas#borrarReserva(Integer idReserva)
+	 * @see SAReservas#borrarReserva(Clase idReserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void borrarReserva(Integer idReserva) {
+	public void borrarReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -52,10 +52,10 @@ public class SAReservasImp implements SAReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAReservas#obtenerReserva(Integer idReserva)
+	 * @see SAReservas#obtenerReserva(Clase idReserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferReserva obtenerReserva(Integer idReserva) {
+	public TransferReserva obtenerReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -67,7 +67,7 @@ public class SAReservasImp implements SAReservas {
 	 * @see SAReservas#obtenerTodaslasReservas()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public List obtenerTodaslasReservas() {
+	public Interfaz obtenerTodaslasReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

@@ -6,7 +6,7 @@ package negocio.transacciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author dserrano
+ * @author usuario_local
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransactionFactory implements Transaction {
@@ -15,10 +15,10 @@ public class TransactionFactory implements Transaction {
 	 * @see Transaction#start()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void start() {
+	public Void start() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-
+		return null;
 		// end-user-code
 	}
 
@@ -51,7 +51,7 @@ public class TransactionFactory implements Transaction {
 	 * @see Transaction#getResource()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Transaction getResource() {
+	public Object getResource() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
