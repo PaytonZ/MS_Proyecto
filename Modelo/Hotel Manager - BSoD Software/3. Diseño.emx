@@ -3885,6 +3885,209 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Realization" xmi:id="_SPUqoFKNEeOdKJL3-j-oAQ" supplier="_kU3EQFE7EeOZkpA6zjdLWw" client="_t8BdsFE5EeOZkpA6zjdLWw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jBCCgFXpEeOcOOXndeInRw" name="Transfers">
+    <eAnnotations xmi:id="_jCrBQFXpEeOcOOXndeInRw" source="uml2.diagrams">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_mtlMwFXpEeOcOOXndeInRw" type="Class" name="Transfers">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_r1COwFXpEeOcOOXndeInRw" element="_rz178FXpEeOcOOXndeInRw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_r1LYsFXpEeOcOOXndeInRw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_r1LYsVXpEeOcOOXndeInRw" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_r1LYslXpEeOcOOXndeInRw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_r1LYs1XpEeOcOOXndeInRw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_r1LYtFXpEeOcOOXndeInRw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_r1LYtVXpEeOcOOXndeInRw" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_r1LYtlXpEeOcOOXndeInRw" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_r1oEoFXpEeOcOOXndeInRw" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_r1oEoVXpEeOcOOXndeInRw" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r1COwVXpEeOcOOXndeInRw" x="2772" y="1980"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_q16-UVXtEeOcOOXndeInRw" element="_q16-UFXtEeOcOOXndeInRw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_q2EvUFXtEeOcOOXndeInRw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_q2EvUVXtEeOcOOXndeInRw" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_q2EvUlXtEeOcOOXndeInRw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_q2EvU1XtEeOcOOXndeInRw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_q2EvVFXtEeOcOOXndeInRw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_q2EvVVXtEeOcOOXndeInRw" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_q2EvVlXtEeOcOOXndeInRw" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_q2EvV1XtEeOcOOXndeInRw" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_q2EvWFXtEeOcOOXndeInRw" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q16-UlXtEeOcOOXndeInRw" x="6864" y="1980"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_59GY0VXtEeOcOOXndeInRw" element="_59GY0FXtEeOcOOXndeInRw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_59QJ0FXtEeOcOOXndeInRw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_59QJ0VXtEeOcOOXndeInRw" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_59QJ0lXtEeOcOOXndeInRw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_59QJ01XtEeOcOOXndeInRw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_59QJ1FXtEeOcOOXndeInRw" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_59QJ1VXtEeOcOOXndeInRw" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_59QJ1lXtEeOcOOXndeInRw" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_59QJ11XtEeOcOOXndeInRw" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_59QJ2FXtEeOcOOXndeInRw" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59GY0lXtEeOcOOXndeInRw" x="11562" y="1931"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rz178FXpEeOcOOXndeInRw" name="TransferCliente">
+      <ownedAttribute xmi:id="_wVDdUFXpEeOcOOXndeInRw" name="DNI" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_qdJZUFXqEeOcOOXndeInRw" name="telefono" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ub2DgFXqEeOcOOXndeInRw" name="direccion" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ynwDQFXqEeOcOOXndeInRw" name="is_activo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4D470FXqEeOcOOXndeInRw" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_7kam0FXrEeOcOOXndeInRw" name="getDNI">
+        <ownedParameter xmi:id="_EszHoFXsEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_3QLVAFXsEeOcOOXndeInRw" name="getTelefono">
+        <ownedParameter xmi:id="_FnUZsFXtEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5eGlIFXsEeOcOOXndeInRw" name="setTelefono">
+        <ownedParameter xmi:id="_XGsaoFXtEeOcOOXndeInRw" name="telefono">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_68a9QFXsEeOcOOXndeInRw" name="getDireccion">
+        <ownedParameter xmi:id="_I2aL4FXtEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8FBkEFXsEeOcOOXndeInRw" name="setDireccion">
+        <ownedParameter xmi:id="_b1S3wFXtEeOcOOXndeInRw" name="direccion">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9-wF0FXsEeOcOOXndeInRw" name="getIsActivo">
+        <ownedParameter xmi:id="_SYPHcFXtEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-hQ9AFXsEeOcOOXndeInRw" name="setIsActivo">
+        <ownedParameter xmi:id="_edQYgFXtEeOcOOXndeInRw" name="isactivo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-mBhMFXsEeOcOOXndeInRw" name="getId">
+        <ownedParameter xmi:id="_lceNYFXtEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UzpPYFXsEeOcOOXndeInRw" name="setDNI">
+        <ownedParameter xmi:id="_qtZJ4FXsEeOcOOXndeInRw" name="DNI">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q16-UFXtEeOcOOXndeInRw" name="TransferReserva">
+      <ownedAttribute xmi:id="_bn77wFXuEeOcOOXndeInRw" name="fecha_reserva" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gEip8FXuEeOcOOXndeInRw" name="fecha_entrada" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ibQCoFXuEeOcOOXndeInRw" name="fecha_salida" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jCEyEFXuEeOcOOXndeInRw" name="dni_reserva" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jOuG8FXuEeOcOOXndeInRw" name="numero_habitacion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_5eyPsFXuEeOcOOXndeInRw" name="getFechaReserva">
+        <ownedParameter xmi:id="_Jc4EEFXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5jP48FXuEeOcOOXndeInRw" name="getFechaEntrada">
+        <ownedParameter xmi:id="_L7xIYFXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5ln3gFXuEeOcOOXndeInRw" name="getFechaSalida">
+        <ownedParameter xmi:id="_PVk80FXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5n2sIFXuEeOcOOXndeInRw" name="getDniReserva">
+        <ownedParameter xmi:id="_QVsWAFXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5qFgwFXuEeOcOOXndeInRw" name="getNumeroHabitacion">
+        <ownedParameter xmi:id="_RbUhUFXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5seGYFXuEeOcOOXndeInRw" name="setFechaReserva">
+        <ownedParameter xmi:id="_TPqMwFXvEeOcOOXndeInRw" name="fechareserva">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5us7AFXuEeOcOOXndeInRw" name="setFechaEntrada">
+        <ownedParameter xmi:id="_XEP4sFXvEeOcOOXndeInRw" name="fechaentrada">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5xFgoFXuEeOcOOXndeInRw" name="setFechaSalida">
+        <ownedParameter xmi:id="_a8Z2AFXvEeOcOOXndeInRw" name="fechasalida">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5zdfMFXuEeOcOOXndeInRw" name="setDniReserva">
+        <ownedParameter xmi:id="_d_41IFXvEeOcOOXndeInRw" name="dnireserva">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_51sT0FXuEeOcOOXndeInRw" name="setNumeroHabitacion">
+        <ownedParameter xmi:id="_gzT_AFXvEeOcOOXndeInRw" name="numerohabitacion">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_59GY0FXtEeOcOOXndeInRw" name="TransferHabitacion">
+      <ownedAttribute xmi:id="_-0ovgFXtEeOcOOXndeInRw" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_DG09cFXuEeOcOOXndeInRw" name="tipo" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_lPeBQFXvEeOcOOXndeInRw" name="getID">
+        <ownedParameter xmi:id="_qZAG4FXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_lR_w0FXvEeOcOOXndeInRw" name="setID">
+        <ownedParameter xmi:id="_s7KhoFXvEeOcOOXndeInRw" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_lUOlcFXvEeOcOOXndeInRw" name="getTipo">
+        <ownedParameter xmi:id="_vdn3UFXvEeOcOOXndeInRw" name="Parámetro1" direction="return">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_lWdaEFXvEeOcOOXndeInRw" name="setTipo">
+        <ownedParameter xmi:id="_wuHO0FXvEeOcOOXndeInRw" name="tipo">
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_gn8otkIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -3908,5 +4111,11 @@
       <references xmi:type="ecore:EPackage" href="pathmap://XSD_PROFILES/XSDProfile.epx#_vvGR0PDPEdq5wKwOrH0SmA?XSDProfile/XSDProfile?"/>
     </eAnnotations>
     <appliedProfile href="pathmap://XSD_PROFILES/XSDProfile.epx#_w1-ykSkOEdmj4ajjgbmSxQ?XSDProfile?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_ivZYkFXsEeOcOOXndeInRw">
+    <eAnnotations xmi:id="_ivZYkVXsEeOcOOXndeInRw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://RESTProfile/REST.epx#_YSp-gHrhEeCg9fFtNzlr1w?REST/REST?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://RESTProfile/REST.epx#_G6KGQAwqEd-fBO8fbtF2Cg?REST?"/>
   </profileApplication>
 </uml:Package>
