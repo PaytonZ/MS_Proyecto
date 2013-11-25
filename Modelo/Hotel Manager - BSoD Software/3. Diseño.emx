@@ -81,6 +81,9 @@
         <packagedElement xmi:type="uml:Interface" xmi:id="_SzVKkE7zEeOy-7FMu9HQKQ" name="SAReservas">
           <ownedOperation xmi:id="_UdwsEE7zEeOy-7FMu9HQKQ" name="actualizarReserva">
             <ownedParameter xmi:id="_f3BDUE7zEeOy-7FMu9HQKQ" name="reserva" type="_vcVSsE7wEeOy-7FMu9HQKQ"/>
+            <ownedParameter xmi:id="_DU9BkFYFEeOXI5si1T2R-Q" name="idHabitacion" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_W1KBQE7zEeOy-7FMu9HQKQ" name="anadirReserva">
             <ownedParameter xmi:id="_mWMGME7zEeOy-7FMu9HQKQ" name="reserva" type="_vcVSsE7wEeOy-7FMu9HQKQ"/>
@@ -90,6 +93,9 @@
           </ownedOperation>
           <ownedOperation xmi:id="_Yn_Q0E7zEeOy-7FMu9HQKQ" name="borrarReserva">
             <ownedParameter xmi:id="_qAktQE7zEeOy-7FMu9HQKQ" name="idReserva">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_J82ioFYFEeOXI5si1T2R-Q" name="idHabitacion" direction="return">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
@@ -296,14 +302,36 @@
             <ownedParameter xmi:id="_OUX2IFX9EeOjwK_DfS-G0w" name="idHabitacion" direction="return">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
             </ownedParameter>
+            <ownedParameter xmi:id="_p7MkAFYEEeOXI5si1T2R-Q" name="habitacionNueva" type="_59GY0FXtEeOcOOXndeInRw"/>
           </ownedOperation>
           <ownedOperation xmi:id="_3Ikd4FX8EeOjwK_DfS-G0w" name="actualizarHabitacion">
-            <ownedParameter xmi:id="_IYpekFX9EeOjwK_DfS-G0w" name="habitacion" type="_59GY0FXtEeOcOOXndeInRw" direction="return"/>
+            <ownedParameter xmi:id="_IYpekFX9EeOjwK_DfS-G0w" name="idHabitacion" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
             <ownedParameter xmi:id="_Q4OS8FX9EeOjwK_DfS-G0w" name="habitacionModificada" type="_59GY0FXtEeOcOOXndeInRw"/>
           </ownedOperation>
-          <ownedOperation xmi:id="_4h0v0FX8EeOjwK_DfS-G0w" name="borrarHabitacion"/>
-          <ownedOperation xmi:id="_8ijaUFX8EeOjwK_DfS-G0w" name="obtenerTodaslasHabitaciones"/>
-          <ownedOperation xmi:id="_5tDz4FX8EeOjwK_DfS-G0w" name="obtenerHabitacion"/>
+          <ownedOperation xmi:id="_4h0v0FX8EeOjwK_DfS-G0w" name="borrarHabitacion">
+            <ownedParameter xmi:id="_vM9_oFYEEeOXI5si1T2R-Q" name="idHabitacion" type="_XTVRAFYEEeOXI5si1T2R-Q" direction="return">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_ttGykFYIEeOXI5si1T2R-Q" name="">
+                <language></language>
+                <body></body>
+              </defaultValue>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xzsxUFYEEeOXI5si1T2R-Q" name="idHabitacion">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_8ijaUFX8EeOjwK_DfS-G0w" name="obtenerTodaslasHabitaciones">
+            <ownedParameter xmi:id="_6ROXQFYEEeOXI5si1T2R-Q" name="listaHabitaciones" direction="return">
+              <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Interface"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_5tDz4FX8EeOjwK_DfS-G0w" name="obtenerHabitacion">
+            <ownedParameter xmi:id="_1ZjdsFYEEeOXI5si1T2R-Q" name="habitacion" type="_59GY0FXtEeOcOOXndeInRw" direction="return"/>
+            <ownedParameter xmi:id="_4BVYQFYEEeOXI5si1T2R-Q" name="idHabitacion">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -335,13 +363,15 @@
           </ownedOperation>
           <ownedOperation xmi:id="_ywtiiE4JEeOMMLo_SYkG7A" name="actualizarCliente">
             <ownedParameter xmi:id="_ywtiiU4JEeOMMLo_SYkG7A" name="cliente" type="_FSLS8ElyEeOJerZXhKkQ2A"/>
-            <ownedParameter xmi:id="_ywtiik4JEeOMMLo_SYkG7A" name="void" direction="return"/>
+            <ownedParameter xmi:id="_ywtiik4JEeOMMLo_SYkG7A" name="idHabitacion" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_ywtii04JEeOMMLo_SYkG7A" name="borrarCliente">
             <ownedParameter xmi:id="_ywtijE4JEeOMMLo_SYkG7A" name="idCliente">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
             </ownedParameter>
-            <ownedParameter xmi:id="_ywtijU4JEeOMMLo_SYkG7A" name="void" direction="return"/>
+            <ownedParameter xmi:id="_1pCuYFYIEeOXI5si1T2R-Q" name="idCliente" type="_XTVRAFYEEeOXI5si1T2R-Q" direction="return"/>
           </ownedOperation>
           <ownedOperation xmi:id="_ywtij04JEeOMMLo_SYkG7A" name="obtenerCliente">
             <ownedParameter xmi:id="_ywtikE4JEeOMMLo_SYkG7A" name="cliente" type="_FSLS8ElyEeOJerZXhKkQ2A" direction="return"/>
@@ -3987,6 +4017,7 @@
       </packagedElement>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_XTVRAFYEEeOXI5si1T2R-Q" name="void"/>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_gn8otkIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
