@@ -5,6 +5,9 @@ package integración.factorias.factoriaDAO;
 
 import integración.clientes.dao.DAOCliente;
 import integración.reservas.dao.DAOReserva;
+import integración.habitaciones.dao.DAOHabitacion;
+import integración.empleados.dao.DAOEmpleado;
+import integración.departamentos.dao.DAODepartamento;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -63,6 +66,58 @@ public abstract class FactoriaDAO {
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public static FactoriaDAO getInstance() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public DAOHabitacion generaDAOHabitacion() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public DAOReserva generaDAOTarea() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public DAOEmpleado generaDAOEmpleado() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public DAODepartamento generaDAODepartamento() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

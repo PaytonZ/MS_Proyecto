@@ -1,11 +1,10 @@
 /**
  * 
  */
-package integración.clientes.dao.imp;
+package integración.empleados.dao.imp;
 
-import integración.clientes.dao.DAOCliente;
-import negocio.clientes.transfer.TransferCliente;
-import java.util.ArrayList;
+import integración.empleados.dao.DAOEmpleado;
+import negocio.empleados.transfer.TransferEmpleado;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -13,14 +12,37 @@ import java.util.ArrayList;
  * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class DAOClienteImp implements DAOCliente {
+public class DAOEmpleadoImp implements DAOEmpleado {
+	/** 
+	 * (sin Javadoc)
+	 * @see DAOEmpleado#addEmpleado(TransferEmpleado empleado, Object idEmpleado)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void addEmpleado(TransferEmpleado empleado, Object idEmpleado) {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+
+		// end-user-code
+	}
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getCliente(Integer idCliente)
+	 * @see DAOEmpleado#deleteEmpleado(TransferEmpleado idEmpleado)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Integer idCliente) {
+	public void deleteEmpleado(TransferEmpleado idEmpleado) {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+
+		// end-user-code
+	}
+
+	/** 
+	 * (sin Javadoc)
+	 * @see DAOEmpleado#getAllEmpleados()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Object getAllEmpleados() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -29,10 +51,10 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#addCliente(TransferCliente cliente)
+	 * @see DAOEmpleado#getEmpleado(Object idEmpleado)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer addCliente(TransferCliente cliente) {
+	public TransferEmpleado getEmpleado(Object idEmpleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -41,37 +63,13 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#updateCliente(TransferCliente cliente)
+	 * @see DAOEmpleado#updateEmpleado(TransferEmpleado empleado)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean updateCliente(TransferCliente cliente) {
+	public void updateEmpleado(TransferEmpleado empleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-		return null;
-		// end-user-code
-	}
 
-	/** 
-	 * (sin Javadoc)
-	 * @see DAOCliente#getAllClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public ArrayList getAllClientes() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-		return null;
-		// end-user-code
-	}
-
-	/** 
-	 * (sin Javadoc)
-	 * @see DAOCliente#deleteCliente(Integer idCliente)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Boolean deleteCliente(Integer idCliente) {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-		return null;
 		// end-user-code
 	}
 }

@@ -4387,14 +4387,6 @@
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hcJ44VHXEeOpQYXWWsNwnQ" points="[20, -36, 20, -36]$[20, -36, 20, -36]"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iYaFwFHXEeOpQYXWWsNwnQ" id="(0.5084961767204758,1.0)"/>
           </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qHUx4VHaEeOpQYXWWsNwnQ" element="_qHUx4FHaEeOpQYXWWsNwnQ" source="_-BUS4E3vEeOnwZnA8BLNdA" target="_dJE6IFHXEeOpQYXWWsNwnQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_qHUx41HaEeOpQYXWWsNwnQ" type="NameLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qHUx5VHaEeOpQYXWWsNwnQ" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qHd70FHaEeOpQYXWWsNwnQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qHUx5FHaEeOpQYXWWsNwnQ" y="-186"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qHUx4lHaEeOpQYXWWsNwnQ" points="[-3, 27, 10, -208]$[-21, 211, -8, -24]"/>
-          </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_M-FJkFKEEeOdKJL3-j-oAQ" element="_M9ukQFKEEeOdKJL3-j-oAQ" source="_up7hwVHXEeOpQYXWWsNwnQ" target="_-7yB8U3tEeOnwZnA8BLNdA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_M-GXsFKEEeOdKJL3-j-oAQ" type="NameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_M-GXslKEEeOdKJL3-j-oAQ" type="Stereotype"/>
@@ -4427,12 +4419,23 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KWH-WFVBEeOHbf1wwOYV_Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
           </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k9P44FbsEeOcGes7dPuBuQ" element="_k8H3gFbsEeOcGes7dPuBuQ" source="_dJE6IFHXEeOpQYXWWsNwnQ" target="_-BUS4E3vEeOnwZnA8BLNdA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_k9fJcFbsEeOcGes7dPuBuQ" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_k9fwgFbsEeOcGes7dPuBuQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_k9gXkFbsEeOcGes7dPuBuQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k9fJcVbsEeOcGes7dPuBuQ" y="-168"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k9P44VbsEeOcGes7dPuBuQ" points="[4, -24, 10, 80]$[147, -98, 153, 6]"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Package" xmi:id="_LaB3EU4JEeOMMLo_SYkG7A" name="aplicacion">
-        <packagedElement xmi:type="uml:Class" xmi:id="_-BQogE3vEeOnwZnA8BLNdA" name="Dispatcher">
-          <generalization xmi:id="_qHUx4FHaEeOpQYXWWsNwnQ" general="_dIoOMFHXEeOpQYXWWsNwnQ"/>
-          <ownedOperation xmi:id="_EwnugFFIEeOZkpA6zjdLWw" name="redirect">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-BQogE3vEeOnwZnA8BLNdA" name="Dispatcher" isAbstract="true">
+          <eAnnotations xmi:id="_aw5ZoFbsEeOcGes7dPuBuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aw5ZoVbsEeOcGes7dPuBuQ" key="Singleton"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_TZGssFbsEeOcGes7dPuBuQ" name="dispatcherInstance" visibility="private" isStatic="true" type="_-BQogE3vEeOnwZnA8BLNdA"/>
+          <ownedOperation xmi:id="_EwnugFFIEeOZkpA6zjdLWw" name="redirect" isAbstract="true">
             <ownedParameter xmi:id="_NGOukFFIEeOZkpA6zjdLWw" name="respuestacomando" type="_EeT2YE3uEeOnwZnA8BLNdA">
               <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_NYotMFFIEeOZkpA6zjdLWw" name="">
                 <language></language>
@@ -4440,8 +4443,13 @@
               </defaultValue>
             </ownedParameter>
           </ownedOperation>
+          <ownedOperation xmi:id="_d2i78FbsEeOcGes7dPuBuQ" name="getInstance" isStatic="true">
+            <ownedParameter xmi:id="_fHniQFbsEeOcGes7dPuBuQ" name="Parámetro1" type="_-BQogE3vEeOnwZnA8BLNdA" direction="return"/>
+          </ownedOperation>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_dIoOMFHXEeOpQYXWWsNwnQ" name="DispatcherImp"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dIoOMFHXEeOpQYXWWsNwnQ" name="DispatcherImp">
+          <generalization xmi:id="_k8H3gFbsEeOcGes7dPuBuQ" general="_-BQogE3vEeOnwZnA8BLNdA"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_qk3kMFEDEeOEZZHAwxdNog" name="ControladorAplicacionImp" clientDependency="_utrzsFEDEeOEZZHAwxdNog _CZVcAE3wEeOnwZnA8BLNdA _uR2JUE3vEeOnwZnA8BLNdA _myjTsFEEEeOEZZHAwxdNog">
           <generalization xmi:id="_JbGykFFGEeOZkpA6zjdLWw" general="_8zp30E3tEeOnwZnA8BLNdA"/>
         </packagedElement>

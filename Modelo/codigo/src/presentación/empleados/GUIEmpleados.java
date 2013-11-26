@@ -1,7 +1,7 @@
 /**
  * 
  */
-package presentación.reservas;
+package presentación.empleados;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -9,19 +9,19 @@ package presentación.reservas;
  * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public abstract class GUIRservas {
+public class GUIEmpleados extends GUIEmpleadosImp {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private GUIRservas selfInstance;
+	private GUIEmpleados selfInstance;
 
 	/** 
 	 * @return el selfInstance
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public GUIRservas getSelfInstance() {
+	public GUIEmpleados getSelfInstance() {
 		// begin-user-code
 		return selfInstance;
 		// end-user-code
@@ -31,7 +31,7 @@ public abstract class GUIRservas {
 	 * @param selfInstance el selfInstance a establecer
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setSelfInstance(GUIRservas selfInstance) {
+	public void setSelfInstance(GUIEmpleados selfInstance) {
 		// begin-user-code
 		this.selfInstance = selfInstance;
 		// end-user-code
@@ -40,20 +40,25 @@ public abstract class GUIRservas {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public abstract void update();
+	public GUIEmpleados getInstance() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public GUIRservas getInstance() {
+	public void update() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-		return null;
+
 		// end-user-code
 	}
 }

@@ -24,8 +24,7 @@ public class SAempleadosImp implements SAEmpleados {
 		// TODO Apéndice de método generado automáticamente
 
 		// end-user-code
-		
-		return null;
+
 	}
 
 	/** 

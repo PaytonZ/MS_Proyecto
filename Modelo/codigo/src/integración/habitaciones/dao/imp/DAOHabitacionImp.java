@@ -1,11 +1,10 @@
 /**
  * 
  */
-package integración.clientes.dao.imp;
+package integración.habitaciones.dao.imp;
 
-import integración.clientes.dao.DAOCliente;
-import negocio.clientes.transfer.TransferCliente;
-import java.util.ArrayList;
+import integración.habitaciones.dao.DAOHabitacion;
+import negocio.habitaciones.transfer.TransferHabitacion;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -13,14 +12,13 @@ import java.util.ArrayList;
  * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class DAOClienteImp implements DAOCliente {
-
+public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getCliente(Integer idCliente)
+	 * @see DAOHabitacion#addHabitacion(TransferHabitacion habitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Integer idCliente) {
+	public Object addHabitacion(TransferHabitacion habitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -29,10 +27,10 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#addCliente(TransferCliente cliente)
+	 * @see DAOHabitacion#getHabitacion(Object idHabitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer addCliente(TransferCliente cliente) {
+	public TransferHabitacion getHabitacion(Object idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -41,10 +39,10 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#updateCliente(TransferCliente cliente)
+	 * @see DAOHabitacion#getAllHabitaciones()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean updateCliente(TransferCliente cliente) {
+	public Object getAllHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -53,25 +51,25 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getAllClientes()
+	 * @see DAOHabitacion#updateHabitacion(TransferHabitacion habitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public ArrayList getAllClientes() {
+	public void updateHabitacion(TransferHabitacion habitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-		return null;
+
 		// end-user-code
 	}
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#deleteCliente(Integer idCliente)
+	 * @see DAOHabitacion#deleteHabitacion(Object idHabitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean deleteCliente(Integer idCliente) {
+	public void deleteHabitacion(Object idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-		return null;
+
 		// end-user-code
 	}
 }

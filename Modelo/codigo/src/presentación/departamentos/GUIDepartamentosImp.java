@@ -1,7 +1,7 @@
 /**
  * 
  */
-package presentación.reservas;
+package presentación.departamentos;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -9,58 +9,32 @@ package presentación.reservas;
  * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class GUIReservasImp extends GUIReservas {
+public class GUIDepartamentosImp extends GUIDepartamentos {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameAltaReservas frameAlta;
+	private FrameModificacionDepartamentos frameModificacionDepartamentos;
 
 	/** 
-	 * @return el frameAlta
+	 * @return el frameModificacionDepartamentos
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameAltaReservas getFrameAlta() {
+	public FrameModificacionDepartamentos getFrameModificacionDepartamentos() {
 		// begin-user-code
-		return frameAlta;
+		return frameModificacionDepartamentos;
 		// end-user-code
 	}
 
 	/** 
-	 * @param frameAlta el frameAlta a establecer
+	 * @param frameModificacionDepartamentos el frameModificacionDepartamentos a establecer
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFrameAlta(FrameAltaReservas frameAlta) {
+	public void setFrameModificacionDepartamentos(
+			FrameModificacionDepartamentos frameModificacionDepartamentos) {
 		// begin-user-code
-		this.frameAlta = frameAlta;
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	private FrameBajaReservas frameBaja;
-
-	/** 
-	 * @return el frameBaja
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameBajaReservas getFrameBaja() {
-		// begin-user-code
-		return frameBaja;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameBaja el frameBaja a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameBaja(FrameBajaReservas frameBaja) {
-		// begin-user-code
-		this.frameBaja = frameBaja;
+		this.frameModificacionDepartamentos = frameModificacionDepartamentos;
 		// end-user-code
 	}
 
@@ -69,52 +43,26 @@ public class GUIReservasImp extends GUIReservas {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameModificaciónReservas frameModificación;
+	private FrameConsultaMultiplesDepartamentos frameConsultaMultiplesDepartamentos;
 
 	/** 
-	 * @return el frameModificación
+	 * @return el frameConsultaMultiplesDepartamentos
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameModificaciónReservas getFrameModificación() {
+	public FrameConsultaMultiplesDepartamentos getFrameConsultaMultiplesDepartamentos() {
 		// begin-user-code
-		return frameModificación;
+		return frameConsultaMultiplesDepartamentos;
 		// end-user-code
 	}
 
 	/** 
-	 * @param frameModificación el frameModificación a establecer
+	 * @param frameConsultaMultiplesDepartamentos el frameConsultaMultiplesDepartamentos a establecer
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFrameModificación(FrameModificaciónReservas frameModificación) {
+	public void setFrameConsultaMultiplesDepartamentos(
+			FrameConsultaMultiplesDepartamentos frameConsultaMultiplesDepartamentos) {
 		// begin-user-code
-		this.frameModificación = frameModificación;
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	private FrameConsultaReservas frameConsulta;
-
-	/** 
-	 * @return el frameConsulta
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameConsultaReservas getFrameConsulta() {
-		// begin-user-code
-		return frameConsulta;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameConsulta el frameConsulta a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameConsulta(FrameConsultaReservas frameConsulta) {
-		// begin-user-code
-		this.frameConsulta = frameConsulta;
+		this.frameConsultaMultiplesDepartamentos = frameConsultaMultiplesDepartamentos;
 		// end-user-code
 	}
 
@@ -123,26 +71,82 @@ public class GUIReservasImp extends GUIReservas {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameConsultaMúltipleReservas frameConsultaMúltiple;
+	private FrameConsultaDepartamentos frameConsultaDepartamentos;
 
 	/** 
-	 * @return el frameConsultaMúltiple
+	 * @return el frameConsultaDepartamentos
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameConsultaMúltipleReservas getFrameConsultaMúltiple() {
+	public FrameConsultaDepartamentos getFrameConsultaDepartamentos() {
 		// begin-user-code
-		return frameConsultaMúltiple;
+		return frameConsultaDepartamentos;
 		// end-user-code
 	}
 
 	/** 
-	 * @param frameConsultaMúltiple el frameConsultaMúltiple a establecer
+	 * @param frameConsultaDepartamentos el frameConsultaDepartamentos a establecer
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFrameConsultaMúltiple(
-			FrameConsultaMúltipleReservas frameConsultaMúltiple) {
+	public void setFrameConsultaDepartamentos(
+			FrameConsultaDepartamentos frameConsultaDepartamentos) {
 		// begin-user-code
-		this.frameConsultaMúltiple = frameConsultaMúltiple;
+		this.frameConsultaDepartamentos = frameConsultaDepartamentos;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private FrameBajaDepartamentos frameBajaDepartamentos;
+
+	/** 
+	 * @return el frameBajaDepartamentos
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameBajaDepartamentos getFrameBajaDepartamentos() {
+		// begin-user-code
+		return frameBajaDepartamentos;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameBajaDepartamentos el frameBajaDepartamentos a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameBajaDepartamentos(
+			FrameBajaDepartamentos frameBajaDepartamentos) {
+		// begin-user-code
+		this.frameBajaDepartamentos = frameBajaDepartamentos;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private FrameAltaDepartamentos frameAltaDepartamentos;
+
+	/** 
+	 * @return el frameAltaDepartamentos
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameAltaDepartamentos getFrameAltaDepartamentos() {
+		// begin-user-code
+		return frameAltaDepartamentos;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameAltaDepartamentos el frameAltaDepartamentos a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameAltaDepartamentos(
+			FrameAltaDepartamentos frameAltaDepartamentos) {
+		// begin-user-code
+		this.frameAltaDepartamentos = frameAltaDepartamentos;
 		// end-user-code
 	}
 

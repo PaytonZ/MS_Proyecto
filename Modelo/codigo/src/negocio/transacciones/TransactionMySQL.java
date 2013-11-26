@@ -45,14 +45,12 @@ public class TransactionMySQL implements Transaction {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void start() {
+	public Void start() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
 		// end-user-code
-		
-		
-		
+
 	}
 
 	/** 
