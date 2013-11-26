@@ -6,7 +6,7 @@ package presentación.comandos;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class ResponseCommand implements Command {
@@ -15,13 +15,54 @@ public class ResponseCommand implements Command {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Clase evento;
+	private Integer evento;
+
+	/** 
+	 * @return el evento
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Integer getEvento() {
+		// begin-user-code
+		return evento;
+		// end-user-code
+	}
+
+	/** 
+	 * @param evento el evento a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setEvento(Integer evento) {
+		// begin-user-code
+		this.evento = evento;
+		// end-user-code
+	}
+
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Clase datos;
+	private Object datos;
+
+	/** 
+	 * @return el datos
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Object getDatos() {
+		// begin-user-code
+		return datos;
+		// end-user-code
+	}
+
+	/** 
+	 * @param datos el datos a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setDatos(Object datos) {
+		// begin-user-code
+		this.datos = datos;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -29,7 +70,7 @@ public class ResponseCommand implements Command {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase getResponseEvent() {
+	public Integer getResponseEvent() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -42,7 +83,7 @@ public class ResponseCommand implements Command {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase getResponseData() {
+	public Object getResponseData() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

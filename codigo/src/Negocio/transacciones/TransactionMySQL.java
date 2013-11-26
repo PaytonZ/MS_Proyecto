@@ -8,7 +8,7 @@ import negocio.transacciones.conexiones.Connection;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class TransactionMySQL implements Transaction {
@@ -20,8 +20,29 @@ public class TransactionMySQL implements Transaction {
 	private Connection connection;
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#start()
+	 * @return el connection
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Connection getConnection() {
+		// begin-user-code
+		return connection;
+		// end-user-code
+	}
+
+	/** 
+	 * @param connection el connection a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setConnection(Connection connection) {
+		// begin-user-code
+		this.connection = connection;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Void start() {
@@ -32,8 +53,8 @@ public class TransactionMySQL implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#commit()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void commit() {
@@ -44,8 +65,8 @@ public class TransactionMySQL implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#rollback()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void rollback() {
@@ -56,8 +77,9 @@ public class TransactionMySQL implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#getResource()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Object getResource() {
@@ -68,8 +90,8 @@ public class TransactionMySQL implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#lock()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void lock() {

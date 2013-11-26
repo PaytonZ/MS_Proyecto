@@ -1,7 +1,7 @@
 /**
  * 
  */
-package integración;
+package integración.factorias.factoriaDAO;
 
 import integración.clientes.dao.DAOCliente;
 import integración.reservas.dao.DAOReserva;
@@ -9,10 +9,10 @@ import integración.reservas.dao.DAOReserva;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class FactoriaDAOClienteImp extends FactoriaDAO {
+public class FactoriaDAOImp extends FactoriaDAO {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactoriaDAO#generaDAOCliente()

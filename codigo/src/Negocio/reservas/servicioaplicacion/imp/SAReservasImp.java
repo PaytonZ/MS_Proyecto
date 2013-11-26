@@ -4,13 +4,14 @@
 package negocio.reservas.servicioaplicacion.imp;
 
 import negocio.reservas.servicioaplicacion.SAReservas;
+import negocio.reservas.transfer.TransferReserva;
 import static negocio.transacciones.TransactionFactory.*;
 import negocio.reservas.TransferReserva;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class SAReservasImp implements SAReservas {
@@ -19,7 +20,7 @@ public class SAReservasImp implements SAReservas {
 	 * @see SAReservas#actualizarReserva(TransferReserva reserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void actualizarReserva(TransferReserva reserva) {
+	public Clase actualizarReserva(TransferReserva reserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -43,7 +44,7 @@ public class SAReservasImp implements SAReservas {
 	 * @see SAReservas#borrarReserva(Clase idReserva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void borrarReserva(Clase idReserva) {
+	public Clase borrarReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 

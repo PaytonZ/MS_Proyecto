@@ -3,12 +3,13 @@
  */
 package negocio.reservas.servicioaplicacion;
 
+import negocio.reservas.transfer.TransferReserva;
 import negocio.reservas.TransferReserva;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface SAReservas {
@@ -16,9 +17,10 @@ public interface SAReservas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param reserva
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void actualizarReserva(TransferReserva reserva);
+	public Clase actualizarReserva(TransferReserva reserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -33,9 +35,10 @@ public interface SAReservas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idReserva
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void borrarReserva(Clase idReserva);
+	public Clase borrarReserva(Clase idReserva);
 
 	/** 
 	 * <!-- begin-UML-doc -->

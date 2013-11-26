@@ -4,13 +4,14 @@
 package integración.reservas.dao.imp;
 
 import integración.reservas.dao.DAOReserva;
+import negocio.reservas.transfer.TransferReserva;
 import negocio.reservas.TransferReserva;
 import java.util.ArrayList;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class DAOReservaImp implements DAOReserva {

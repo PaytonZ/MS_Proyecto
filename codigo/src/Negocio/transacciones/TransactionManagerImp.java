@@ -6,10 +6,10 @@ package negocio.transacciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class TransactionManagerImp extends TransactionManager {
+public class TransactionManagerImp {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
@@ -18,8 +18,30 @@ public class TransactionManagerImp extends TransactionManager {
 	private ConcurrentHashMapThreadTransaction concurrentHashMapThreadTransaction;
 
 	/** 
-	 * (sin Javadoc)
-	 * @see TransactionManager#nuevaTransaccion()
+	 * @return el concurrentHashMapThreadTransaction
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public ConcurrentHashMapThreadTransaction getConcurrentHashMapThreadTransaction() {
+		// begin-user-code
+		return concurrentHashMapThreadTransaction;
+		// end-user-code
+	}
+
+	/** 
+	 * @param concurrentHashMapThreadTransaction el concurrentHashMapThreadTransaction a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setConcurrentHashMapThreadTransaction(
+			ConcurrentHashMapThreadTransaction concurrentHashMapThreadTransaction) {
+		// begin-user-code
+		this.concurrentHashMapThreadTransaction = concurrentHashMapThreadTransaction;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Transaction nuevaTransaccion() {
@@ -30,8 +52,9 @@ public class TransactionManagerImp extends TransactionManager {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see TransactionManager#getTransaccion()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Transaction getTransaccion() {
@@ -42,8 +65,9 @@ public class TransactionManagerImp extends TransactionManager {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see TransactionManager#eliminaTransaccion()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Boolean eliminaTransaccion() {

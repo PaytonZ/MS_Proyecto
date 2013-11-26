@@ -6,13 +6,14 @@ package negocio.transacciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class TransactionFactory implements Transaction {
+public class TransactionFactory {
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#start()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Void start() {
@@ -23,8 +24,8 @@ public class TransactionFactory implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#commit()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void commit() {
@@ -35,8 +36,8 @@ public class TransactionFactory implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#rollback()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void rollback() {
@@ -47,8 +48,9 @@ public class TransactionFactory implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#getResource()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Object getResource() {
@@ -59,8 +61,8 @@ public class TransactionFactory implements Transaction {
 	}
 
 	/** 
-	 * (sin Javadoc)
-	 * @see Transaction#lock()
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void lock() {

@@ -6,7 +6,7 @@ package negocio.transacciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface Transaction {
@@ -38,7 +38,7 @@ public interface Transaction {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object getResource();
+	public Clase getResource();
 
 	/** 
 	 * <!-- begin-UML-doc -->
