@@ -5964,6 +5964,32 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_D9BeIVd5EeOJkaejr6T_vQ" name="Eventodeoperaciónderecepción5" operation="_SY4RgFHYEeOpQYXWWsNwnQ"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_9XPVkFd7EeOJkaejr6T_vQ" name="Eventodeoperacióndeenvío6" operation="_PddckFEEEeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_9XPVkVd7EeOJkaejr6T_vQ" name="Eventodeoperaciónderecepción6" operation="_PddckFEEEeOEZZHAwxdNog"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_J0zDoFeWEeO3t-QXbSe_aA" name="tarea">
+        <eAnnotations xmi:id="_J0zDoVeWEeO3t-QXbSe_aA" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J0zDoleWEeO3t-QXbSe_aA" name="CommandAltaTarea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J0zDpFeWEeO3t-QXbSe_aA" name="CommandBajaTarea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J0zDpleWEeO3t-QXbSe_aA" name="CommandModificarTarea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J0zDqFeWEeO3t-QXbSe_aA" name="CommandConsultaTarea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J0zDqleWEeO3t-QXbSe_aA" name="CommandConsultaTodasTareas"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UCgNwFeWEeO3t-QXbSe_aA" name="empleado">
+        <eAnnotations xmi:id="_UCgNwVeWEeO3t-QXbSe_aA" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgNwleWEeO3t-QXbSe_aA" name="CommandAltaEmpleado"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgNxleWEeO3t-QXbSe_aA" name="CommandBajaEmpleado"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgNyleWEeO3t-QXbSe_aA" name="CommandModificarEmpleado"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgNzleWEeO3t-QXbSe_aA" name="CommandConsultaEmpleado"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgN0leWEeO3t-QXbSe_aA" name="CommandConsultaTodosEmpleados"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgN1leWEeO3t-QXbSe_aA" name="CommandAltaTareaEmpleado"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UCgN2leWEeO3t-QXbSe_aA" name="CommandBajaTareaEmpleado"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_WM3MgFeWEeO3t-QXbSe_aA" name="departamento">
+        <eAnnotations xmi:id="_WM3MgVeWEeO3t-QXbSe_aA" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WM3MgleWEeO3t-QXbSe_aA" name="CommandAltaDepartamento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WM3MhleWEeO3t-QXbSe_aA" name="CommandBajaDepartamento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WM3MileWEeO3t-QXbSe_aA" name="CommandModificarDepartamento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WM3MjleWEeO3t-QXbSe_aA" name="CommandConsultaTodosDepartamentos"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WM3MkleWEeO3t-QXbSe_aA" name="CommandConsultaDepartamento"/>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="integración">
