@@ -4,14 +4,23 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_bmp5EEIIEeOpNrFH38e2Nw" name="1. Dominio">
   <eAnnotations xmi:id="_bmp5EUIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_o-K3UEIJEeOpNrFH38e2Nw" name="Negocio">
+  <packagedElement xmi:type="uml:Package" xmi:id="_o-K3UEIJEeOpNrFH38e2Nw" name="Habitaciones">
     <eAnnotations xmi:id="_o-K3UUIJEeOpNrFH38e2Nw" source="uml2.diagrams"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_o-K3UkIJEeOpNrFH38e2Nw" name="Presentación">
+  <packagedElement xmi:type="uml:Package" xmi:id="_o-K3UkIJEeOpNrFH38e2Nw" name="Reservas">
     <eAnnotations xmi:id="_o-K3U0IJEeOpNrFH38e2Nw" source="uml2.diagrams"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_o-LeYEIJEeOpNrFH38e2Nw" name="Integración">
+  <packagedElement xmi:type="uml:Package" xmi:id="_o-LeYEIJEeOpNrFH38e2Nw" name="Clientes">
     <eAnnotations xmi:id="_o-LeYUIJEeOpNrFH38e2Nw" source="uml2.diagrams"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_CQcH0Fg6EeO5YZXdA-e8pA" name="Empleados">
+    <eAnnotations xmi:id="_CQ4zwFg6EeO5YZXdA-e8pA" source="uml2.diagrams"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GeWSsFg6EeO5YZXdA-e8pA" name="Tareas">
+    <eAnnotations xmi:id="_GeWSsVg6EeO5YZXdA-e8pA" source="uml2.diagrams"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ICgNEFg6EeO5YZXdA-e8pA" name="Departamentos">
+    <eAnnotations xmi:id="_ICgNEVg6EeO5YZXdA-e8pA" source="uml2.diagrams"/>
   </packagedElement>
   <profileApplication xmi:id="_bmp5E0IIEeOpNrFH38e2Nw">
     <eAnnotations xmi:id="_bmp5FEIIEeOpNrFH38e2Nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
