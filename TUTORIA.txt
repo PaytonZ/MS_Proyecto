@@ -1,0 +1,46 @@
+
+
+--> Diagramas de los DAOS, uno porcada operacion del DAO
+	Si hay flujos alternativos u opcionales se tienen que especificar
+
+--> Separar diagramas por interfaces y faactorias
+	Si en un diagrama de SECUENCIA se invoca una función de un interfaz, se debe incluir SOLO el interfaz en el diagrama y crear un diagrama aparte
+	especificando que es lo que hace el interfaz cuando le invocan la funcion
+	Lo mismo con los singletones y factorias
+
+--> Dos transfer de habitacion para implementar la especializacion
+
+--> Cada comando en su paquete y relacionado con el interfaz Command y el CommandImp en el diagrama de clases
+	Hay que hacer un diagrama de clases relacionando el Command y el CommandImp con los comandos de clientes, otro con los comandos de reservas, etc
+
+--> Hay que incluir la dependencia de los frames del AplicationController
+
+--> Hay que incluir la dependencia de los comandos del SA(factoria)
+
+--> Los SA conecta con las factorias de DAO
+
+--> El DAO depende de TransactionManager, de Transaccion y de Connection
+
+--> Faltan diagramas de secuencia en presentacion, hay que modificar los existentes e introducir los handleRequest
+
+--> Dispatcher tiene un metodo redirect()
+
+--> Los diagramas de secuencia de comandos en el paquete de comandos (Obviamente)
+
+--> ResponseCommand no implementa Command
+
+--> Cada vez que el SA crea una transacción y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
+	
+	Dos implementaciones: desde el SA a pelo o embebida en el commit y rollback del transaction
+
+
+
+
+
+COMENTARIOS SOBRE EL EXAMEN
+
+ 1 Mega diagrama de de clases de una arquitectura multicapa
+
+	va a pedir que podamos explicar y especificar el comportamiento mediante diagramas de secuencia de funcionalidades concretas (3 o 4 diagramas)
+
+	Hay que saberse el diagrama de clases al dedillo 
