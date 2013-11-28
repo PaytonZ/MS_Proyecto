@@ -1,11 +1,10 @@
 
-
---> Diagramas de los DAOS, uno porcada operacion del DAO
-	Si hay flujos alternativos u opcionales se tienen que especificar
+--> Diagramas de los DAOS, uno por cada operacion de cada dao DAO
+	Si hay flujos alternativos u opcionales se tienen que especificar.
 
 --> Separar diagramas por interfaces y faactorias
-	Si en un diagrama de SECUENCIA se invoca una funciÛn de un interfaz, se debe incluir SOLO el interfaz en el diagrama y crear un diagrama aparte
-	especificando que es lo que hace el interfaz cuando le invocan la funcion
+	Si en un diagrama de SECUENCIA se invoca una funci√≥n de un interfaz, se debe incluir SOLO el interfaz en el diagrama y crear un diagrama aparte
+	especificando que es lo que hace la implementaci√≥n del interfaz cuando le invocan la funcion, pero en el paquete de esta.
 	Lo mismo con los singletones y factorias
 
 --> Dos transfer de habitacion para implementar la especializacion
@@ -19,17 +18,17 @@
 
 --> Los SA conecta con las factorias de DAO
 
---> El DAO depende de TransactionManager, de Transaccion y de Connection
+--> El DAO depende de TransactionManager, de Transaccion y de Connection (de java.sql).
 
 --> Faltan diagramas de secuencia en presentacion, hay que modificar los existentes e introducir los handleRequest
 
---> Dispatcher tiene un metodo redirect()
+--> Dispatcher tiene un metodo redirect(), diagrama solo al dispatcher.
 
 --> Los diagramas de secuencia de comandos en el paquete de comandos (Obviamente)
 
---> ResponseCommand no implementa Command
+FIXED --> ResponseCommand no implementa Command
 
---> Cada vez que el SA crea una transacciÛn y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
+--> Cada vez que el SA crea una transacci√≥n y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
 	
 	Dos implementaciones: desde el SA a pelo o embebida en el commit y rollback del transaction
 
