@@ -14,14 +14,14 @@ IMPORTANTE --> En los diagramas de DAO en los que se haga un executeQuery hay qu
 	especificando que es lo que hace la implementación del interfaz cuando le invocan la funcion, pero en el paquete de esta.
 	Lo mismo con los singletones y factorias
 
---> Dos transfer de habitacion para implementar la especializacion
+FIXED ----------------------> Dos transfer de habitacion para implementar la especializacion
 
 FIXED ----------------------> Cada comando en su paquete y relacionado con el interfaz Command y el CommandImp en el diagrama de clases
 	Hay que hacer un diagrama de clases relacionando el Command y el CommandImp con los comandos de clientes, otro con los comandos de reservas, etc
 
---> Hay que incluir la dependencia de los frames del AplicationController
+FIXED ----------------------> Hay que incluir la dependencia de los frames del AplicationController
 
---> Hay que incluir la dependencia de los comandos del SA(factoria)
+FIXED ----------------------> Hay que incluir la dependencia de los comandos del SA(factoria)
 
 --> Los SA conecta con las factorias de DAO
 
@@ -31,7 +31,7 @@ FIXED ----------------------> Cada comando en su paquete y relacionado con el in
 
 FIXED ----------------------> Dispatcher tiene un metodo redirect(), diagrama solo al dispatcher.
 
---> Los diagramas de secuencia de comandos en el paquete de comandos (Obviamente)
+FIXED ----------------------> Los diagramas de secuencia de comandos en el paquete de comandos (Obviamente)
 
 FIXED ----------------------> ResponseCommand no implementa Command
 
