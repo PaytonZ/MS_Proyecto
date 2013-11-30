@@ -16,7 +16,7 @@ IMPORTANTE --> En los diagramas de DAO en los que se haga un executeQuery hay qu
 
 --> Dos transfer de habitacion para implementar la especializacion
 
---> Cada comando en su paquete y relacionado con el interfaz Command y el CommandImp en el diagrama de clases
+FIXED ----------------------> Cada comando en su paquete y relacionado con el interfaz Command y el CommandImp en el diagrama de clases
 	Hay que hacer un diagrama de clases relacionando el Command y el CommandImp con los comandos de clientes, otro con los comandos de reservas, etc
 
 --> Hay que incluir la dependencia de los frames del AplicationController
@@ -29,11 +29,11 @@ IMPORTANTE --> En los diagramas de DAO en los que se haga un executeQuery hay qu
 
 --> Faltan diagramas de secuencia en presentacion, hay que modificar los existentes e introducir los handleRequest
 
---> Dispatcher tiene un metodo redirect(), diagrama solo al dispatcher.
+FIXED ----------------------> Dispatcher tiene un metodo redirect(), diagrama solo al dispatcher.
 
 --> Los diagramas de secuencia de comandos en el paquete de comandos (Obviamente)
 
-FIXED --> ResponseCommand no implementa Command
+FIXED ----------------------> ResponseCommand no implementa Command
 
 --> Cada vez que el SA crea una transacción y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
 	
