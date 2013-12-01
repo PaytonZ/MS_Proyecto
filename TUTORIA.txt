@@ -25,9 +25,9 @@ FIXED ----------------------> Hay que incluir la dependencia de los comandos del
 
 --> Los SA conecta con las factorias de DAO
 
---> El DAO depende de TransactionManager, de Transaccion y de Connection (de java.sql).
+FIXED ----------------------> El DAO depende de TransactionManager, de Transaccion y de Connection (de java.sql).
 
---> Faltan diagramas de secuencia en presentacion, hay que modificar los existentes e introducir los handleRequest
+FIXED???-------> Faltan diagramas de secuencia en presentacion, hay que modificar los existentes e introducir los handleRequest
 
 FIXED ----------------------> Dispatcher tiene un metodo redirect(), diagrama solo al dispatcher.
 
@@ -35,7 +35,7 @@ FIXED ----------------------> Los diagramas de secuencia de comandos en el paque
 
 FIXED ----------------------> ResponseCommand no implementa Command
 
---> Cada vez que el SA crea una transacción y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
+FIXED ----------------------> Cada vez que el SA crea una transacción y realiza el trabajo, al final el SA o el TransactionManager tienen que borrarla
 	
 	Dos implementaciones: desde el SA a pelo o embebida en el commit y rollback del transaction
 
