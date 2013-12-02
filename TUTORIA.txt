@@ -1,15 +1,15 @@
 ﻿TODO --> Revisar el diagrama de SAClientes actualizar cliente, no está claro que hacer si el DAO tira una excepción.
 
 
-IMPORTANTE --> En los diagramas de DAO en los que se haga un executeQuery hay que añadir al diagrama la clase java ResultSet e indicar la 
+FIXED --> IMPORTANTE --> En los diagramas de DAO en los que se haga un executeQuery hay que añadir al diagrama la clase java ResultSet e indicar la 
 		interaccion
 
---> En el diagrama de secuencia del DAO de consulta hay que cambiar la funcion executeUpdate por executeQuery
+FIXED --> En el diagrama de secuencia del DAO de consulta hay que cambiar la funcion executeUpdate por executeQuery
 
---> Diagramas de los DAOS, uno por cada operacion de cada DAO
+FIXED --> Diagramas de los DAOS, uno por cada operacion de cada DAO
 	Si hay flujos alternativos u opcionales se tienen que especificar.
 
---> Separar diagramas por interfaces y faactorias
+REVISAR --> Separar diagramas por interfaces y faactorias
 	Si en un diagrama de SECUENCIA se invoca una función de un interfaz, se debe incluir SOLO el interfaz en el diagrama y crear un diagrama aparte
 	especificando que es lo que hace la implementación del interfaz cuando le invocan la funcion, pero en el paquete de esta.
 	Lo mismo con los singletones y factorias
@@ -23,7 +23,7 @@ FIXED ----------------------> Hay que incluir la dependencia de los frames del A
 
 FIXED ----------------------> Hay que incluir la dependencia de los comandos del SA(factoria)
 
---> Los SA conecta con las factorias de DAO
+FIXED --> Los SA conecta con las factorias de DAO
 
 FIXED ----------------------> El DAO depende de TransactionManager, de Transaccion y de Connection (de java.sql).
 
