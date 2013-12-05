@@ -4,6 +4,7 @@
 package presentación.comandos.cliente;
 
 import presentación.comandos.Command;
+import presentación.comandos.CommandResponse;
 import presentación.comandos.ResponseCommand;
 
 /** 
@@ -14,13 +15,11 @@ import presentación.comandos.ResponseCommand;
  */
 public class CommandConsultaCliente implements Command {
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @param datos
-	 * @return
+	 * (sin Javadoc)
+	 * @see Command#execute(Object datos)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public ResponseCommand execute(Object datos) {
+	public CommandResponse execute(Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

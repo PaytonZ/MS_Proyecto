@@ -17,10 +17,10 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#getCliente(Integer idCliente)
+	 * @see DAOCliente#addCliente(TransferCliente Cliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente getCliente(Integer idCliente) {
+	public Clase addCliente(TransferCliente Cliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -29,13 +29,25 @@ public class DAOClienteImp implements DAOCliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOCliente#addCliente(TransferCliente cliente)
+	 * @see DAOCliente#getCliente(Clase idCliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer addCliente(TransferCliente cliente) {
+	public TransferCliente getCliente(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * (sin Javadoc)
+	 * @see DAOCliente#deleteCliente(Clase idCliente)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void deleteCliente(Clase idCliente) {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+
 		// end-user-code
 	}
 
@@ -44,7 +56,7 @@ public class DAOClienteImp implements DAOCliente {
 	 * @see DAOCliente#updateCliente(TransferCliente cliente)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean updateCliente(TransferCliente cliente) {
+	public Object updateCliente(TransferCliente cliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -56,19 +68,7 @@ public class DAOClienteImp implements DAOCliente {
 	 * @see DAOCliente#getAllClientes()
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public ArrayList getAllClientes() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-		return null;
-		// end-user-code
-	}
-
-	/** 
-	 * (sin Javadoc)
-	 * @see DAOCliente#deleteCliente(Integer idCliente)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Boolean deleteCliente(Integer idCliente) {
+	public Interfaz getAllClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

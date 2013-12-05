@@ -4,6 +4,7 @@
 package integración.habitaciones.dao.imp;
 
 import integración.habitaciones.dao.DAOHabitacion;
+import negocio.habitaciones.transfer.TransferHabitacionNormal;
 import negocio.habitaciones.transfer.TransferHabitacion;
 
 /** 
@@ -15,10 +16,10 @@ import negocio.habitaciones.transfer.TransferHabitacion;
 public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOHabitacion#addHabitacion(TransferHabitacion habitacion)
+	 * @see DAOHabitacion#addHabitacion(TransferHabitacionNormal habitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object addHabitacion(TransferHabitacion habitacion) {
+	public Object addHabitacion(TransferHabitacionNormal habitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -30,7 +31,7 @@ public class DAOHabitacionImp implements DAOHabitacion {
 	 * @see DAOHabitacion#getHabitacion(Object idHabitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferHabitacion getHabitacion(Object idHabitacion) {
+	public TransferHabitacionNormal getHabitacion(Object idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -51,10 +52,10 @@ public class DAOHabitacionImp implements DAOHabitacion {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOHabitacion#updateHabitacion(TransferHabitacion habitacion)
+	 * @see DAOHabitacion#updateHabitacion(TransferHabitacionNormal habitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void updateHabitacion(TransferHabitacion habitacion) {
+	public void updateHabitacion(TransferHabitacionNormal habitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 

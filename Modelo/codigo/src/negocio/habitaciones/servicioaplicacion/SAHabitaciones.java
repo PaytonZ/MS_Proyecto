@@ -3,6 +3,7 @@
  */
 package negocio.habitaciones.servicioaplicacion;
 
+import negocio.habitaciones.transfer.TransferHabitacionNormal;
 import negocio.habitaciones.transfer.TransferHabitacion;
 import java.util.ArrayList;
 
@@ -20,7 +21,7 @@ public interface SAHabitaciones {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirHabitacion(TransferHabitacion habitacionNueva);
+	public Integer anadirHabitacion(TransferHabitacionNormal habitacionNueva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -29,7 +30,8 @@ public interface SAHabitaciones {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean actualizarHabitacion(TransferHabitacion habitacionModificada);
+	public Boolean actualizarHabitacion(
+			TransferHabitacionNormal habitacionModificada);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -55,5 +57,5 @@ public interface SAHabitaciones {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferHabitacion obtenerHabitacion(Integer idHabitacion);
+	public TransferHabitacionNormal obtenerHabitacion(Integer idHabitacion);
 }

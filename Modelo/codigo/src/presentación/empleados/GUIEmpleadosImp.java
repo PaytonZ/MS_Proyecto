@@ -98,13 +98,13 @@ public class GUIEmpleadosImp {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameConsultaMúltipleEmpleados frameConsultaMúltipleEmpleados;
+	private FrameConsultaMultipleEmpleados frameConsultaMúltipleEmpleados;
 
 	/** 
 	 * @return el frameConsultaMúltipleEmpleados
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameConsultaMúltipleEmpleados getFrameConsultaMúltipleEmpleados() {
+	public FrameConsultaMultipleEmpleados getFrameConsultaMúltipleEmpleados() {
 		// begin-user-code
 		return frameConsultaMúltipleEmpleados;
 		// end-user-code
@@ -115,7 +115,7 @@ public class GUIEmpleadosImp {
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void setFrameConsultaMúltipleEmpleados(
-			FrameConsultaMúltipleEmpleados frameConsultaMúltipleEmpleados) {
+			FrameConsultaMultipleEmpleados frameConsultaMúltipleEmpleados) {
 		// begin-user-code
 		this.frameConsultaMúltipleEmpleados = frameConsultaMúltipleEmpleados;
 		// end-user-code
@@ -126,13 +126,13 @@ public class GUIEmpleadosImp {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameModificaciónEmpleados frameModificaciónEmpleados;
+	private FrameModificacionEmpleados frameModificaciónEmpleados;
 
 	/** 
 	 * @return el frameModificaciónEmpleados
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameModificaciónEmpleados getFrameModificaciónEmpleados() {
+	public FrameModificacionEmpleados getFrameModificaciónEmpleados() {
 		// begin-user-code
 		return frameModificaciónEmpleados;
 		// end-user-code
@@ -143,7 +143,7 @@ public class GUIEmpleadosImp {
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void setFrameModificaciónEmpleados(
-			FrameModificaciónEmpleados frameModificaciónEmpleados) {
+			FrameModificacionEmpleados frameModificaciónEmpleados) {
 		// begin-user-code
 		this.frameModificaciónEmpleados = frameModificaciónEmpleados;
 		// end-user-code

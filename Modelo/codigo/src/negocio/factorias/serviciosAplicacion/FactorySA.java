@@ -16,54 +16,54 @@ import negocio.habitaciones.servicioaplicacion.SAHabitaciones;
  * @author NASAIII
  * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
-public class FactorySA {
+public abstract class FactorySA {
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
 	private static FactorySA factorySAinstance;
 
 	/** 
-	 * @return el factorySAinstance
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
+ * @return el factorySAinstance
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
 	public static FactorySA getFactorySAinstance() {
 		// begin-user-code
 		return factorySAinstance;
 		// end-user-code
-	}
+}
 
 	/** 
-	 * @param factorySAinstance el factorySAinstance a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
+ * @param factorySAinstance el factorySAinstance a establecer
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
 	public static void setFactorySAinstance(FactorySA factorySAinstance) {
 		// begin-user-code
 		FactorySA.factorySAinstance = factorySAinstance;
 		// end-user-code
-	}
+}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
 	public static FactorySA getInstance() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
 		// end-user-code
-	}
+}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SAClientes getSAClientes() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SAClientes getSAClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -71,12 +71,12 @@ public class FactorySA {
 	}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SAReservas getSAReservas() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SAReservas getSAReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -84,12 +84,12 @@ public class FactorySA {
 	}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SADepartamentos getSADepartamentos() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SADepartamentos getSADepartamentos() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -97,12 +97,12 @@ public class FactorySA {
 	}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SAEmpleados getSAEmpleados() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SAEmpleados getSAEmpleados() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -110,12 +110,12 @@ public class FactorySA {
 	}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SATareas getSATareas() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SATareas getSATareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -123,12 +123,12 @@ public class FactorySA {
 	}
 
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public SAHabitaciones getSAHabitaciones() {
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @return
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+	public abstract SAHabitaciones getSAHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

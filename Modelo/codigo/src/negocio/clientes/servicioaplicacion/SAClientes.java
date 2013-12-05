@@ -16,11 +16,11 @@ public interface SAClientes {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @param cliente
+	 * @param clienteNuevo
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirCliente(TransferCliente cliente);
+	public TransferCliente anadirCliente(TransferCliente clienteNuevo);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -28,25 +28,16 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public ArrayList obtenerTodoslosClientes();
+	public Interfaz obtenerTodoslosClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @param cliente
+	 * @param clienteActualizado
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean actualizarCliente(TransferCliente cliente);
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @param idCliente
-	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Boolean borrarCliente(Integer idCliente);
+	public TransferCliente actualizarCliente(TransferCliente clienteActualizado);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -55,5 +46,14 @@ public interface SAClientes {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferCliente obtenerCliente(Integer idCliente);
+	public Clase borrarCliente(Clase idCliente);
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param idCliente
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public TransferCliente obtenerCliente(Clase idCliente);
 }

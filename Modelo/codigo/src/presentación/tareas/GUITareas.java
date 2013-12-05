@@ -40,9 +40,11 @@ public class GUITareas {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
+	 * @param idVentana
+	 * @param datos
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void update() {
+	public void update(Object idVentana, Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -55,7 +57,72 @@ public class GUITareas {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public GUITareas getInstance() {
+	public static GUITareas getInstance() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameAltaTareas getFrameAltaTareas() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameBajaTareas getFrameBajaTareas() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameConsultaMultipleTareas getFrameConsultaMultipleTareas() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameConsultaTarea getFrameConsultaTarea() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameModificacionTareas getFrameModificacionTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

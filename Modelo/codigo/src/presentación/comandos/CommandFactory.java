@@ -58,5 +58,5 @@ public abstract class CommandFactory {
 	 * @return
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public abstract Command nuevoComando(int id_comando);
+	public abstract Command nuevoComando(Integer id_comando);
 }

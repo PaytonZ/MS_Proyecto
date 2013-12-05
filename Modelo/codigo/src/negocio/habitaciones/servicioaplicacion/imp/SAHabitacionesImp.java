@@ -4,6 +4,7 @@
 package negocio.habitaciones.servicioaplicacion.imp;
 
 import negocio.habitaciones.servicioaplicacion.SAHabitaciones;
+import negocio.habitaciones.transfer.TransferHabitacionNormal;
 import static negocio.transacciones.TransactionFactory.*;
 import negocio.habitaciones.transfer.TransferHabitacion;
 import java.util.ArrayList;
@@ -17,10 +18,10 @@ import java.util.ArrayList;
 public class SAHabitacionesImp implements SAHabitaciones {
 	/** 
 	 * (sin Javadoc)
-	 * @see SAHabitaciones#anadirHabitacion(TransferHabitacion habitacionNueva)
+	 * @see SAHabitaciones#anadirHabitacion(TransferHabitacionNormal habitacionNueva)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Integer anadirHabitacion(TransferHabitacion habitacionNueva) {
+	public Integer anadirHabitacion(TransferHabitacionNormal habitacionNueva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -29,10 +30,11 @@ public class SAHabitacionesImp implements SAHabitaciones {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAHabitaciones#actualizarHabitacion(TransferHabitacion habitacionModificada)
+	 * @see SAHabitaciones#actualizarHabitacion(TransferHabitacionNormal habitacionModificada)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Boolean actualizarHabitacion(TransferHabitacion habitacionModificada) {
+	public Boolean actualizarHabitacion(
+			TransferHabitacionNormal habitacionModificada) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -68,7 +70,7 @@ public class SAHabitacionesImp implements SAHabitaciones {
 	 * @see SAHabitaciones#obtenerHabitacion(Integer idHabitacion)
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public TransferHabitacion obtenerHabitacion(Integer idHabitacion) {
+	public TransferHabitacionNormal obtenerHabitacion(Integer idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

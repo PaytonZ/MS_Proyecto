@@ -69,13 +69,13 @@ public class GUITareasImp extends GUITareas {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameConsultaMultiplesTareas frameConsultaMultiplesTareas;
+	private FrameConsultaMultipleTareas frameConsultaMultiplesTareas;
 
 	/** 
 	 * @return el frameConsultaMultiplesTareas
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameConsultaMultiplesTareas getFrameConsultaMultiplesTareas() {
+	public FrameConsultaMultipleTareas getFrameConsultaMultiplesTareas() {
 		// begin-user-code
 		return frameConsultaMultiplesTareas;
 		// end-user-code
@@ -86,7 +86,7 @@ public class GUITareasImp extends GUITareas {
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void setFrameConsultaMultiplesTareas(
-			FrameConsultaMultiplesTareas frameConsultaMultiplesTareas) {
+			FrameConsultaMultipleTareas frameConsultaMultiplesTareas) {
 		// begin-user-code
 		this.frameConsultaMultiplesTareas = frameConsultaMultiplesTareas;
 		// end-user-code
@@ -97,13 +97,13 @@ public class GUITareasImp extends GUITareas {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private FrameConsultaTareas frameConsultaTareas;
+	private FrameConsultaTarea frameConsultaTareas;
 
 	/** 
 	 * @return el frameConsultaTareas
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public FrameConsultaTareas getFrameConsultaTareas() {
+	public FrameConsultaTarea getFrameConsultaTareas() {
 		// begin-user-code
 		return frameConsultaTareas;
 		// end-user-code
@@ -113,7 +113,7 @@ public class GUITareasImp extends GUITareas {
 	 * @param frameConsultaTareas el frameConsultaTareas a establecer
 	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void setFrameConsultaTareas(FrameConsultaTareas frameConsultaTareas) {
+	public void setFrameConsultaTareas(FrameConsultaTarea frameConsultaTareas) {
 		// begin-user-code
 		this.frameConsultaTareas = frameConsultaTareas;
 		// end-user-code
@@ -144,18 +144,6 @@ public class GUITareasImp extends GUITareas {
 			FrameModificacionTareas frameModificacionTareas) {
 		// begin-user-code
 		this.frameModificacionTareas = frameModificacionTareas;
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void update() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
 		// end-user-code
 	}
 }
