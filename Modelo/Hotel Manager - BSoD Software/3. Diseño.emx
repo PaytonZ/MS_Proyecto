@@ -9046,7 +9046,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_KWH-VFVBEeOHbf1wwOYV_Q" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_KWH-VVVBEeOHbf1wwOYV_Q" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_KWH-VlVBEeOHbf1wwOYV_Q" visible="false" type="StructureCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KV-NUVVBEeOHbf1wwOYV_Q" x="16896" y="2244"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KV-NUVVBEeOHbf1wwOYV_Q" x="16764" y="2244"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_PqKqkFhREeO5YZXdA-e8pA" element="_vJtTIFKJEeOdKJL3-j-oAQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_PqKqklhREeO5YZXdA-e8pA" type="ImageCompartment">
@@ -9278,6 +9278,14 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcqQtFxOEeOKvNVwxop5fQ" y="-186"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VcqQslxOEeOKvNVwxop5fQ" points="[-8, -63, 18, 157]$[-6, -269, 20, -49]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_6ibAEF3HEeO-_aRpXb1KHA" element="_6h-UIF3HEeO-_aRpXb1KHA" source="_KV-NUFVBEeOHbf1wwOYV_Q" target="_-7yB8U3tEeOnwZnA8BLNdA" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_6ikKAF3HEeO-_aRpXb1KHA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_6ikKAl3HEeO-_aRpXb1KHA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_6ikKA13HEeO-_aRpXb1KHA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ikKAV3HEeO-_aRpXb1KHA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ibAEV3HEeO-_aRpXb1KHA" points="[-19, 24, 115, -143]$[-133, 157, 1, -10]"/>
             </edges>
           </contents>
         </eAnnotations>
@@ -10742,7 +10750,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_up7hwFHXEeOpQYXWWsNwnQ" name="CommandBajaCliente" clientDependency="_M9ukQFKEEeOdKJL3-j-oAQ _-AuusFhQEeO5YZXdA-e8pA _RtMSQFhREeO5YZXdA-e8pA _QMDE8FnYEeOzxunbBxEB6g">
           <interfaceRealization xmi:id="_M9ukQFKEEeOdKJL3-j-oAQ" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_up7hwFHXEeOpQYXWWsNwnQ" contract="_-7yB8E3tEeOnwZnA8BLNdA"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_G_L3sFVBEeOHbf1wwOYV_Q" name="CommandAltaCliente" clientDependency="_ZpSwUFgIEeOhA4B5odbznA _RGLVkFhREeO5YZXdA-e8pA _Q84E8FnYEeOzxunbBxEB6g _Z7oIoFnYEeOzxunbBxEB6g _2ivQAFn5EeO8CeldzgaGAQ">
+        <packagedElement xmi:type="uml:Class" xmi:id="_G_L3sFVBEeOHbf1wwOYV_Q" name="CommandAltaCliente" clientDependency="_ZpSwUFgIEeOhA4B5odbznA _RGLVkFhREeO5YZXdA-e8pA _Q84E8FnYEeOzxunbBxEB6g _Z7oIoFnYEeOzxunbBxEB6g _2ivQAFn5EeO8CeldzgaGAQ _6h-UIF3HEeO-_aRpXb1KHA">
           <interfaceRealization xmi:id="_ZpSwUFgIEeOhA4B5odbznA" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q" contract="_-7yB8E3tEeOnwZnA8BLNdA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_Y4xvcFVBEeOHbf1wwOYV_Q" name="CommandModificarCliente" clientDependency="_c59s8FVBEeOHbf1wwOYV_Q _-AsQIFnJEeOMnceKotsjJA _RL3jMFnYEeOzxunbBxEB6g">
@@ -12158,6 +12166,7 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_RL3jMFnYEeOzxunbBxEB6g" supplier="_ywtigk4JEeOMMLo_SYkG7A" client="_Y4xvcFVBEeOHbf1wwOYV_Q"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_Z7oIoFnYEeOzxunbBxEB6g" supplier="_EeT2YE3uEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_2ivQAFn5EeO8CeldzgaGAQ" supplier="_EeT2YE3uEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_6h-UIF3HEeO-_aRpXb1KHA" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_hb298FHXEeOpQYXWWsNwnQ" name="" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_ALuxMFD_EeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_bu_KoFbNEeOfU6amWAehQg" name="habitacion">
