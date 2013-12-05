@@ -13799,12 +13799,6 @@
           <ownedParameter xmi:id="_PJ7VAFXEEeOP8tv9E3Rptg" name="Parámetro1" type="_-O-pgE3xEeOnwZnA8BLNdA" direction="return"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Bpw_QE37EeO_s5EIjyAJqw" name="TransactionMySQL" clientDependency="_wSdfwE37EeO_s5EIjyAJqw _AnwQwFhQEeO5YZXdA-e8pA">
-        <ownedAttribute xmi:id="_6KW-QFhJEeO5YZXdA-e8pA" name="jdbConnection" visibility="private">
-          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Interface"/>
-        </ownedAttribute>
-        <interfaceRealization xmi:id="_wSdfwE37EeO_s5EIjyAJqw" supplier="_2FahYE3xEeOnwZnA8BLNdA" client="_Bpw_QE37EeO_s5EIjyAJqw" contract="_2FahYE3xEeOnwZnA8BLNdA"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_2FahYE3xEeOnwZnA8BLNdA" name="Transaction">
         <ownedOperation xmi:id="_3YxmsE3xEeOnwZnA8BLNdA" name="start">
           <ownedParameter xmi:id="_Rw83EFXDEeOP8tv9E3Rptg" name="Parámetro1" direction="return">
@@ -13833,7 +13827,6 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_C2ymQFYCEeOjwK_DfS-G0w" supplier="_2FahYE3xEeOnwZnA8BLNdA" client="_dTDPcE37EeO_s5EIjyAJqw"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_AnwQwFhQEeO5YZXdA-e8pA" supplier="_008IYE7rEeOy-7FMu9HQKQ" client="_Bpw_QE37EeO_s5EIjyAJqw"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_cWy0UFj4EeOPOtevnFPOdw" name="Diagramos de Secuencia transacciones">
         <eAnnotations xmi:id="_cW5iAFj4EeOPOtevnFPOdw" source="uml2.diagrams"/>
         <packagedElement xmi:type="uml:Collaboration" xmi:id="_qOb5kFj4EeOPOtevnFPOdw" name="diagrama de secuencia transaccion">
@@ -14255,6 +14248,15 @@
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_MqxGwFqtEeOj4LPrROOKtA" supplier="_dTDPcE37EeO_s5EIjyAJqw" client="_Ug42QE37EeO_s5EIjyAJqw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BKEQMF3NEeOqmrxkWICfig" name="transaccionesimp">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Bpw_QE37EeO_s5EIjyAJqw" name="TransactionMySQL" clientDependency="_wSdfwE37EeO_s5EIjyAJqw _AnwQwFhQEeO5YZXdA-e8pA">
+          <ownedAttribute xmi:id="_6KW-QFhJEeO5YZXdA-e8pA" name="jdbConnection" visibility="private">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Interface"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_wSdfwE37EeO_s5EIjyAJqw" supplier="_2FahYE3xEeOnwZnA8BLNdA" client="_Bpw_QE37EeO_s5EIjyAJqw" contract="_2FahYE3xEeOnwZnA8BLNdA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_AnwQwFhQEeO5YZXdA-e8pA" supplier="_008IYE7rEeOy-7FMu9HQKQ" client="_Bpw_QE37EeO_s5EIjyAJqw"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_w7IwkE0PEeORQI7pZIWD9Q" name="reservas">
