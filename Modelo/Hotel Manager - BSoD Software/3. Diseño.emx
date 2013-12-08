@@ -212,7 +212,7 @@
           <ownedOperation xmi:id="_W1KBQE7zEeOy-7FMu9HQKQ" name="anadirReserva">
             <ownedParameter xmi:id="_mWMGME7zEeOy-7FMu9HQKQ" name="reserva" type="_vcVSsE7wEeOy-7FMu9HQKQ"/>
             <ownedParameter xmi:id="_ozE_YE7zEeOy-7FMu9HQKQ" name="idReserva" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_Yn_Q0E7zEeOy-7FMu9HQKQ" name="borrarReserva">
@@ -231,7 +231,10 @@
           </ownedOperation>
           <ownedOperation xmi:id="_bLa24E7zEeOy-7FMu9HQKQ" name="obtenerTodaslasReservas">
             <ownedParameter xmi:id="_w0q3QE7zEeOy-7FMu9HQKQ" name="listaReservas" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+              <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=MS_Proyecto%5D$uml.Interface"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_sryb4GBCEeO80LhXPs0XaA" name="idCliente">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
@@ -884,18 +887,70 @@
           <ownedAttribute xmi:id="_EIzFQE7yEeOy-7FMu9HQKQ" name="fechaEntrada" visibility="private">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
           </ownedAttribute>
-          <ownedOperation xmi:id="_gNsDQFh9EeONKaUAJkjaFQ" name="getNumeroHabitacion"/>
-          <ownedOperation xmi:id="_jQnowFh9EeONKaUAJkjaFQ" name="getDNI"/>
-          <ownedOperation xmi:id="_mDn74Fh9EeONKaUAJkjaFQ" name="getFechaReserva"/>
-          <ownedOperation xmi:id="_op8d4Fh9EeONKaUAJkjaFQ" name="getFechaSalida"/>
-          <ownedOperation xmi:id="_q4DUMFh9EeONKaUAJkjaFQ" name="getFechaEntrada"/>
-          <ownedOperation xmi:id="_-pqrQFiCEeONKaUAJkjaFQ" name="setID"/>
-          <ownedOperation xmi:id="_B-JTwFiDEeONKaUAJkjaFQ" name="setNumeroHabitacion"/>
-          <ownedOperation xmi:id="_DtJzQFiDEeONKaUAJkjaFQ" name="setDNI"/>
-          <ownedOperation xmi:id="_IIIJwFiDEeONKaUAJkjaFQ" name="setFechaReserva"/>
-          <ownedOperation xmi:id="_Khq0AFiDEeONKaUAJkjaFQ" name="setFechaSalida"/>
-          <ownedOperation xmi:id="_NKeCQFiDEeONKaUAJkjaFQ" name="setFechaEntrada"/>
-          <ownedOperation xmi:id="_KWIVkFiHEeONKaUAJkjaFQ" name="getID"/>
+          <ownedOperation xmi:id="_gNsDQFh9EeONKaUAJkjaFQ" name="getNumeroHabitacion">
+            <ownedParameter xmi:id="_7TZa8GBBEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_jQnowFh9EeONKaUAJkjaFQ" name="getDNI">
+            <ownedParameter xmi:id="_9sbu4GBBEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_mDn74Fh9EeONKaUAJkjaFQ" name="getFechaReserva">
+            <ownedParameter xmi:id="___gkwGBBEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_op8d4Fh9EeONKaUAJkjaFQ" name="getFechaSalida">
+            <ownedParameter xmi:id="_C69pQGBCEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_q4DUMFh9EeONKaUAJkjaFQ" name="getFechaEntrada">
+            <ownedParameter xmi:id="_FCRUAGBCEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_F5P_UGBCEeO80LhXPs0XaA" name="">
+                <language></language>
+                <body></body>
+              </defaultValue>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_-pqrQFiCEeONKaUAJkjaFQ" name="setnumeroReserva">
+            <ownedParameter xmi:id="_CcDxoGBAEeO80LhXPs0XaA" name="numero">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_B-JTwFiDEeONKaUAJkjaFQ" name="setNumeroHabitacion">
+            <ownedParameter xmi:id="_RD2hcGBAEeO80LhXPs0XaA" name="numHabitacion">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_DtJzQFiDEeONKaUAJkjaFQ" name="setDNI">
+            <ownedParameter xmi:id="_BIpMgGBBEeO80LhXPs0XaA" name="DNI">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_IIIJwFiDEeONKaUAJkjaFQ" name="setFechaReserva">
+            <ownedParameter xmi:id="_bethUGBBEeO80LhXPs0XaA" name="fechaReserva">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Khq0AFiDEeONKaUAJkjaFQ" name="setFechaSalida">
+            <ownedParameter xmi:id="_jWOQIGBBEeO80LhXPs0XaA" name="fechaSalida">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_NKeCQFiDEeONKaUAJkjaFQ" name="setFechaEntrada">
+            <ownedParameter xmi:id="_mrdGkGBBEeO80LhXPs0XaA" name="fechaEntrada">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_KWIVkFiHEeONKaUAJkjaFQ" name="getNumeroReserva">
+            <ownedParameter xmi:id="_0bERMGBBEeO80LhXPs0XaA" name="Parámetro1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -6343,7 +6398,7 @@
         <ownedAttribute xmi:id="_xW6rk1U8EeOHbf1wwOYV_Q" name="selfInstance" visibility="private" isStatic="true" type="_xW6rkFU8EeOHbf1wwOYV_Q"/>
         <ownedOperation xmi:id="_xW6rlFU8EeOHbf1wwOYV_Q" name="update" isAbstract="true">
           <ownedParameter xmi:id="_7JrLgFuREeOzDcSixS3ZTg" name="idEvento">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+            <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=IDEventos%5Bjcu%5Ename=IDEventos.java%5Bjpack%5Ename=presentacion.comandos%5Bjsrcroot%5Esrcfolder=MS_Proyecto_Codigo/src%5Bproject%5Eid=MS_Proyecto%5D%5D%5D%5D$uml.Enumeration"/>
           </ownedParameter>
           <ownedParameter xmi:id="_Jyn5sF2GEeO5O4GJOoDxSA" name="datos"/>
         </ownedOperation>
@@ -17150,6 +17205,9 @@
           <ownedOperation xmi:id="_shztME7uEeOy-7FMu9HQKQ" name="getAllReservas">
             <ownedParameter xmi:id="_MXfUgFXCEeOP8tv9E3Rptg" name="Parámetro1" direction="return">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=codigo%5D$uml.Class"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_OQ2q0GA_EeO80LhXPs0XaA" name="idCliente">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_uAlYUE7uEeOy-7FMu9HQKQ" name="getReserva">
