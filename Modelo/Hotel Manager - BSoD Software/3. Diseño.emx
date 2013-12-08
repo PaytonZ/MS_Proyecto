@@ -3987,18 +3987,6 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_mC3mMFqnEeOZtLI3uROAkw" visible="false" type="SignalCompartment"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mCw4gVqnEeOZtLI3uROAkw" x="20724" y="9768"/>
             </children>
-            <children xmi:type="notation:Shape" xmi:id="_pks4wFqoEeOYhuWdRLTyIg" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>Así para todos los comandos&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pks4xFqoEeOYhuWdRLTyIg" type="DiagramName">
-                <element xsi:nil="true"/>
-              </children>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pks4xVqoEeOYhuWdRLTyIg" type="Description">
-                <element xsi:nil="true"/>
-              </children>
-              <styles xmi:type="notation:TextStyle" xmi:id="_pks4wVqoEeOYhuWdRLTyIg"/>
-              <styles xmi:type="notation:LineTypeStyle" xmi:id="_pks4wlqoEeOYhuWdRLTyIg"/>
-              <element xsi:nil="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pks4w1qoEeOYhuWdRLTyIg" x="27456" y="1980"/>
-            </children>
             <element xsi:nil="true"/>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dFZekFa6EeOVpqQDpzFBuQ" element="_dFVNIFa6EeOVpqQDpzFBuQ" source="_Wqx6oFaxEeO7A7a2W250SA" target="_G6PD8Fa6EeOVpqQDpzFBuQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
               <children xmi:type="notation:DecorationNode" xmi:id="_dFaFoFa6EeOVpqQDpzFBuQ" type="NameLabel">
@@ -5229,19 +5217,19 @@
         <ownedOperation xmi:id="_lcBm4FU8EeOHbf1wwOYV_Q" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_m_b6YFU8EeOHbf1wwOYV_Q" name="Parámetro1" type="_n74I0E0KEeORQI7pZIWD9Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_9yJScFn4EeO8CeldzgaGAQ" name="getFrameConsultaMultipleClientes" isAbstract="true">
+        <ownedOperation xmi:id="_9yJScFn4EeO8CeldzgaGAQ" name="getPanelConsultaMultipleClientes" isAbstract="true">
           <ownedParameter xmi:id="_QMdRoFn5EeO8CeldzgaGAQ" name="Parámetro1" type="_2PXTIFU6EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_AvAsMFn5EeO8CeldzgaGAQ" name="getFrameAltaClientes" isAbstract="true">
+        <ownedOperation xmi:id="_AvAsMFn5EeO8CeldzgaGAQ" name="getPanelAltaClientes" isAbstract="true">
           <ownedParameter xmi:id="_WNcjsFn5EeO8CeldzgaGAQ" name="Parámetro1" type="_q4ec0E0KEeORQI7pZIWD9Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_B4YvEFn5EeO8CeldzgaGAQ" name="getFrameBajaClientes" isAbstract="true">
+        <ownedOperation xmi:id="_B4YvEFn5EeO8CeldzgaGAQ" name="getPanelBajaClientes" isAbstract="true">
           <ownedParameter xmi:id="_XnuwYFn5EeO8CeldzgaGAQ" name="Parámetro1" type="_rz0DsE0KEeORQI7pZIWD9Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_DWGDMFn5EeO8CeldzgaGAQ" name="getFrameConsultaClientes" isAbstract="true">
+        <ownedOperation xmi:id="_DWGDMFn5EeO8CeldzgaGAQ" name="getPanelConsultaClientes" isAbstract="true">
           <ownedParameter xmi:id="_aaH_gFn5EeO8CeldzgaGAQ" name="Parámetro1" type="_ysoMMFU6EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_EzWrYFn5EeO8CeldzgaGAQ" name="getFameModificacionClientes" isAbstract="true">
+        <ownedOperation xmi:id="_EzWrYFn5EeO8CeldzgaGAQ" name="getPanelModificacionClientes" isAbstract="true">
           <ownedParameter xmi:id="_bz-uYFn5EeO8CeldzgaGAQ" name="Parámetro1" type="_qI0_IFU6EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
       </packagedElement>
@@ -5393,7 +5381,7 @@
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_x2KNoF2SEeO5O4GJOoDxSA" element="_x102cV2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x2KNoV2SEeO5O4GJOoDxSA" x="-1" y="1453" height="1453"/>
                   </children>
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_0SBzIF2SEeO5O4GJOoDxSA" element="_0R5QQF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_0SBzIF2SEeO5O4GJOoDxSA" element="_0R5QQF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_0SCaMF2SEeO5O4GJOoDxSA" element="_0R53UF2SEeO5O4GJOoDxSA">
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_0SCaMV2SEeO5O4GJOoDxSA" element="_0R6eYF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_0SDoUF2SEeO5O4GJOoDxSA" type="guard"/>
@@ -5404,6 +5392,24 @@
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_0SEPYF2SEeO5O4GJOoDxSA" element="_0R8TkF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_0SE2cF2SEeO5O4GJOoDxSA" type="guard"/>
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SEPYV2SEeO5O4GJOoDxSA"/>
+                      </children>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_TwNzIGAWEeO-04bBe5xDmQ" element="_TwEpMGAWEeO-04bBe5xDmQ">
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_TwNzIWAWEeO-04bBe5xDmQ" element="_TwHsgGAWEeO-04bBe5xDmQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_TwOaMGAWEeO-04bBe5xDmQ" type="guard"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TwNzImAWEeO-04bBe5xDmQ"/>
+                      </children>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_UsVdIGAWEeO-04bBe5xDmQ" element="_UsTA4GAWEeO-04bBe5xDmQ">
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_UsVdIWAWEeO-04bBe5xDmQ" element="_UsTn8GAWEeO-04bBe5xDmQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_UsWEMGAWEeO-04bBe5xDmQ" type="guard"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UsVdImAWEeO-04bBe5xDmQ"/>
+                      </children>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Vf-gkGAWEeO-04bBe5xDmQ" element="_Vf7dQGAWEeO-04bBe5xDmQ">
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_Vf_HoGAWEeO-04bBe5xDmQ" element="_Vf8EUGAWEeO-04bBe5xDmQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Vf_HomAWEeO-04bBe5xDmQ" type="guard"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vf_HoWAWEeO-04bBe5xDmQ"/>
                       </children>
                     </children>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SBzIV2SEeO5O4GJOoDxSA" x="-1" y="530"/>
@@ -5442,6 +5448,96 @@
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7X30cF2SEeO5O4GJOoDxSA" id="2229:1190"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7X30cV2SEeO5O4GJOoDxSA" id="2318:0"/>
               </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_MUFYwGAWEeO-04bBe5xDmQ" element="_7XcWoV2SEeO5O4GJOoDxSA" source="_o-Y7sF2SEeO5O4GJOoDxSA" target="_nF6-MF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_MUGm4GAWEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_MUJDIGAWEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_MUJDIWAWEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MUGm4WAWEeO-04bBe5xDmQ" y="476"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MUFYwWAWEeO-04bBe5xDmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MUJDImAWEeO-04bBe5xDmQ" id="18:1322"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MUJDI2AWEeO-04bBe5xDmQ" id="19:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_O2UsAGAWEeO-04bBe5xDmQ" element="_O12K4GAWEeO-04bBe5xDmQ" source="_nF6-MF2SEeO5O4GJOoDxSA" target="_qN2YcF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_O2VTEGAWEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_O2VTEmAWEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_O2VTE2AWEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O2VTEWAWEeO-04bBe5xDmQ" y="-317"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O2UsAWAWEeO-04bBe5xDmQ" points="[0, 0, -324, 0]$[324, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O2XvUGAWEeO-04bBe5xDmQ" id="102:795"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O2XvUWAWEeO-04bBe5xDmQ" id="323:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_O2ayoGAWEeO-04bBe5xDmQ" element="_O151QmAWEeO-04bBe5xDmQ" source="_qN2YcF2SEeO5O4GJOoDxSA" target="_nF6-MF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_O2cAwGAWEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_O2cAwmAWEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_O2cn0GAWEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O2cAwWAWEeO-04bBe5xDmQ" y="476"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O2ayoWAWEeO-04bBe5xDmQ" points="[0, 0, 324, 0]$[-324, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O2cn0WAWEeO-04bBe5xDmQ" id="324:1322"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O2cn0mAWEeO-04bBe5xDmQ" id="325:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_atj_wGAWEeO-04bBe5xDmQ" element="_atPPoGAWEeO-04bBe5xDmQ" source="_nF6-MF2SEeO5O4GJOoDxSA" target="_rWFL0F2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_atj_wmAWEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_atkm0GAWEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_atkm0WAWEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_atj_w2AWEeO-04bBe5xDmQ" y="-317"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_atj_wWAWEeO-04bBe5xDmQ" points="[0, 0, -492, 0]$[492, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_atmcAGAWEeO-04bBe5xDmQ" id="443:1004"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_atmcAWAWEeO-04bBe5xDmQ" id="592:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_atpfUGAWEeO-04bBe5xDmQ" element="_atP2s2AWEeO-04bBe5xDmQ" source="_rWFL0F2SEeO5O4GJOoDxSA" target="_nF6-MF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_atpfUmAWEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_atpfVGAWEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_atqtcGAWEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_atpfU2AWEeO-04bBe5xDmQ" y="476"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_atpfUWAWEeO-04bBe5xDmQ" points="[0, 0, 492, 0]$[-492, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_atqtcWAWEeO-04bBe5xDmQ" id="593:1322"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_atqtcmAWEeO-04bBe5xDmQ" id="594:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_E8gRwGAXEeO-04bBe5xDmQ" element="_E8K6kGAXEeO-04bBe5xDmQ" source="_nF6-MF2SEeO5O4GJOoDxSA" target="_s0it4F2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_E8gRwmAXEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_E8g40GAXEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_E8g40WAXEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E8gRw2AXEeO-04bBe5xDmQ" y="-317"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E8gRwWAXEeO-04bBe5xDmQ" points="[0, 0, -671, 0]$[671, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E8jVEGAXEeO-04bBe5xDmQ" id="737:739"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E8jVEWAXEeO-04bBe5xDmQ" id="985:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_E8mYYGAXEeO-04bBe5xDmQ" element="_E8Lho2AXEeO-04bBe5xDmQ" source="_s0it4F2SEeO5O4GJOoDxSA" target="_nF6-MF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_E8m_cGAXEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_E8m_cmAXEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_E8m_c2AXEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E8m_cWAXEeO-04bBe5xDmQ" y="476"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E8mYYWAXEeO-04bBe5xDmQ" points="[0, 0, 671, 0]$[-671, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E8m_dGAXEeO-04bBe5xDmQ" id="986:1322"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E8m_dWAXEeO-04bBe5xDmQ" id="987:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_GqAVYGAXEeO-04bBe5xDmQ" element="_GpqXIGAXEeO-04bBe5xDmQ" source="_nF6-MF2SEeO5O4GJOoDxSA" target="_vo1acF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_GqA8cGAXEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_GqA8cmAXEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_GqBjgGAXEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqA8cWAXEeO-04bBe5xDmQ" y="-317"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GqAVYWAXEeO-04bBe5xDmQ" points="[0, 0, -862, 0]$[862, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GqKGYGAXEeO-04bBe5xDmQ" id="1052:925"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GqKGYWAXEeO-04bBe5xDmQ" id="1315:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_GqNJsGAXEeO-04bBe5xDmQ" element="_Gpq-M2AXEeO-04bBe5xDmQ" source="_vo1acF2SEeO5O4GJOoDxSA" target="_nF6-MF2SEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_GqNwwGAXEeO-04bBe5xDmQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_GqNwwmAXEeO-04bBe5xDmQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_GqNww2AXEeO-04bBe5xDmQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GqNwwWAXEeO-04bBe5xDmQ" y="476"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GqNJsWAXEeO-04bBe5xDmQ" points="[0, 0, 862, 0]$[-862, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GqNwxGAXEeO-04bBe5xDmQ" id="1316:1322"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GqNwxWAXEeO-04bBe5xDmQ" id="1317:0"/>
+              </edges>
             </contents>
           </eAnnotations>
           <ownedConnector xmi:id="_x12EkV2SEeO5O4GJOoDxSA">
@@ -5452,13 +5548,29 @@
             <end xmi:id="_7XdkwF2SEeO5O4GJOoDxSA" role="_o-UqQV2SEeO5O4GJOoDxSA"/>
             <end xmi:id="_7XdkwV2SEeO5O4GJOoDxSA" role="_nF4h8F2SEeO5O4GJOoDxSA"/>
           </ownedConnector>
+          <ownedConnector xmi:id="_O17DYGAWEeO-04bBe5xDmQ">
+            <end xmi:id="_O17DYWAWEeO-04bBe5xDmQ" role="_qN0jQV2SEeO5O4GJOoDxSA"/>
+            <end xmi:id="_O17DYmAWEeO-04bBe5xDmQ" role="_nF4h8F2SEeO5O4GJOoDxSA"/>
+          </ownedConnector>
+          <ownedConnector xmi:id="_atQdwGAWEeO-04bBe5xDmQ">
+            <end xmi:id="_atQdwWAWEeO-04bBe5xDmQ" role="_rWCvkF2SEeO5O4GJOoDxSA"/>
+            <end xmi:id="_atQdwmAWEeO-04bBe5xDmQ" role="_nF4h8F2SEeO5O4GJOoDxSA"/>
+          </ownedConnector>
+          <ownedConnector xmi:id="_E8MIsWAXEeO-04bBe5xDmQ">
+            <end xmi:id="_E8MIsmAXEeO-04bBe5xDmQ" role="_s0gRoF2SEeO5O4GJOoDxSA"/>
+            <end xmi:id="_E8MIs2AXEeO-04bBe5xDmQ" role="_nF4h8F2SEeO5O4GJOoDxSA"/>
+          </ownedConnector>
+          <ownedConnector xmi:id="_GprlQWAXEeO-04bBe5xDmQ">
+            <end xmi:id="_GprlQmAXEeO-04bBe5xDmQ" role="_voyXIF2SEeO5O4GJOoDxSA"/>
+            <end xmi:id="_GprlQ2AXEeO-04bBe5xDmQ" role="_nF4h8F2SEeO5O4GJOoDxSA"/>
+          </ownedConnector>
           <lifeline xmi:id="_jqziMF2SEeO5O4GJOoDxSA" name="Propiedad" represents="_jq0JQF2SEeO5O4GJOoDxSA" coveredBy="_x10PYF2SEeO5O4GJOoDxSA _x12EkF2SEeO5O4GJOoDxSA"/>
-          <lifeline xmi:id="_nF364F2SEeO5O4GJOoDxSA" name="gUIClienteImp" represents="_nF4h8F2SEeO5O4GJOoDxSA" coveredBy="_x102cF2SEeO5O4GJOoDxSA _x102cV2SEeO5O4GJOoDxSA _x11dgF2SEeO5O4GJOoDxSA _0R5QQF2SEeO5O4GJOoDxSA _7XbIgV2SEeO5O4GJOoDxSA _7Xc9sF2SEeO5O4GJOoDxSA"/>
+          <lifeline xmi:id="_nF364F2SEeO5O4GJOoDxSA" name="gUIClienteImp" represents="_nF4h8F2SEeO5O4GJOoDxSA" coveredBy="_x102cF2SEeO5O4GJOoDxSA _x102cV2SEeO5O4GJOoDxSA _x11dgF2SEeO5O4GJOoDxSA _0R5QQF2SEeO5O4GJOoDxSA _7XbIgV2SEeO5O4GJOoDxSA _7Xc9sF2SEeO5O4GJOoDxSA _O15OMGAWEeO-04bBe5xDmQ _O16cUGAWEeO-04bBe5xDmQ _atPPoWAWEeO-04bBe5xDmQ _atP2tGAWEeO-04bBe5xDmQ _E8K6kWAXEeO-04bBe5xDmQ _E8MIsGAXEeO-04bBe5xDmQ _GpqXIWAXEeO-04bBe5xDmQ _GprlQGAXEeO-04bBe5xDmQ"/>
           <lifeline xmi:id="_o-UqQF2SEeO5O4GJOoDxSA" name="frameAltaClientes" represents="_o-UqQV2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA _7XbvkF2SEeO5O4GJOoDxSA _7XbvkV2SEeO5O4GJOoDxSA _7XcWoF2SEeO5O4GJOoDxSA"/>
-          <lifeline xmi:id="_qN0jQF2SEeO5O4GJOoDxSA" name="frameBajaClientes" represents="_qN0jQV2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA"/>
-          <lifeline xmi:id="_rWCIgF2SEeO5O4GJOoDxSA" name="frameModificacionClientes" represents="_rWCvkF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA"/>
-          <lifeline xmi:id="_s0fqkF2SEeO5O4GJOoDxSA" name="frameConsultaClientes" represents="_s0gRoF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA"/>
-          <lifeline xmi:id="_voxwEF2SEeO5O4GJOoDxSA" name="frameConsultaMultipleClientes" represents="_voyXIF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA"/>
+          <lifeline xmi:id="_qN0jQF2SEeO5O4GJOoDxSA" name="frameBajaClientes" represents="_qN0jQV2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA _O15OMWAWEeO-04bBe5xDmQ _O151QGAWEeO-04bBe5xDmQ _O151QWAWEeO-04bBe5xDmQ"/>
+          <lifeline xmi:id="_rWCIgF2SEeO5O4GJOoDxSA" name="frameModificacionClientes" represents="_rWCvkF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA _atP2sGAWEeO-04bBe5xDmQ _atP2sWAWEeO-04bBe5xDmQ _atP2smAWEeO-04bBe5xDmQ"/>
+          <lifeline xmi:id="_s0fqkF2SEeO5O4GJOoDxSA" name="frameConsultaClientes" represents="_s0gRoF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA _E8LhoGAXEeO-04bBe5xDmQ _E8LhoWAXEeO-04bBe5xDmQ _E8LhomAXEeO-04bBe5xDmQ"/>
+          <lifeline xmi:id="_voxwEF2SEeO5O4GJOoDxSA" name="frameConsultaMultipleClientes" represents="_voyXIF2SEeO5O4GJOoDxSA" coveredBy="_0R5QQF2SEeO5O4GJOoDxSA _Gpq-MGAXEeO-04bBe5xDmQ _Gpq-MWAXEeO-04bBe5xDmQ _Gpq-MmAXEeO-04bBe5xDmQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x10PYF2SEeO5O4GJOoDxSA" covered="_jqziMF2SEeO5O4GJOoDxSA" event="_yDrFMF2SEeO5O4GJOoDxSA" message="_x1zoUF2SEeO5O4GJOoDxSA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x102cF2SEeO5O4GJOoDxSA" covered="_nF364F2SEeO5O4GJOoDxSA" event="_yDrsQF2SEeO5O4GJOoDxSA" message="_x1zoUF2SEeO5O4GJOoDxSA"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_x102cV2SEeO5O4GJOoDxSA" covered="_nF364F2SEeO5O4GJOoDxSA" start="_x102cF2SEeO5O4GJOoDxSA" finish="_x11dgF2SEeO5O4GJOoDxSA"/>
@@ -5483,6 +5595,50 @@
                   <body>EVENTO_BAJA_CLIENTE</body>
                 </specification>
               </guard>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O15OMGAWEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_O12K4GAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O15OMWAWEeO-04bBe5xDmQ" covered="_qN0jQF2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_O12K4GAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_O151QGAWEeO-04bBe5xDmQ" covered="_qN0jQF2SEeO5O4GJOoDxSA" start="_O15OMWAWEeO-04bBe5xDmQ" finish="_O151QWAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O151QWAWEeO-04bBe5xDmQ" covered="_qN0jQF2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_O151QmAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O16cUGAWEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_O151QmAWEeO-04bBe5xDmQ"/>
+            </operand>
+            <operand xmi:id="_TwEpMGAWEeO-04bBe5xDmQ">
+              <guard xmi:id="_TwHsgGAWEeO-04bBe5xDmQ">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_TwITkGAWEeO-04bBe5xDmQ">
+                  <language></language>
+                  <body>EVENTO_ACTUALIZAR_CLIENTE</body>
+                </specification>
+              </guard>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_atPPoWAWEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_atPPoGAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_atP2sGAWEeO-04bBe5xDmQ" covered="_rWCIgF2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_atPPoGAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_atP2sWAWEeO-04bBe5xDmQ" covered="_rWCIgF2SEeO5O4GJOoDxSA" start="_atP2sGAWEeO-04bBe5xDmQ" finish="_atP2smAWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_atP2smAWEeO-04bBe5xDmQ" covered="_rWCIgF2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_atP2s2AWEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_atP2tGAWEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_atP2s2AWEeO-04bBe5xDmQ"/>
+            </operand>
+            <operand xmi:id="_UsTA4GAWEeO-04bBe5xDmQ">
+              <guard xmi:id="_UsTn8GAWEeO-04bBe5xDmQ">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_UsTn8WAWEeO-04bBe5xDmQ">
+                  <language></language>
+                  <body>EVENTO_OBTENER_CLIENTE</body>
+                </specification>
+              </guard>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E8K6kWAXEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_E8K6kGAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E8LhoGAXEeO-04bBe5xDmQ" covered="_s0fqkF2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_E8K6kGAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_E8LhoWAXEeO-04bBe5xDmQ" covered="_s0fqkF2SEeO5O4GJOoDxSA" start="_E8LhoGAXEeO-04bBe5xDmQ" finish="_E8LhomAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E8LhomAXEeO-04bBe5xDmQ" covered="_s0fqkF2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_E8Lho2AXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E8MIsGAXEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_E8Lho2AXEeO-04bBe5xDmQ"/>
+            </operand>
+            <operand xmi:id="_Vf7dQGAWEeO-04bBe5xDmQ">
+              <guard xmi:id="_Vf8EUGAWEeO-04bBe5xDmQ">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Vf8EUWAWEeO-04bBe5xDmQ">
+                  <language></language>
+                  <body>EVENTO_OBTENER_TODOS_CLIENTE</body>
+                </specification>
+              </guard>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GpqXIWAXEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_GpqXIGAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gpq-MGAXEeO-04bBe5xDmQ" covered="_voxwEF2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_GpqXIGAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Gpq-MWAXEeO-04bBe5xDmQ" covered="_voxwEF2SEeO5O4GJOoDxSA" start="_Gpq-MGAXEeO-04bBe5xDmQ" finish="_Gpq-MmAXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gpq-MmAXEeO-04bBe5xDmQ" covered="_voxwEF2SEeO5O4GJOoDxSA" event="_7jBUgF2SEeO5O4GJOoDxSA" message="_Gpq-M2AXEeO-04bBe5xDmQ"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GprlQGAXEeO-04bBe5xDmQ" covered="_nF364F2SEeO5O4GJOoDxSA" event="_7jBUgV2SEeO5O4GJOoDxSA" message="_Gpq-M2AXEeO-04bBe5xDmQ"/>
             </operand>
           </fragment>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x11dgF2SEeO5O4GJOoDxSA" covered="_nF364F2SEeO5O4GJOoDxSA" event="_yDrFMF2SEeO5O4GJOoDxSA" message="_x11dgV2SEeO5O4GJOoDxSA"/>
@@ -5491,6 +5647,14 @@
           <message xmi:id="_x11dgV2SEeO5O4GJOoDxSA" name="update" messageSort="reply" receiveEvent="_x12EkF2SEeO5O4GJOoDxSA" sendEvent="_x11dgF2SEeO5O4GJOoDxSA" connector="_x12EkV2SEeO5O4GJOoDxSA"/>
           <message xmi:id="_7XbIgF2SEeO5O4GJOoDxSA" name="actualizarVentana" receiveEvent="_7XbvkF2SEeO5O4GJOoDxSA" sendEvent="_7XbIgV2SEeO5O4GJOoDxSA" connector="_7Xc9sV2SEeO5O4GJOoDxSA"/>
           <message xmi:id="_7XcWoV2SEeO5O4GJOoDxSA" name="actualizarVentana" messageSort="reply" receiveEvent="_7Xc9sF2SEeO5O4GJOoDxSA" sendEvent="_7XcWoF2SEeO5O4GJOoDxSA" connector="_7Xc9sV2SEeO5O4GJOoDxSA"/>
+          <message xmi:id="_O12K4GAWEeO-04bBe5xDmQ" name="actualizarVentana" receiveEvent="_O15OMWAWEeO-04bBe5xDmQ" sendEvent="_O15OMGAWEeO-04bBe5xDmQ" connector="_O17DYGAWEeO-04bBe5xDmQ"/>
+          <message xmi:id="_O151QmAWEeO-04bBe5xDmQ" name="actualizarVentana" messageSort="reply" receiveEvent="_O16cUGAWEeO-04bBe5xDmQ" sendEvent="_O151QWAWEeO-04bBe5xDmQ" connector="_O17DYGAWEeO-04bBe5xDmQ"/>
+          <message xmi:id="_atPPoGAWEeO-04bBe5xDmQ" name="actualizarVentana" receiveEvent="_atP2sGAWEeO-04bBe5xDmQ" sendEvent="_atPPoWAWEeO-04bBe5xDmQ" connector="_atQdwGAWEeO-04bBe5xDmQ"/>
+          <message xmi:id="_atP2s2AWEeO-04bBe5xDmQ" name="actualizarVentana" messageSort="reply" receiveEvent="_atP2tGAWEeO-04bBe5xDmQ" sendEvent="_atP2smAWEeO-04bBe5xDmQ" connector="_atQdwGAWEeO-04bBe5xDmQ"/>
+          <message xmi:id="_E8K6kGAXEeO-04bBe5xDmQ" name="actualizarVentana" receiveEvent="_E8LhoGAXEeO-04bBe5xDmQ" sendEvent="_E8K6kWAXEeO-04bBe5xDmQ" connector="_E8MIsWAXEeO-04bBe5xDmQ"/>
+          <message xmi:id="_E8Lho2AXEeO-04bBe5xDmQ" name="actualizarVentana" messageSort="reply" receiveEvent="_E8MIsGAXEeO-04bBe5xDmQ" sendEvent="_E8LhomAXEeO-04bBe5xDmQ" connector="_E8MIsWAXEeO-04bBe5xDmQ"/>
+          <message xmi:id="_GpqXIGAXEeO-04bBe5xDmQ" name="actualizarVentana" receiveEvent="_Gpq-MGAXEeO-04bBe5xDmQ" sendEvent="_GpqXIWAXEeO-04bBe5xDmQ" connector="_GprlQWAXEeO-04bBe5xDmQ"/>
+          <message xmi:id="_Gpq-M2AXEeO-04bBe5xDmQ" name="actualizarVentana" messageSort="reply" receiveEvent="_GprlQGAXEeO-04bBe5xDmQ" sendEvent="_Gpq-MmAXEeO-04bBe5xDmQ" connector="_GprlQWAXEeO-04bBe5xDmQ"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_jq0JQF2SEeO5O4GJOoDxSA" name=""/>
         <ownedAttribute xmi:id="_nF4h8F2SEeO5O4GJOoDxSA" name="" type="_syLwcE0KEeORQI7pZIWD9Q"/>
@@ -5500,9 +5664,9 @@
         <ownedAttribute xmi:id="_s0gRoF2SEeO5O4GJOoDxSA" name="" type="_ysoMMFU6EeOHbf1wwOYV_Q"/>
         <ownedAttribute xmi:id="_voyXIF2SEeO5O4GJOoDxSA" name="" type="_2PXTIFU6EeOHbf1wwOYV_Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_aE-QYF2SEeO5O4GJOoDxSA" name="frames">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aE-QYF2SEeO5O4GJOoDxSA" name="paneles">
         <eAnnotations xmi:id="_aE-3cF2SEeO5O4GJOoDxSA" source="uml2.diagrams"/>
-        <packagedElement xmi:type="uml:Collaboration" xmi:id="_m0CEUF2PEeO5O4GJOoDxSA" name="FrameAltaClientes">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_m0CEUF2PEeO5O4GJOoDxSA" name="PanelAltaClientes">
           <ownedBehavior xmi:type="uml:Interaction" xmi:id="_m0DScF2PEeO5O4GJOoDxSA" name="actionPerformed">
             <eAnnotations xmi:id="_m0FHoF2PEeO5O4GJOoDxSA" source="uml2.diagrams">
               <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_m0FHoV2PEeO5O4GJOoDxSA" type="Sequence" element="_m0DScF2PEeO5O4GJOoDxSA" name="actionPerformed" measurementUnit="Himetric">
@@ -5534,7 +5698,28 @@
                       <children xmi:type="notation:BasicDecorationNode" xmi:id="_0eVRKl2PEeO5O4GJOoDxSA" type="Stereotype"/>
                       <children xmi:type="notation:BasicDecorationNode" xmi:id="_0eVRK12PEeO5O4GJOoDxSA" type="Name"/>
                       <children xmi:type="notation:BasicDecorationNode" xmi:id="_0eVRLF2PEeO5O4GJOoDxSA" type="Parent"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0eVRLV2PEeO5O4GJOoDxSA" x="775" y="53" width="8889" height="11218"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0eVRLV2PEeO5O4GJOoDxSA" x="775" y="132" width="8889" height="9683"/>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_3elwkGAVEeO-04bBe5xDmQ" element="_0eMuQV2PEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3elwkWAVEeO-04bBe5xDmQ" x="-1" y="1322" height="1322"/>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_3eoz4GAVEeO-04bBe5xDmQ" element="_0eN8YV2PEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3eoz4WAVEeO-04bBe5xDmQ" x="-1" y="1322" height="1322"/>
+                    </children>
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_3epa8GAVEeO-04bBe5xDmQ" element="_0ePxkV2PEeO5O4GJOoDxSA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3epa8WAVEeO-04bBe5xDmQ" x="-1" y="1322" height="1322"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_61IOkGAVEeO-04bBe5xDmQ" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>Igual para el resto de ventanas y eventos.&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_61JcsGAVEeO-04bBe5xDmQ" type="DiagramName">
+                        <element xsi:nil="true"/>
+                      </children>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_61JcsWAVEeO-04bBe5xDmQ" type="Description">
+                        <element xsi:nil="true"/>
+                      </children>
+                      <styles xmi:type="notation:TextStyle" xmi:id="_61IOkWAVEeO-04bBe5xDmQ"/>
+                      <styles xmi:type="notation:LineTypeStyle" xmi:id="_61IOkmAVEeO-04bBe5xDmQ"/>
+                      <element xsi:nil="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_61IOk2AVEeO-04bBe5xDmQ" x="583" y="7966" width="12012" height="3810"/>
                     </children>
                   </children>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_m0FHpF2PEeO5O4GJOoDxSA" type="Name"/>
@@ -5641,33 +5826,33 @@
             <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Interface"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_q4ec0E0KEeORQI7pZIWD9Q" name="FrameAltaClientes" clientDependency="_QMPncFhSEeO5YZXdA-e8pA _2gjTEFhWEeO5YZXdA-e8pA _Woaz4Ft3EeOahsa-ykI52g">
-          <generalization xmi:id="_hoT0iVXHEeOP8tv9E3Rptg">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=codigo%5D$uml.Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_q4ec0E0KEeORQI7pZIWD9Q" name="PanelAltaClientes" clientDependency="_QMPncFhSEeO5YZXdA-e8pA _2gjTEFhWEeO5YZXdA-e8pA _Woaz4Ft3EeOahsa-ykI52g">
+          <generalization xmi:id="_TtNbEGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
           </generalization>
-          <interfaceRealization xmi:id="_Woaz4Ft3EeOahsa-ykI52g" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_q4ec0E0KEeORQI7pZIWD9Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
+          <interfaceRealization xmi:id="_Woaz4Ft3EeOahsa-ykI52g" name="" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_q4ec0E0KEeORQI7pZIWD9Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_rz0DsE0KEeORQI7pZIWD9Q" name="FrameBajaClientes" clientDependency="_QCsC0FhSEeO5YZXdA-e8pA _2y61cFhWEeO5YZXdA-e8pA _W-hmwFt3EeOahsa-ykI52g">
-          <generalization xmi:id="_E7dNcFt4EeOahsa-ykI52g">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rz0DsE0KEeORQI7pZIWD9Q" name="PanelBajaClientes" clientDependency="_QCsC0FhSEeO5YZXdA-e8pA _2y61cFhWEeO5YZXdA-e8pA _W-hmwFt3EeOahsa-ykI52g">
+          <generalization xmi:id="_g0UbQGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
           </generalization>
           <interfaceRealization xmi:id="_W-hmwFt3EeOahsa-ykI52g" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_rz0DsE0KEeORQI7pZIWD9Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_ysoMMFU6EeOHbf1wwOYV_Q" name="FrameConsultaClientes" clientDependency="_Pyg40FhSEeO5YZXdA-e8pA _30CUMFhWEeO5YZXdA-e8pA _WauWIFt3EeOahsa-ykI52g">
-          <generalization xmi:id="_6ruDAFt3EeOahsa-ykI52g">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ysoMMFU6EeOHbf1wwOYV_Q" name="PanelConsultaClientes" clientDependency="_Pyg40FhSEeO5YZXdA-e8pA _30CUMFhWEeO5YZXdA-e8pA _WauWIFt3EeOahsa-ykI52g">
+          <generalization xmi:id="_peFtcGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
           </generalization>
           <interfaceRealization xmi:id="_WauWIFt3EeOahsa-ykI52g" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_ysoMMFU6EeOHbf1wwOYV_Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_2PXTIFU6EeOHbf1wwOYV_Q" name="FrameConsultaMultipleClientes" clientDependency="_Pn91sFhSEeO5YZXdA-e8pA _3-Wt0FhWEeO5YZXdA-e8pA _WSK3EFt3EeOahsa-ykI52g">
-          <generalization xmi:id="_89pCUFt3EeOahsa-ykI52g">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2PXTIFU6EeOHbf1wwOYV_Q" name="PanelConsultaMultipleClientes" clientDependency="_Pn91sFhSEeO5YZXdA-e8pA _3-Wt0FhWEeO5YZXdA-e8pA _WSK3EFt3EeOahsa-ykI52g">
+          <generalization xmi:id="_szmQsGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
           </generalization>
           <interfaceRealization xmi:id="_WSK3EFt3EeOahsa-ykI52g" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_2PXTIFU6EeOHbf1wwOYV_Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_qI0_IFU6EeOHbf1wwOYV_Q" name="FrameModificacionClientes" clientDependency="_P6WmMFhSEeO5YZXdA-e8pA _2_M98FhWEeO5YZXdA-e8pA _WzYtwFt3EeOahsa-ykI52g">
-          <generalization xmi:id="_XeK6sFt4EeOahsa-ykI52g">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qI0_IFU6EeOHbf1wwOYV_Q" name="PanelModificacionClientes" clientDependency="_P6WmMFhSEeO5YZXdA-e8pA _2_M98FhWEeO5YZXdA-e8pA _WzYtwFt3EeOahsa-ykI52g">
+          <generalization xmi:id="_ufWn4GAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
           </generalization>
           <interfaceRealization xmi:id="_WzYtwFt3EeOahsa-ykI52g" supplier="_FcD1kFt3EeOahsa-ykI52g" client="_qI0_IFU6EeOHbf1wwOYV_Q" contract="_FcD1kFt3EeOahsa-ykI52g"/>
         </packagedElement>
@@ -6165,56 +6350,22 @@
         <ownedOperation xmi:id="_xW6rlVU8EeOHbf1wwOYV_Q" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_xW6rllU8EeOHbf1wwOYV_Q" name="selfInstance" type="_xW6rkFU8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_a7JaAFnaEeOzxunbBxEB6g" name="getFrameConsultaMultipleReservas" isAbstract="true">
+        <ownedOperation xmi:id="_a7JaAFnaEeOzxunbBxEB6g" name="getPanelConsultaMultipleReservas" isAbstract="true">
           <ownedParameter xmi:id="_IsFzIFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xXD1k1U8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_kM5SMFnaEeOzxunbBxEB6g" name="getFrameAltaReservas" isAbstract="true">
+        <ownedOperation xmi:id="_kM5SMFnaEeOzxunbBxEB6g" name="getPanelAltaReservas" isAbstract="true">
           <ownedParameter xmi:id="_GTzGEFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xW6rl1U8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_n8BPUFnaEeOzxunbBxEB6g" name="getFrameBajaReservas" isAbstract="true">
+        <ownedOperation xmi:id="_n8BPUFnaEeOzxunbBxEB6g" name="getPaneñBajaReservas" isAbstract="true">
           <ownedParameter xmi:id="_BbpEUFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xW6rmVU8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_pg0C4FnaEeOzxunbBxEB6g" name="getFrameConsultaReservas" isAbstract="true">
+        <ownedOperation xmi:id="_pg0C4FnaEeOzxunbBxEB6g" name="getPanelConsultaReservas" isAbstract="true">
           <ownedParameter xmi:id="_C5JkIFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xXD1klU8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_rIa54FnaEeOzxunbBxEB6g" name="getFrameModificacionReservas" isAbstract="true">
+        <ownedOperation xmi:id="_rIa54FnaEeOzxunbBxEB6g" name="getPanelModificacionReservas" isAbstract="true">
           <ownedParameter xmi:id="_EYJRsFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xXD1kVU8EeOHbf1wwOYV_Q" direction="return"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xW6rl1U8EeOHbf1wwOYV_Q" name="FrameAltaReservas" clientDependency="__rVVYFm7EeON3cUkABIsGg _OIFXMFnaEeOzxunbBxEB6g _tCPCEF2GEeO5O4GJOoDxSA">
-        <generalization xmi:id="_hoT0ilXHEeOP8tv9E3Rptg">
-          <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=codigo%5D$uml.Class"/>
-        </generalization>
-        <generalization xmi:id="_xW6rmFU8EeOHbf1wwOYV_Q">
-          <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
-        </generalization>
-        <interfaceRealization xmi:id="_tCPCEF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xW6rl1U8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xW6rmVU8EeOHbf1wwOYV_Q" name="FrameBajaReservas" clientDependency="_-ieP4Fm7EeON3cUkABIsGg _OTEfMFnaEeOzxunbBxEB6g _tX8MUF2GEeO5O4GJOoDxSA">
-        <generalization xmi:id="_xW6rmlU8EeOHbf1wwOYV_Q">
-          <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
-        </generalization>
-        <interfaceRealization xmi:id="_tX8MUF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xW6rmVU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xXD1kVU8EeOHbf1wwOYV_Q" name="FrameModificacionReservas" clientDependency="_9XOkwFm7EeON3cUkABIsGg _OlnnwFnaEeOzxunbBxEB6g _tMqJYF2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_tMqJYF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1kVU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xXD1klU8EeOHbf1wwOYV_Q" name="FrameConsultaReservas" clientDependency="_99wZQFm7EeON3cUkABIsGg _PJ1vIFnaEeOzxunbBxEB6g _skmD0F2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_skmD0F2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1klU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xXD1k1U8EeOHbf1wwOYV_Q" name="FrameConsultaMultipleReservas" clientDependency="_AQ0BAFm8EeON3cUkABIsGg _O1zY0FnaEeOzxunbBxEB6g _sdf9UF2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_sdf9UF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1k1U8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_9XOkwFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1kVU8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_99wZQFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1klU8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_-ieP4Fm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xW6rmVU8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="__rVVYFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xW6rl1U8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_AQ0BAFm8EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1k1U8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_OIFXMFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xW6rl1U8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_OTEfMFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xW6rmVU8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_OlnnwFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1kVU8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_O1zY0FnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1k1U8EeOHbf1wwOYV_Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_PJ1vIFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1klU8EeOHbf1wwOYV_Q"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_ogLzMF2GEeO5O4GJOoDxSA" name="GUIInterfazReservas">
         <ownedOperation xmi:id="_ogLzMV2GEeO5O4GJOoDxSA" name="actualizarVentana"/>
       </packagedElement>
@@ -6289,6 +6440,43 @@
             </ownedBehavior>
           </packagedElement>
         </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ex02sGAnEeO-04bBe5xDmQ" name="paneles">
+        <eAnnotations xmi:id="_ex1dwGAnEeO-04bBe5xDmQ" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xW6rl1U8EeOHbf1wwOYV_Q" name="PanelAltaReservas" clientDependency="__rVVYFm7EeON3cUkABIsGg _OIFXMFnaEeOzxunbBxEB6g _tCPCEF2GEeO5O4GJOoDxSA">
+          <generalization xmi:id="_hoT0ilXHEeOP8tv9E3Rptg">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=codigo%5D$uml.Class"/>
+          </generalization>
+          <generalization xmi:id="_xW6rmFU8EeOHbf1wwOYV_Q">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+          <interfaceRealization xmi:id="_tCPCEF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xW6rl1U8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xW6rmVU8EeOHbf1wwOYV_Q" name="PanelBajaReservas" clientDependency="_-ieP4Fm7EeON3cUkABIsGg _OTEfMFnaEeOzxunbBxEB6g _tX8MUF2GEeO5O4GJOoDxSA">
+          <generalization xmi:id="_xW6rmlU8EeOHbf1wwOYV_Q">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+          </generalization>
+          <interfaceRealization xmi:id="_tX8MUF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xW6rmVU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xXD1k1U8EeOHbf1wwOYV_Q" name="PanelConsultaMultipleReservas" clientDependency="_AQ0BAFm8EeON3cUkABIsGg _O1zY0FnaEeOzxunbBxEB6g _sdf9UF2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_sdf9UF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1k1U8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xXD1klU8EeOHbf1wwOYV_Q" name="PanelConsultaReservas" clientDependency="_99wZQFm7EeON3cUkABIsGg _PJ1vIFnaEeOzxunbBxEB6g _skmD0F2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_skmD0F2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1klU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xXD1kVU8EeOHbf1wwOYV_Q" name="PanelModificacionReservas" clientDependency="_9XOkwFm7EeON3cUkABIsGg _OlnnwFnaEeOzxunbBxEB6g _tMqJYF2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_tMqJYF2GEeO5O4GJOoDxSA" supplier="_ogLzMF2GEeO5O4GJOoDxSA" client="_xXD1kVU8EeOHbf1wwOYV_Q" contract="_ogLzMF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_9XOkwFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1kVU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_OlnnwFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1kVU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_99wZQFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1klU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_PJ1vIFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1klU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_AQ0BAFm8EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xXD1k1U8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_O1zY0FnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xXD1k1U8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_-ieP4Fm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xW6rmVU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_OTEfMFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xW6rmVU8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_OIFXMFnaEeOzxunbBxEB6g" supplier="_vcVSsE7wEeOy-7FMu9HQKQ" client="_xW6rl1U8EeOHbf1wwOYV_Q"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="__rVVYFm7EeON3cUkABIsGg" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xW6rl1U8EeOHbf1wwOYV_Q"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_oLpQ4E0PEeORQI7pZIWD9Q" name="habitaciones">
@@ -7267,33 +7455,28 @@
           <ownedParameter xmi:id="_YtWQgFbLEeOfU6amWAehQg" name="Parámetro1" type="_oGqOwFbJEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_bAsMIFbLEeOfU6amWAehQg" name="update" isAbstract="true"/>
-        <ownedOperation xmi:id="_pN2jQFndEeOzxunbBxEB6g" name="getFrameAltaEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_pN2jQFndEeOzxunbBxEB6g" name="getPanelAltaEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_Cbjh0FneEeOzxunbBxEB6g" name="Parámetro1" type="_WCC9UFbKEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_s-LaQFndEeOzxunbBxEB6g" name="getFrameConsultaEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_s-LaQFndEeOzxunbBxEB6g" name="getPanelConsultaEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_ECts4FneEeOzxunbBxEB6g" name="Parámetro1" type="_ZYJWcFbKEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_vH7VAFndEeOzxunbBxEB6g" name="getFrameConsultaMultipleEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_vH7VAFndEeOzxunbBxEB6g" name="getPanelConsultaMultipleEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_FfCg8FneEeOzxunbBxEB6g" name="Parámetro1" type="_bL7BMFbKEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_y6dygFndEeOzxunbBxEB6g" name="getFrameModificacionEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_y6dygFndEeOzxunbBxEB6g" name="getPanelModificacionEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_GywyoFneEeOzxunbBxEB6g" name="Parámetro1" type="_-8NNsFbKEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_3JZREFndEeOzxunbBxEB6g" name="getFrameBajaEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_3JZREFndEeOzxunbBxEB6g" name="getPanelBajaEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_ImFxcFneEeOzxunbBxEB6g" name="Parámetro1" type="_XsSRkFbKEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_5fxSkFndEeOzxunbBxEB6g" name="getFrameAltaTareaEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="_5fxSkFndEeOzxunbBxEB6g" name="getPanelAltaTareaEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_J0UfIFneEeOzxunbBxEB6g" name="Parámetro1" type="_e7IBYFbLEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="__KG_MFndEeOzxunbBxEB6g" name="getFrameBajaTareaEmpleados" isAbstract="true">
+        <ownedOperation xmi:id="__KG_MFndEeOzxunbBxEB6g" name="getPanelBajaTareaEmpleados" isAbstract="true">
           <ownedParameter xmi:id="_LD-wMFneEeOzxunbBxEB6g" name="Parámetro1" type="_nL16YFbLEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_WCC9UFbKEeOfU6amWAehQg" name="FrameAltaEmpleados" clientDependency="_mQrkUFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_XsSRkFbKEeOfU6amWAehQg" name="FrameBajaEmpleados" clientDependency="_m_vCsFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ZYJWcFbKEeOfU6amWAehQg" name="FrameConsultaEmpleados" clientDependency="_n9o1YFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_bL7BMFbKEeOfU6amWAehQg" name="FrameConsultaMultipleEmpleados" clientDependency="_nnOggFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-8NNsFbKEeOfU6amWAehQg" name="FrameModificacionEmpleados" clientDependency="_nTCZMFnZEeOzxunbBxEB6g"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_DBQXgFbLEeOfU6amWAehQg" name="GUIEmpleadosImp">
         <ownedAttribute xmi:id="_KzQewVbMEeOfU6amWAehQg" name="frameBajaTareaEmpleados" visibility="private" type="_nL16YFbLEeOfU6amWAehQg" association="_KzQewFbMEeOfU6amWAehQg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KzQew1bMEeOfU6amWAehQg" value="1"/>
@@ -7325,8 +7508,6 @@
         </ownedAttribute>
         <ownedOperation xmi:id="_6ON3wFbOEeOfU6amWAehQg" name="update"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_e7IBYFbLEeOfU6amWAehQg" name="FrameAltaTareaEmpleados" clientDependency="_l_BMkFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_nL16YFbLEeOfU6amWAehQg" name="FrameBajaTareaEmpleados" clientDependency="_l0CroFnZEeOzxunbBxEB6g"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_9wB5AFbLEeOfU6amWAehQg" memberEnd="_9wH_oFbLEeOfU6amWAehQg _9wH_o1bLEeOfU6amWAehQg">
         <ownedEnd xmi:id="_9wH_o1bLEeOfU6amWAehQg" name="" visibility="private" type="_DBQXgFbLEeOfU6amWAehQg" association="_9wB5AFbLEeOfU6amWAehQg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9wH_pVbLEeOfU6amWAehQg"/>
@@ -7369,13 +7550,27 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KzWlYFbMEeOfU6amWAehQg"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_l0CroFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_nL16YFbLEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_l_BMkFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_e7IBYFbLEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_mQrkUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_WCC9UFbKEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_m_vCsFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_XsSRkFbKEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_nTCZMFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_-8NNsFbKEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_nnOggFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_bL7BMFbKEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_n9o1YFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_ZYJWcFbKEeOfU6amWAehQg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_c3nz0GAnEeO-04bBe5xDmQ" name="paneles">
+        <eAnnotations xmi:id="_c3nz0WAnEeO-04bBe5xDmQ" source="uml2.diagrams" references="_c3nz0mAnEeO-04bBe5xDmQ">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_c3nz0mAnEeO-04bBe5xDmQ" type="Freeform" name="Principal">
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WCC9UFbKEeOfU6amWAehQg" name="PanelAltaEmpleados" clientDependency="_mQrkUFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e7IBYFbLEeOfU6amWAehQg" name="PanelAltaTareaEmpleados" clientDependency="_l_BMkFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XsSRkFbKEeOfU6amWAehQg" name="PanelBajaEmpleados" clientDependency="_m_vCsFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nL16YFbLEeOfU6amWAehQg" name="PanelBajaTareaEmpleados" clientDependency="_l0CroFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZYJWcFbKEeOfU6amWAehQg" name="PanelConsultaEmpleados" clientDependency="_n9o1YFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_bL7BMFbKEeOfU6amWAehQg" name="PanelConsultaMultipleEmpleados" clientDependency="_nnOggFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-8NNsFbKEeOfU6amWAehQg" name="PanelModificacionEmpleados" clientDependency="_nTCZMFnZEeOzxunbBxEB6g"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_nTCZMFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_-8NNsFbKEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_nnOggFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_bL7BMFbKEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_n9o1YFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_ZYJWcFbKEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_l0CroFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_nL16YFbLEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_m_vCsFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_XsSRkFbKEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_l_BMkFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_e7IBYFbLEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_mQrkUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_WCC9UFbKEeOfU6amWAehQg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_qlDYQE0PEeORQI7pZIWD9Q" name="tareas">
       <eAnnotations xmi:id="_M45OMFbPEeOfU6amWAehQg" source="uml2.diagrams">
@@ -7853,36 +8048,21 @@
         <ownedOperation xmi:id="_GIf4cFbPEeOfU6amWAehQg" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_H2pcUFbPEeOfU6amWAehQg" name="Parámetro1" type="_groDwFbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_hoQVwFnbEeOzxunbBxEB6g" name="getFrameAltaTareas" isAbstract="true">
+        <ownedOperation xmi:id="_hoQVwFnbEeOzxunbBxEB6g" name="getPanelAltaTareas" isAbstract="true">
           <ownedParameter xmi:id="_0xl-IFnbEeOzxunbBxEB6g" name="Parámetro1" type="_kr4NIFbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_mNtd8FnbEeOzxunbBxEB6g" name="getFrameBajaTareas" isAbstract="true">
+        <ownedOperation xmi:id="_mNtd8FnbEeOzxunbBxEB6g" name="getPanelBajaTareas" isAbstract="true">
           <ownedParameter xmi:id="_2oDwgFnbEeOzxunbBxEB6g" name="Parámetro1" type="_oHaf4FbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_pyl58FnbEeOzxunbBxEB6g" name="getFrameConsultaMultipleTareas" isAbstract="true">
+        <ownedOperation xmi:id="_pyl58FnbEeOzxunbBxEB6g" name="getPanelConsultaMultipleTareas" isAbstract="true">
           <ownedParameter xmi:id="_5gQssFnbEeOzxunbBxEB6g" name="Parámetro1" type="_xqJaYFbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_syNFsFnbEeOzxunbBxEB6g" name="getFrameConsultaTarea" isAbstract="true">
+        <ownedOperation xmi:id="_syNFsFnbEeOzxunbBxEB6g" name="getPanelConsultaTarea" isAbstract="true">
           <ownedParameter xmi:id="_7akdQFnbEeOzxunbBxEB6g" name="Parámetro1" type="_06nsoFbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_xU3YkFnbEeOzxunbBxEB6g" name="getFrameModificacionTareas" isAbstract="true">
+        <ownedOperation xmi:id="_xU3YkFnbEeOzxunbBxEB6g" name="getPanelModificacionTareas" isAbstract="true">
           <ownedParameter xmi:id="_9GoWcFnbEeOzxunbBxEB6g" name="Parámetro1" type="_3Fr2AFbNEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_kr4NIFbNEeOfU6amWAehQg" name="FrameAltaTareas" clientDependency="_VKQkAFnbEeOzxunbBxEB6g _hUfokF2GEeO5O4GJOoDxSA _2kHA8F2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_hUfokF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_kr4NIFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_oHaf4FbNEeOfU6amWAehQg" name="FrameBajaTareas" clientDependency="_UxBkoFnbEeOzxunbBxEB6g _jSuP0F2GEeO5O4GJOoDxSA _2az7AF2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_jSuP0F2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_oHaf4FbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xqJaYFbNEeOfU6amWAehQg" name="FrameConsultaMultipleTareas" clientDependency="_Uc-nQFnbEeOzxunbBxEB6g _iuIVAF2GEeO5O4GJOoDxSA _2KBF8F2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_iuIVAF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_xqJaYFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_06nsoFbNEeOfU6amWAehQg" name="FrameConsultaTarea" clientDependency="_UOuv4FnbEeOzxunbBxEB6g _icMQcF2GEeO5O4GJOoDxSA _2TOsUF2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_icMQcF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_06nsoFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3Fr2AFbNEeOfU6amWAehQg" name="FrameModificacionTareas" clientDependency="_UDABAFnbEeOzxunbBxEB6g _hCmAQF2GEeO5O4GJOoDxSA _2CVJkF2GEeO5O4GJOoDxSA">
-        <interfaceRealization xmi:id="_hCmAQF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_3Fr2AFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_4vQb4FbNEeOfU6amWAehQg" name="GUITareasImp">
         <generalization xmi:id="_RfMq8FbPEeOfU6amWAehQg" general="_groDwFbNEeOfU6amWAehQg"/>
@@ -7937,16 +8117,34 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nVYUFFbPEeOfU6amWAehQg"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_UDABAFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_3Fr2AFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_UOuv4FnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_06nsoFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_Uc-nQFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xqJaYFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_UxBkoFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_oHaf4FbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_VKQkAFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_kr4NIFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2CVJkF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_3Fr2AFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2KBF8F2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_xqJaYFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2TOsUF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_06nsoFbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2az7AF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_oHaf4FbNEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2kHA8F2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_kr4NIFbNEeOfU6amWAehQg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uV1XIGAnEeO-04bBe5xDmQ" name="paneles">
+        <eAnnotations xmi:id="_uV1XIWAnEeO-04bBe5xDmQ" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kr4NIFbNEeOfU6amWAehQg" name="PanelAltaTareas" clientDependency="_VKQkAFnbEeOzxunbBxEB6g _hUfokF2GEeO5O4GJOoDxSA _2kHA8F2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_hUfokF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_kr4NIFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oHaf4FbNEeOfU6amWAehQg" name="PanelBajaTareas" clientDependency="_UxBkoFnbEeOzxunbBxEB6g _jSuP0F2GEeO5O4GJOoDxSA _2az7AF2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_jSuP0F2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_oHaf4FbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xqJaYFbNEeOfU6amWAehQg" name="PanelConsultaMultipleTareas" clientDependency="_Uc-nQFnbEeOzxunbBxEB6g _iuIVAF2GEeO5O4GJOoDxSA _2KBF8F2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_iuIVAF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_xqJaYFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_06nsoFbNEeOfU6amWAehQg" name="PanelConsultaTarea" clientDependency="_UOuv4FnbEeOzxunbBxEB6g _icMQcF2GEeO5O4GJOoDxSA _2TOsUF2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_icMQcF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_06nsoFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Fr2AFbNEeOfU6amWAehQg" name="PanelModificacionTareas" clientDependency="_UDABAFnbEeOzxunbBxEB6g _hCmAQF2GEeO5O4GJOoDxSA _2CVJkF2GEeO5O4GJOoDxSA">
+          <interfaceRealization xmi:id="_hCmAQF2GEeO5O4GJOoDxSA" supplier="_YDKAEF2GEeO5O4GJOoDxSA" client="_3Fr2AFbNEeOfU6amWAehQg" contract="_YDKAEF2GEeO5O4GJOoDxSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UDABAFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_3Fr2AFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2CVJkF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_3Fr2AFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2TOsUF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_06nsoFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UOuv4FnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_06nsoFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2KBF8F2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_xqJaYFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_Uc-nQFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_xqJaYFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2az7AF2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_oHaf4FbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UxBkoFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_oHaf4FbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_VKQkAFnbEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_kr4NIFbNEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2kHA8F2GEeO5O4GJOoDxSA" supplier="_jqFpMFYdEeOHp4jDXmSerQ" client="_kr4NIFbNEeOfU6amWAehQg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_rad9UE0PEeORQI7pZIWD9Q" name="departamentos">
       <eAnnotations xmi:id="_bMZTkFbQEeOfU6amWAehQg" source="uml2.diagrams">
@@ -8315,19 +8513,19 @@
         <ownedOperation xmi:id="_UQvwEFbQEeOfU6amWAehQg" name="getInstance" isStatic="true">
           <ownedParameter xmi:id="_WBqUEFbQEeOfU6amWAehQg" name="Parámetro1" type="_x-avUFbPEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_1u8rUFnoEeOzxunbBxEB6g" name="getFrameAltaDepartamentos" isAbstract="true">
+        <ownedOperation xmi:id="_1u8rUFnoEeOzxunbBxEB6g" name="getPenelAltaDepartamentos" isAbstract="true">
           <ownedParameter xmi:id="_HQqOkFnpEeOzxunbBxEB6g" name="Parámetro1" type="_88CTcFbPEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_3WaYYFnoEeOzxunbBxEB6g" name="getFrameBajaDepartamentos" isAbstract="true">
+        <ownedOperation xmi:id="_3WaYYFnoEeOzxunbBxEB6g" name="getPanelBajaDepartamentos" isAbstract="true">
           <ownedParameter xmi:id="_Io07YFnpEeOzxunbBxEB6g" name="Parámetro1" type="_-aKeUFbPEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_5g4E0FnoEeOzxunbBxEB6g" name="getFrameConsultaDepartamentos" isAbstract="true">
+        <ownedOperation xmi:id="_5g4E0FnoEeOzxunbBxEB6g" name="getPanelConsultaDepartamentos" isAbstract="true">
           <ownedParameter xmi:id="_JvoycFnpEeOzxunbBxEB6g" name="Parámetro1" type="_ABclMFbQEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_7wRUkFnoEeOzxunbBxEB6g" name="getFrameConsultaMultiplesDepartamentos" isAbstract="true">
+        <ownedOperation xmi:id="_7wRUkFnoEeOzxunbBxEB6g" name="getPanelConsultaMultiplesDepartamentos" isAbstract="true">
           <ownedParameter xmi:id="_LQjyoFnpEeOzxunbBxEB6g" name="Parámetro1" type="_BnrjMFbQEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_AfYIAFnpEeOzxunbBxEB6g" name="getFrameModificacionDepartamentos" isAbstract="true">
+        <ownedOperation xmi:id="_AfYIAFnpEeOzxunbBxEB6g" name="getPanelModificacionDepartamentos" isAbstract="true">
           <ownedParameter xmi:id="_MhAt4FnpEeOzxunbBxEB6g" name="Parámetro1" type="_Kap0sFbQEeOfU6amWAehQg" direction="return"/>
         </ownedOperation>
       </packagedElement>
@@ -8355,11 +8553,6 @@
         </ownedAttribute>
         <ownedOperation xmi:id="_Zzm7sFbQEeOfU6amWAehQg" name="update"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_88CTcFbPEeOfU6amWAehQg" name="FrameAltaDepartamentos" clientDependency="_c3EwoFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-aKeUFbPEeOfU6amWAehQg" name="FrameBajaDepartamentos" clientDependency="_dM5PoFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ABclMFbQEeOfU6amWAehQg" name="FrameConsultaDepartamentos" clientDependency="_dkf3UFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_BnrjMFbQEeOfU6amWAehQg" name="FrameConsultaMultiplesDepartamentos" clientDependency="_cdZFUFnZEeOzxunbBxEB6g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Kap0sFbQEeOfU6amWAehQg" name="FrameModificacionDepartamentos" clientDependency="_cS3QUFnZEeOzxunbBxEB6g"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_l1_IcFbQEeOfU6amWAehQg" memberEnd="_l1_IcVbQEeOfU6amWAehQg _l2FPElbQEeOfU6amWAehQg">
         <ownedEnd xmi:id="_l2FPElbQEeOfU6amWAehQg" name="" visibility="private" type="_60_ucFbPEeOfU6amWAehQg" association="_l1_IcFbQEeOfU6amWAehQg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l2FPFFbQEeOfU6amWAehQg"/>
@@ -8390,11 +8583,39 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sQvlZFbQEeOfU6amWAehQg"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_cS3QUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_Kap0sFbQEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_cdZFUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_BnrjMFbQEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_c3EwoFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_88CTcFbPEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_dM5PoFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_-aKeUFbPEeOfU6amWAehQg"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_dkf3UFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_ABclMFbQEeOfU6amWAehQg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Eo5HUGAZEeO-04bBe5xDmQ" name="paneles">
+        <eAnnotations xmi:id="_Eo7jkGAZEeO-04bBe5xDmQ" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_88CTcFbPEeOfU6amWAehQg" name="PanelAltaDepartamentos" clientDependency="_c3EwoFnZEeOzxunbBxEB6g">
+          <generalization xmi:id="_0m-tcGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-aKeUFbPEeOfU6amWAehQg" name="PanelBajaDepartamentos" clientDependency="_dM5PoFnZEeOzxunbBxEB6g">
+          <generalization xmi:id="_1jtbcGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ABclMFbQEeOfU6amWAehQg" name="PanelConsultaDepartamentos" clientDependency="_dkf3UFnZEeOzxunbBxEB6g">
+          <generalization xmi:id="_2fZnoGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_BnrjMFbQEeOfU6amWAehQg" name="PanelConsultaMultiplesDepartamentos" clientDependency="_cdZFUFnZEeOzxunbBxEB6g">
+          <generalization xmi:id="_4AN6IGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kap0sFbQEeOfU6amWAehQg" name="PanelModificacionDepartamentos" clientDependency="_cS3QUFnZEeOzxunbBxEB6g">
+          <generalization xmi:id="_5ZeMEGAZEeO-04bBe5xDmQ">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+          </generalization>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_cS3QUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_Kap0sFbQEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_cdZFUFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_BnrjMFbQEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_dkf3UFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_ABclMFbQEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_dM5PoFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_-aKeUFbPEeOfU6amWAehQg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_c3EwoFnZEeOzxunbBxEB6g" supplier="_8zp30E3tEeOnwZnA8BLNdA" client="_88CTcFbPEeOfU6amWAehQg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_LaB3EE4JEeOMMLo_SYkG7A" name="controladores">
       <eAnnotations xmi:id="_iKZQgE4JEeOMMLo_SYkG7A" source="uml2.diagrams"/>
@@ -9840,56 +10061,6 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ALuxMFD_EeOEZZHAwxdNog" name="CommandFactory" clientDependency="_hb298FHXEeOpQYXWWsNwnQ" isAbstract="true">
-        <eAnnotations xmi:id="_LIMewFD_EeOEZZHAwxdNog" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <details xmi:id="_LIMewVD_EeOEZZHAwxdNog" key="Singleton"/>
-        </eAnnotations>
-        <ownedAttribute xmi:id="_PU-2AFEEEeOEZZHAwxdNog" name="commandFactoryInstance" visibility="private" isStatic="true" type="_ALuxMFD_EeOEZZHAwxdNog"/>
-        <ownedOperation xmi:id="_PddckFEEEeOEZZHAwxdNog" name="getInstance" isStatic="true">
-          <ownedParameter xmi:id="_Tq5GUFEEEeOEZZHAwxdNog" name="Parámetro1" type="_ALuxMFD_EeOEZZHAwxdNog" direction="return"/>
-        </ownedOperation>
-        <ownedOperation xmi:id="_SY4RgFHYEeOpQYXWWsNwnQ" name="nuevoComando" isAbstract="true">
-          <ownedParameter xmi:id="_YuSUYFHYEeOpQYXWWsNwnQ" name="Parámetro1" type="_-7yB8E3tEeOnwZnA8BLNdA" direction="return"/>
-          <ownedParameter xmi:id="_ZSmPMFKEEeOdKJL3-j-oAQ" name="id_comando">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
-            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cudSEFKEEeOdKJL3-j-oAQ" name="">
-              <language></language>
-              <body></body>
-            </defaultValue>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_I6qd8FEEEeOEZZHAwxdNog" name="CommandFactoryImp" clientDependency="_IcDeEFhREeO5YZXdA-e8pA _I0MRQFhREeO5YZXdA-e8pA _EFt7MFmqEeOV7Y-mRZ3AMA _GqIYsFmqEeOV7Y-mRZ3AMA _J9wFkFmqEeOV7Y-mRZ3AMA _iB8B4FmrEeOV7Y-mRZ3AMA _kx5BAFmrEeOV7Y-mRZ3AMA _mq6YIFmrEeOV7Y-mRZ3AMA _nOrMgFmrEeOV7Y-mRZ3AMA _oDgiwFmrEeOV7Y-mRZ3AMA _QSkAoFmsEeOV7Y-mRZ3AMA _Qx19oFmsEeOV7Y-mRZ3AMA _RROBQFmsEeOV7Y-mRZ3AMA _RymQAFmsEeOV7Y-mRZ3AMA _SXshIFmsEeOV7Y-mRZ3AMA">
-        <generalization xmi:id="_wE_FEFKIEeOdKJL3-j-oAQ" general="_ALuxMFD_EeOEZZHAwxdNog"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_EeT2YE3uEeOnwZnA8BLNdA" name="CommandResponse">
-        <ownedAttribute xmi:id="_ghIA4E3uEeOnwZnA8BLNdA" name="evento" visibility="private">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_hdrIsE3uEeOnwZnA8BLNdA" name="datos" visibility="private">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
-        </ownedAttribute>
-        <ownedOperation xmi:id="_WjTAQFnrEeOzxunbBxEB6g" name="getEvento">
-          <ownedParameter xmi:id="_ciFS4FnrEeOzxunbBxEB6g" name="evento" direction="return">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_XwxgAFnrEeOzxunbBxEB6g" name="getDatos">
-          <ownedParameter xmi:id="_a3gncFnrEeOzxunbBxEB6g" name="datos" direction="return">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_YcaeAFnrEeOzxunbBxEB6g" name="setEvento">
-          <ownedParameter xmi:id="_jIiCcFnrEeOzxunbBxEB6g" name="evento">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=sunw.util.EventObject%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_ZEnGcFnrEeOzxunbBxEB6g" name="setDatos">
-          <ownedParameter xmi:id="_ff7kEFnrEeOzxunbBxEB6g" name="datos">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_-7yB8E3tEeOnwZnA8BLNdA" name="Command" clientDependency="_URrBcE3uEeOnwZnA8BLNdA">
         <ownedOperation xmi:id="_GHokoE3uEeOnwZnA8BLNdA" name="execute">
           <ownedParameter xmi:id="_b3bR4E3uEeOnwZnA8BLNdA" name="datos">
@@ -11633,7 +11804,6 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_2ivQAFn5EeO8CeldzgaGAQ" supplier="_EeT2YE3uEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_6h-UIF3HEeO-_aRpXb1KHA" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_G_L3sFVBEeOHbf1wwOYV_Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_hb298FHXEeOpQYXWWsNwnQ" name="" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_ALuxMFD_EeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_bu_KoFbNEeOfU6amWAehQg" name="habitacion">
         <eAnnotations xmi:id="_bu_KoVbNEeOfU6amWAehQg" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WVDZcFmqEeOV7Y-mRZ3AMA" type="Class" name="Diagrama de comandos habitacion">
@@ -13052,23 +13222,92 @@
           <eAnnotations xmi:id="_64H6gVm6EeON3cUkABIsGg" source="uml2.diagrams"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_IcDeEFhREeO5YZXdA-e8pA" supplier="_G_L3sFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_I0MRQFhREeO5YZXdA-e8pA" supplier="_up7hwFHXEeOpQYXWWsNwnQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_EFt7MFmqEeOV7Y-mRZ3AMA" supplier="_ksNhQFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_GqIYsFmqEeOV7Y-mRZ3AMA" supplier="_tshrMFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_J9wFkFmqEeOV7Y-mRZ3AMA" supplier="_Y4xvcFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_iB8B4FmrEeOV7Y-mRZ3AMA" supplier="_fWSHlFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_kx5BAFmrEeOV7Y-mRZ3AMA" supplier="_fWSHmVd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_mq6YIFmrEeOV7Y-mRZ3AMA" supplier="_fWSHkFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_nOrMgFmrEeOV7Y-mRZ3AMA" supplier="_fWSHkld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_oDgiwFmrEeOV7Y-mRZ3AMA" supplier="_fWSHnld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_QSkAoFmsEeOV7Y-mRZ3AMA" supplier="_gF1VMld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_Qx19oFmsEeOV7Y-mRZ3AMA" supplier="_gF1VMFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_RROBQFmsEeOV7Y-mRZ3AMA" supplier="_gF1VOVd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_RymQAFmsEeOV7Y-mRZ3AMA" supplier="_gF1VPld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_SXshIFmsEeOV7Y-mRZ3AMA" supplier="_gF1VNFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_bGAMsFm6EeON3cUkABIsGg" name="Eventodeoperacióndeenvío7" operation="_unkzoE3tEeOnwZnA8BLNdA"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_bGAMsVm6EeON3cUkABIsGg" name="Eventodeoperaciónderecepción7" operation="_unkzoE3tEeOnwZnA8BLNdA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="__24MAGAnEeO-04bBe5xDmQ" name="IDEvento">
+        <eAnnotations xmi:id="_UHRjEGAoEeO-04bBe5xDmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UHRjEWAoEeO-04bBe5xDmQ" key="Enum"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_VBM0sGAoEeO-04bBe5xDmQ" name="EVENTO_ALTA_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_lLmmwGAoEeO-04bBe5xDmQ" name="ERROR_ALTA_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_nvCM0GAoEeO-04bBe5xDmQ" name="EVENTO_ACTUALIZAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_pXgmgGAoEeO-04bBe5xDmQ" name="ERROR_ACTUALIZAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_qaTgQGAoEeO-04bBe5xDmQ" name="EVENTO_OBTENER_CLIETNE" visibility="private"/>
+        <ownedAttribute xmi:id="_rn-NQGAoEeO-04bBe5xDmQ" name="ERROR_OBTENER_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_ssrLgGAoEeO-04bBe5xDmQ" name="EVENTO_OBTENER_TODOS_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_uTDTcGAoEeO-04bBe5xDmQ" name="ERROR_OBTENER_TODOS_CLIENTE" visibility="private"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KO-y0GApEeO-04bBe5xDmQ" name="commandFactory">
+        <eAnnotations xmi:id="_KO-y0WApEeO-04bBe5xDmQ" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ALuxMFD_EeOEZZHAwxdNog" name="CommandFactory" clientDependency="_hb298FHXEeOpQYXWWsNwnQ" isAbstract="true">
+          <eAnnotations xmi:id="_LIMewFD_EeOEZZHAwxdNog" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_LIMewVD_EeOEZZHAwxdNog" key="Singleton"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_PU-2AFEEEeOEZZHAwxdNog" name="commandFactoryInstance" visibility="private" isStatic="true" type="_ALuxMFD_EeOEZZHAwxdNog"/>
+          <ownedOperation xmi:id="_PddckFEEEeOEZZHAwxdNog" name="getInstance" isStatic="true">
+            <ownedParameter xmi:id="_Tq5GUFEEEeOEZZHAwxdNog" name="Parámetro1" type="_ALuxMFD_EeOEZZHAwxdNog" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_SY4RgFHYEeOpQYXWWsNwnQ" name="nuevoComando" isAbstract="true">
+            <ownedParameter xmi:id="_YuSUYFHYEeOpQYXWWsNwnQ" name="Parámetro1" type="_-7yB8E3tEeOnwZnA8BLNdA" direction="return"/>
+            <ownedParameter xmi:id="_ZSmPMFKEEeOdKJL3-j-oAQ" name="id_comando" type="__24MAGAnEeO-04bBe5xDmQ">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cudSEFKEEeOdKJL3-j-oAQ" name="">
+                <language></language>
+                <body></body>
+              </defaultValue>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EeT2YE3uEeOnwZnA8BLNdA" name="CommandResponse">
+          <ownedAttribute xmi:id="_ghIA4E3uEeOnwZnA8BLNdA" name="evento" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hdrIsE3uEeOnwZnA8BLNdA" name="datos" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_WjTAQFnrEeOzxunbBxEB6g" name="getEvento">
+            <ownedParameter xmi:id="_ciFS4FnrEeOzxunbBxEB6g" name="evento" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_XwxgAFnrEeOzxunbBxEB6g" name="getDatos">
+            <ownedParameter xmi:id="_a3gncFnrEeOzxunbBxEB6g" name="datos" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YcaeAFnrEeOzxunbBxEB6g" name="setEvento">
+            <ownedParameter xmi:id="_jIiCcFnrEeOzxunbBxEB6g" name="evento">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=sunw.util.EventObject%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ZEnGcFnrEeOzxunbBxEB6g" name="setDatos">
+            <ownedParameter xmi:id="_ff7kEFnrEeOzxunbBxEB6g" name="datos">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Object%5Bproject%5Eid=Hotel%20Manager%20(master)%5D$uml.Class"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_hb298FHXEeOpQYXWWsNwnQ" name="" supplier="_-7yB8E3tEeOnwZnA8BLNdA" client="_ALuxMFD_EeOEZZHAwxdNog"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_O38iAGApEeO-04bBe5xDmQ" name="imp">
+          <eAnnotations xmi:id="_O39JEGApEeO-04bBe5xDmQ" source="uml2.diagrams"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_I6qd8FEEEeOEZZHAwxdNog" name="CommandFactoryImp" clientDependency="_IcDeEFhREeO5YZXdA-e8pA _I0MRQFhREeO5YZXdA-e8pA _EFt7MFmqEeOV7Y-mRZ3AMA _GqIYsFmqEeOV7Y-mRZ3AMA _J9wFkFmqEeOV7Y-mRZ3AMA _iB8B4FmrEeOV7Y-mRZ3AMA _kx5BAFmrEeOV7Y-mRZ3AMA _mq6YIFmrEeOV7Y-mRZ3AMA _nOrMgFmrEeOV7Y-mRZ3AMA _oDgiwFmrEeOV7Y-mRZ3AMA _QSkAoFmsEeOV7Y-mRZ3AMA _Qx19oFmsEeOV7Y-mRZ3AMA _RROBQFmsEeOV7Y-mRZ3AMA _RymQAFmsEeOV7Y-mRZ3AMA _SXshIFmsEeOV7Y-mRZ3AMA">
+            <generalization xmi:id="_wE_FEFKIEeOdKJL3-j-oAQ" general="_ALuxMFD_EeOEZZHAwxdNog"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_iB8B4FmrEeOV7Y-mRZ3AMA" supplier="_fWSHlFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_J9wFkFmqEeOV7Y-mRZ3AMA" supplier="_Y4xvcFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_kx5BAFmrEeOV7Y-mRZ3AMA" supplier="_fWSHmVd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_mq6YIFmrEeOV7Y-mRZ3AMA" supplier="_fWSHkFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_nOrMgFmrEeOV7Y-mRZ3AMA" supplier="_fWSHkld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_IcDeEFhREeO5YZXdA-e8pA" supplier="_G_L3sFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_I0MRQFhREeO5YZXdA-e8pA" supplier="_up7hwFHXEeOpQYXWWsNwnQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_oDgiwFmrEeOV7Y-mRZ3AMA" supplier="_fWSHnld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_QSkAoFmsEeOV7Y-mRZ3AMA" supplier="_gF1VMld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_Qx19oFmsEeOV7Y-mRZ3AMA" supplier="_gF1VMFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_RROBQFmsEeOV7Y-mRZ3AMA" supplier="_gF1VOVd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_RymQAFmsEeOV7Y-mRZ3AMA" supplier="_gF1VPld0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_EFt7MFmqEeOV7Y-mRZ3AMA" supplier="_ksNhQFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_GqIYsFmqEeOV7Y-mRZ3AMA" supplier="_tshrMFVBEeOHbf1wwOYV_Q" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_SXshIFmsEeOV7Y-mRZ3AMA" supplier="_gF1VNFd0EeOJkaejr6T_vQ" client="_I6qd8FEEEeOEZZHAwxdNog"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="integración">
@@ -13753,11 +13992,11 @@
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk5wUF5yEeOSHNoCAWQPiQ" covered="_rhzC0F5yEeOSHNoCAWQPiQ" event="_w_MfoF5yEeOSHNoCAWQPiQ" message="_wkzpsF5yEeOSHNoCAWQPiQ"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk6XYF5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_w_NGsF5yEeOSHNoCAWQPiQ" message="_wkzpsF5yEeOSHNoCAWQPiQ"/>
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_wk6-cF5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" start="_wk6XYF5yEeOSHNoCAWQPiQ" finish="_wk7lgF5yEeOSHNoCAWQPiQ"/>
-            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1oyg8V5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_g4I4kF3aEeOZ_sPAkzNJng" message="_1oyg8F5yEeOSHNoCAWQPiQ"/>
-            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozIAF5yEeOSHNoCAWQPiQ" covered="_zm1QQF5yEeOSHNoCAWQPiQ" event="_g4JfoF3aEeOZ_sPAkzNJng" message="_1oyg8F5yEeOSHNoCAWQPiQ"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1oyg8V5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_5vxygF-FEeOkM5n3o_bjKA" message="_1oyg8F5yEeOSHNoCAWQPiQ"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozIAF5yEeOSHNoCAWQPiQ" covered="_zm1QQF5yEeOSHNoCAWQPiQ" event="_5vznsF-FEeOkM5n3o_bjKA" message="_1oyg8F5yEeOSHNoCAWQPiQ"/>
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_1ozIAV5yEeOSHNoCAWQPiQ" covered="_zm1QQF5yEeOSHNoCAWQPiQ" start="_1ozIAF5yEeOSHNoCAWQPiQ" finish="_1ozIAl5yEeOSHNoCAWQPiQ"/>
-            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozIAl5yEeOSHNoCAWQPiQ" covered="_zm1QQF5yEeOSHNoCAWQPiQ" event="_g4I4kF3aEeOZ_sPAkzNJng" message="_1ozvEF5yEeOSHNoCAWQPiQ"/>
-            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozvEV5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_g4JfoF3aEeOZ_sPAkzNJng" message="_1ozvEF5yEeOSHNoCAWQPiQ"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozIAl5yEeOSHNoCAWQPiQ" covered="_zm1QQF5yEeOSHNoCAWQPiQ" event="_5vxygF-FEeOkM5n3o_bjKA" message="_1ozvEF5yEeOSHNoCAWQPiQ"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1ozvEV5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_5vznsF-FEeOkM5n3o_bjKA" message="_1ozvEF5yEeOSHNoCAWQPiQ"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk7lgF5yEeOSHNoCAWQPiQ" covered="_t7eP8F5yEeOSHNoCAWQPiQ" event="_w_MfoF5yEeOSHNoCAWQPiQ" message="_wk8MkF5yEeOSHNoCAWQPiQ"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk8MkV5yEeOSHNoCAWQPiQ" covered="_rhzC0F5yEeOSHNoCAWQPiQ" event="_w_NGsF5yEeOSHNoCAWQPiQ" message="_wk8MkF5yEeOSHNoCAWQPiQ"/>
             <message xmi:id="_wkzpsF5yEeOSHNoCAWQPiQ" name="getTransaccion" receiveEvent="_wk6XYF5yEeOSHNoCAWQPiQ" sendEvent="_wk5wUF5yEeOSHNoCAWQPiQ" connector="_wk8zoF5yEeOSHNoCAWQPiQ"/>
@@ -14010,7 +14249,7 @@
           <ownedAttribute xmi:id="_rhzp4F5yEeOSHNoCAWQPiQ" name=""/>
           <ownedAttribute xmi:id="_t7eP8V5yEeOSHNoCAWQPiQ" name="" type="_Ug42QE37EeO_s5EIjyAJqw"/>
           <ownedAttribute xmi:id="_zm13UF5yEeOSHNoCAWQPiQ" name="">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.concurrent.ConcurrentHashMap%5Bproject%5Eid=n%5D$uml.Class"/>
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.concurrent.ConcurrentMap%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Interface"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_IIrjsF5zEeOSHNoCAWQPiQ" name=""/>
           <ownedAttribute xmi:id="_Jn-zQF5zEeOSHNoCAWQPiQ" name="" type="_Ug42QE37EeO_s5EIjyAJqw"/>
@@ -14045,6 +14284,12 @@
         </packagedElement>
         <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_SsBmoF5zEeOSHNoCAWQPiQ" name="Eventodeoperaciónderecepción8">
           <operation href="mmi:///#jmethod%5Ename=remove%5Esign=(Ljava.lang.Object;)TV;%5Bjbintype%5Ename=java.util.concurrent.ConcurrentHashMap%5Bproject%5Eid=n%5D%5D$uml.Operation"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_5vxygF-FEeOkM5n3o_bjKA" name="Eventodeoperacióndeenvío9">
+          <operation href="mmi:///#jmethod%5Ename=get%5Esign=(Ljava.lang.Object;)TV;%5Bjbintype%5Ename=java.util.Map%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D%5D$uml.Operation"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_5vznsF-FEeOkM5n3o_bjKA" name="Eventodeoperaciónderecepción9">
+          <operation href="mmi:///#jmethod%5Ename=get%5Esign=(Ljava.lang.Object;)TV;%5Bjbintype%5Ename=java.util.Map%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D%5D$uml.Operation"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
