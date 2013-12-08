@@ -13285,12 +13285,24 @@
         </eAnnotations>
         <ownedAttribute xmi:id="_VBM0sGAoEeO-04bBe5xDmQ" name="EVENTO_ALTA_CLIENTE" visibility="private"/>
         <ownedAttribute xmi:id="_lLmmwGAoEeO-04bBe5xDmQ" name="ERROR_ALTA_CLIENTE" visibility="private"/>
-        <ownedAttribute xmi:id="_nvCM0GAoEeO-04bBe5xDmQ" name="EVENTO_ACTUALIZAR_CLIENTE" visibility="private"/>
-        <ownedAttribute xmi:id="_pXgmgGAoEeO-04bBe5xDmQ" name="ERROR_ACTUALIZAR_CLIENTE" visibility="private"/>
-        <ownedAttribute xmi:id="_qaTgQGAoEeO-04bBe5xDmQ" name="EVENTO_OBTENER_CLIETNE" visibility="private"/>
-        <ownedAttribute xmi:id="_rn-NQGAoEeO-04bBe5xDmQ" name="ERROR_OBTENER_CLIENTE" visibility="private"/>
-        <ownedAttribute xmi:id="_ssrLgGAoEeO-04bBe5xDmQ" name="EVENTO_OBTENER_TODOS_CLIENTE" visibility="private"/>
-        <ownedAttribute xmi:id="_uTDTcGAoEeO-04bBe5xDmQ" name="ERROR_OBTENER_TODOS_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_nvCM0GAoEeO-04bBe5xDmQ" name="EVENTO_MODIFICAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_pXgmgGAoEeO-04bBe5xDmQ" name="ERROR_MODIFICAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_qaTgQGAoEeO-04bBe5xDmQ" name="EVENTO_CONSULTAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_rn-NQGAoEeO-04bBe5xDmQ" name="ERROR_CONSULTAR_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_ssrLgGAoEeO-04bBe5xDmQ" name="EVENTO_CONSULTAR_TODOS_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_uTDTcGAoEeO-04bBe5xDmQ" name="ERROR_CONSULTAR_TODOS_CLIENTES" visibility="private"/>
+        <ownedAttribute xmi:id="_9jBXYGBFEeO4fcLAaBAhkQ" name="ERROR_BAJA_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_llbgYGBGEeO4fcLAaBAhkQ" name="EVENTO_BAJA_CLIENTE" visibility="private"/>
+        <ownedAttribute xmi:id="_or6JIGBGEeO4fcLAaBAhkQ" name="EVENTO_ALTA_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_qynW8GBGEeO4fcLAaBAhkQ" name="EVENTO_BAJA_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_sUqYgGBGEeO4fcLAaBAhkQ" name="EVENTO_MODIFICAR_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_tqzFAGBGEeO4fcLAaBAhkQ" name="EVENTO_CONSULTAR_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_vsblkGBGEeO4fcLAaBAhkQ" name="EVENTO_CONSULTAR_TODAS_RESERVAS" visibility="private"/>
+        <ownedAttribute xmi:id="_yY_ScGBGEeO4fcLAaBAhkQ" name="ERROR_ALTA_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_zng7EGBGEeO4fcLAaBAhkQ" name="ERROR_BAJA_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_05LXQGBGEeO4fcLAaBAhkQ" name="ERROR_MODIFICAR_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_4KiaUGBGEeO4fcLAaBAhkQ" name="ERROR_CONSULTAR_RESERVA" visibility="private"/>
+        <ownedAttribute xmi:id="_5eIwMGBGEeO4fcLAaBAhkQ" name="ERROR_CONSULTAR_TODAS_RESERVAS" visibility="private"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_KO-y0GApEeO-04bBe5xDmQ" name="commandFactory">
         <eAnnotations xmi:id="_KO-y0WApEeO-04bBe5xDmQ" source="uml2.diagrams"/>
