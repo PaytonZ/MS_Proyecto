@@ -1441,8 +1441,8 @@
           </ownedOperation>
           <ownedOperation xmi:id="_ywtij04JEeOMMLo_SYkG7A" name="obtenerCliente">
             <ownedParameter xmi:id="_ywtikE4JEeOMMLo_SYkG7A" name="cliente" type="_FSLS8ElyEeOJerZXhKkQ2A" direction="return"/>
-            <ownedParameter xmi:id="_ywtikU4JEeOMMLo_SYkG7A" name="idCliente">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+            <ownedParameter xmi:id="_ywtikU4JEeOMMLo_SYkG7A" name="DNICliente">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
@@ -17464,7 +17464,7 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_AWONQE0KEeORQI7pZIWD9Q" name="imp">
           <eAnnotations xmi:id="_AWPbYE0KEeORQI7pZIWD9Q" source="uml2.diagrams" references="_GUwBME0KEeORQI7pZIWD9Q">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GUwBME0KEeORQI7pZIWD9Q" type="Class" name="DAOCliente">
-              <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Pk3QoFhNEeO5YZXdA-e8pA" element="_4NvZMFhMEeO5YZXdA-e8pA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Pk3QoFhNEeO5YZXdA-e8pA" element="_4NvZMFhMEeO5YZXdA-e8pA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="notation:DecorationNode" xmi:id="_Pk33sFhNEeO5YZXdA-e8pA" type="ImageCompartment">
                   <layoutConstraint xmi:type="notation:Size" xmi:id="_Pk33sVhNEeO5YZXdA-e8pA" width="530" height="530"/>
                 </children>
@@ -20571,8 +20571,8 @@
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_CcuVsFhNEeO5YZXdA-e8pA" name="getCliente">
-            <ownedParameter xmi:id="_xtUQwFhaEeOqIr1pf3p4HQ" name="idCliente">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D$uml.Class"/>
+            <ownedParameter xmi:id="_xtUQwFhaEeOqIr1pf3p4HQ" name="DNICliente">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
             </ownedParameter>
             <ownedParameter xmi:id="_z2SvcFhaEeOqIr1pf3p4HQ" name="cliente" type="_FSLS8ElyEeOJerZXhKkQ2A" direction="return"/>
           </ownedOperation>
