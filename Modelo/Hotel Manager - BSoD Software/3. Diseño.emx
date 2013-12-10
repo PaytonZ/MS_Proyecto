@@ -872,11 +872,11 @@
           <ownedAttribute xmi:id="_bYc4ME7xEeOy-7FMu9HQKQ" name="numeroReserva" visibility="private">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_MaQnkGHqEeOQ4dysAeGIxg" name="idCliente" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_HUmS4E7yEeOy-7FMu9HQKQ" name="numeroHabitacion" visibility="private">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:id="_MMwUoE7yEeOy-7FMu9HQKQ" name="DNI" visibility="private">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_kxENYE7xEeOy-7FMu9HQKQ" name="fechaReserva" visibility="private">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
@@ -892,9 +892,14 @@
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_jQnowFh9EeONKaUAJkjaFQ" name="getDNI">
-            <ownedParameter xmi:id="_9sbu4GBBEeO80LhXPs0XaA" name="Parámetro1" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
+          <ownedOperation xmi:id="_cGLt4GHqEeOQ4dysAeGIxg" name="setIdCliente">
+            <ownedParameter xmi:id="_hqlxoGHqEeOQ4dysAeGIxg" name="idCliente">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_VCWewGHqEeOQ4dysAeGIxg" name="getIdCliente">
+            <ownedParameter xmi:id="_ZxQd4GHqEeOQ4dysAeGIxg" name="Parámetro1" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_mDn74Fh9EeONKaUAJkjaFQ" name="getFechaReserva">
@@ -924,11 +929,6 @@
           <ownedOperation xmi:id="_B-JTwFiDEeONKaUAJkjaFQ" name="setNumeroHabitacion">
             <ownedParameter xmi:id="_RD2hcGBAEeO80LhXPs0XaA" name="numHabitacion">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
-            </ownedParameter>
-          </ownedOperation>
-          <ownedOperation xmi:id="_DtJzQFiDEeONKaUAJkjaFQ" name="setDNI">
-            <ownedParameter xmi:id="_BIpMgGBBEeO80LhXPs0XaA" name="DNI">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=MS_Proyecto%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_IIIJwFiDEeONKaUAJkjaFQ" name="setFechaReserva">
@@ -15065,8 +15065,8 @@
               <message xmi:id="_HhEYgVh9EeONKaUAJkjaFQ" name="prepareStatement" messageSort="reply" receiveEvent="_HhEYglh9EeONKaUAJkjaFQ" sendEvent="_HhEYgFh9EeONKaUAJkjaFQ" connector="_HhEYg1h9EeONKaUAJkjaFQ"/>
               <message xmi:id="_et2BIFh9EeONKaUAJkjaFQ" name="getNumeroHabitacion" receiveEvent="_et8HwFh9EeONKaUAJkjaFQ" sendEvent="_et2BIVh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
               <message xmi:id="_et8Hw1h9EeONKaUAJkjaFQ" name="getNumeroHabitacion" messageSort="reply" receiveEvent="_et8HxFh9EeONKaUAJkjaFQ" sendEvent="_et8Hwlh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
-              <message xmi:id="_ieXFYFh9EeONKaUAJkjaFQ" name="getDNI" receiveEvent="_ieXFYlh9EeONKaUAJkjaFQ" sendEvent="_ieXFYVh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
-              <message xmi:id="_ieXFZVh9EeONKaUAJkjaFQ" name="getDNI" messageSort="reply" receiveEvent="_ieXFZlh9EeONKaUAJkjaFQ" sendEvent="_ieXFZFh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
+              <message xmi:id="_ieXFYFh9EeONKaUAJkjaFQ" name="\Sin especificar\" receiveEvent="_ieXFYlh9EeONKaUAJkjaFQ" sendEvent="_ieXFYVh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
+              <message xmi:id="_ieXFZVh9EeONKaUAJkjaFQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_ieXFZlh9EeONKaUAJkjaFQ" sendEvent="_ieXFZFh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
               <message xmi:id="_k0qOYFh9EeONKaUAJkjaFQ" name="getFechaReserva" receiveEvent="_k0qOYlh9EeONKaUAJkjaFQ" sendEvent="_k0qOYVh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
               <message xmi:id="_k0qOZVh9EeONKaUAJkjaFQ" name="getFechaReserva" messageSort="reply" receiveEvent="_k0qOZlh9EeONKaUAJkjaFQ" sendEvent="_k0qOZFh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
               <message xmi:id="_n3NZYFh9EeONKaUAJkjaFQ" name="getFechaSalida" receiveEvent="_n3NZYlh9EeONKaUAJkjaFQ" sendEvent="_n3NZYVh9EeONKaUAJkjaFQ" connector="_et8HxVh9EeONKaUAJkjaFQ"/>
@@ -15098,8 +15098,8 @@
           </packagedElement>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gNsDQVh9EeONKaUAJkjaFQ" name="Eventodeoperacióndeenvío4" operation="_gNsDQFh9EeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gNsDQlh9EeONKaUAJkjaFQ" name="Eventodeoperaciónderecepción4" operation="_gNsDQFh9EeONKaUAJkjaFQ"/>
-          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jQnowVh9EeONKaUAJkjaFQ" name="Eventodeoperacióndeenvío5" operation="_jQnowFh9EeONKaUAJkjaFQ"/>
-          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jQnowlh9EeONKaUAJkjaFQ" name="Eventodeoperaciónderecepción5" operation="_jQnowFh9EeONKaUAJkjaFQ"/>
+          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jQnowVh9EeONKaUAJkjaFQ" name="Eventodeoperacióndeenvío5"/>
+          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jQnowlh9EeONKaUAJkjaFQ" name="Eventodeoperaciónderecepción5"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_mDn74Vh9EeONKaUAJkjaFQ" name="Eventodeoperacióndeenvío6" operation="_mDn74Fh9EeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_mDn74lh9EeONKaUAJkjaFQ" name="Eventodeoperaciónderecepción6" operation="_mDn74Fh9EeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_op8d4Vh9EeONKaUAJkjaFQ" name="Eventodeoperacióndeenvío7" operation="_op8d4Fh9EeONKaUAJkjaFQ"/>
@@ -16044,8 +16044,8 @@
               <message xmi:id="_7P8WZViCEeONKaUAJkjaFQ" name="setID" messageSort="reply" receiveEvent="_7P8WZliCEeONKaUAJkjaFQ" sendEvent="_7P8WZFiCEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
               <message xmi:id="_AS89QFiDEeONKaUAJkjaFQ" name="setNumeroHabitacion" receiveEvent="_ATDD4ViDEeONKaUAJkjaFQ" sendEvent="_ATDD4FiDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
               <message xmi:id="_ATDD5FiDEeONKaUAJkjaFQ" name="setNumeroHabitacion" messageSort="reply" receiveEvent="_ATDD5ViDEeONKaUAJkjaFQ" sendEvent="_ATDD41iDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
-              <message xmi:id="_CkrIQFiDEeONKaUAJkjaFQ" name="setDNI" receiveEvent="_CkrIQliDEeONKaUAJkjaFQ" sendEvent="_CkrIQViDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
-              <message xmi:id="_CkrIRViDEeONKaUAJkjaFQ" name="setDNI" messageSort="reply" receiveEvent="_CkrIRliDEeONKaUAJkjaFQ" sendEvent="_CkrIRFiDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
+              <message xmi:id="_CkrIQFiDEeONKaUAJkjaFQ" name="\Sin especificar\" receiveEvent="_CkrIQliDEeONKaUAJkjaFQ" sendEvent="_CkrIQViDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
+              <message xmi:id="_CkrIRViDEeONKaUAJkjaFQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_CkrIRliDEeONKaUAJkjaFQ" sendEvent="_CkrIRFiDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
               <message xmi:id="_EdN-QFiDEeONKaUAJkjaFQ" name="setFechaReserva" receiveEvent="_EdN-QliDEeONKaUAJkjaFQ" sendEvent="_EdN-QViDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
               <message xmi:id="_EdN-RViDEeONKaUAJkjaFQ" name="setFechaReserva" messageSort="reply" receiveEvent="_EdN-RliDEeONKaUAJkjaFQ" sendEvent="_EdN-RFiDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
               <message xmi:id="_JN77QFiDEeONKaUAJkjaFQ" name="setFechaSalida" receiveEvent="_JN77QliDEeONKaUAJkjaFQ" sendEvent="_JN77QViDEeONKaUAJkjaFQ" connector="_c9lLI1iCEeONKaUAJkjaFQ"/>
@@ -16099,8 +16099,8 @@
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_-pqrQliCEeONKaUAJkjaFQ" operation="_-pqrQFiCEeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_B-JTwViDEeONKaUAJkjaFQ" operation="_B-JTwFiDEeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_B-JTwliDEeONKaUAJkjaFQ" operation="_B-JTwFiDEeONKaUAJkjaFQ"/>
-          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_DtJzQViDEeONKaUAJkjaFQ" operation="_DtJzQFiDEeONKaUAJkjaFQ"/>
-          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_DtJzQliDEeONKaUAJkjaFQ" operation="_DtJzQFiDEeONKaUAJkjaFQ"/>
+          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_DtJzQViDEeONKaUAJkjaFQ"/>
+          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_DtJzQliDEeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_IIIJwViDEeONKaUAJkjaFQ" operation="_IIIJwFiDEeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_IIIJwliDEeONKaUAJkjaFQ" operation="_IIIJwFiDEeONKaUAJkjaFQ"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Khq0AViDEeONKaUAJkjaFQ" operation="_Khq0AFiDEeONKaUAJkjaFQ"/>
@@ -16805,8 +16805,8 @@
               <message xmi:id="_z6fEYViFEeONKaUAJkjaFQ" name="setID" messageSort="reply" receiveEvent="_z6frcFiFEeONKaUAJkjaFQ" sendEvent="_z6fEYFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
               <message xmi:id="_05C-YFiFEeONKaUAJkjaFQ" name="setNumeroHabitacion" receiveEvent="_05DlcViFEeONKaUAJkjaFQ" sendEvent="_05DlcFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
               <message xmi:id="_05EMgliFEeONKaUAJkjaFQ" name="setNumeroHabitacion" messageSort="reply" receiveEvent="_05EzkFiFEeONKaUAJkjaFQ" sendEvent="_05EMgViFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
-              <message xmi:id="_2d5cUFiFEeONKaUAJkjaFQ" name="setDNI" receiveEvent="_2d6qcFiFEeONKaUAJkjaFQ" sendEvent="_2d6DYFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
-              <message xmi:id="_2d7RgViFEeONKaUAJkjaFQ" name="setDNI" messageSort="reply" receiveEvent="_2d74kFiFEeONKaUAJkjaFQ" sendEvent="_2d7RgFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
+              <message xmi:id="_2d5cUFiFEeONKaUAJkjaFQ" name="\Sin especificar\" receiveEvent="_2d6qcFiFEeONKaUAJkjaFQ" sendEvent="_2d6DYFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
+              <message xmi:id="_2d7RgViFEeONKaUAJkjaFQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_2d74kFiFEeONKaUAJkjaFQ" sendEvent="_2d7RgFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
               <message xmi:id="_5SnmsFiFEeONKaUAJkjaFQ" name="setFechaReserva" receiveEvent="_5SoNwViFEeONKaUAJkjaFQ" sendEvent="_5SoNwFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
               <message xmi:id="_5Spb4FiFEeONKaUAJkjaFQ" name="setFechaReserva" messageSort="reply" receiveEvent="_5Spb4ViFEeONKaUAJkjaFQ" sendEvent="_5So00ViFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
               <message xmi:id="_7ALUsFiFEeONKaUAJkjaFQ" name="setFechaSalida" receiveEvent="_7AL7wViFEeONKaUAJkjaFQ" sendEvent="_7AL7wFiFEeONKaUAJkjaFQ" connector="_thWYEFiFEeONKaUAJkjaFQ"/>
@@ -17273,8 +17273,8 @@
               <message xmi:id="_2gY6MFiGEeONKaUAJkjaFQ" name="getResource" messageSort="reply" receiveEvent="_2gY6MViGEeONKaUAJkjaFQ" sendEvent="_2gYTIViGEeONKaUAJkjaFQ" connector="_2gZhQFiGEeONKaUAJkjaFQ"/>
               <message xmi:id="_5ibu4FiGEeONKaUAJkjaFQ" name="prepareStatement" receiveEvent="_5ic9AFiGEeONKaUAJkjaFQ" sendEvent="_5icV8FiGEeONKaUAJkjaFQ" connector="_5idkEViGEeONKaUAJkjaFQ"/>
               <message xmi:id="_5ic9A1iGEeONKaUAJkjaFQ" name="prepareStatement" messageSort="reply" receiveEvent="_5idkEFiGEeONKaUAJkjaFQ" sendEvent="_5ic9AliGEeONKaUAJkjaFQ" connector="_5idkEViGEeONKaUAJkjaFQ"/>
-              <message xmi:id="_-xTAcFiGEeONKaUAJkjaFQ" name="getDNI" receiveEvent="_-xUOkFiGEeONKaUAJkjaFQ" sendEvent="_-xTngFiGEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
-              <message xmi:id="_-xU1oViGEeONKaUAJkjaFQ" name="getDNI" messageSort="reply" receiveEvent="_-xU1oliGEeONKaUAJkjaFQ" sendEvent="_-xU1oFiGEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
+              <message xmi:id="_-xTAcFiGEeONKaUAJkjaFQ" name="\Sin especificar\" receiveEvent="_-xUOkFiGEeONKaUAJkjaFQ" sendEvent="_-xTngFiGEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
+              <message xmi:id="_-xU1oViGEeONKaUAJkjaFQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_-xU1oliGEeONKaUAJkjaFQ" sendEvent="_-xU1oFiGEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
               <message xmi:id="_AHQGwFiHEeONKaUAJkjaFQ" name="getFechaEntrada" receiveEvent="_AHQGwliHEeONKaUAJkjaFQ" sendEvent="_AHQGwViHEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
               <message xmi:id="_AHQt0liHEeONKaUAJkjaFQ" name="getFechaEntrada" messageSort="reply" receiveEvent="_AHQt01iHEeONKaUAJkjaFQ" sendEvent="_AHQt0ViHEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
               <message xmi:id="_A9-TYFiHEeONKaUAJkjaFQ" name="getNumeroHabitacion" receiveEvent="_A9-6cFiHEeONKaUAJkjaFQ" sendEvent="_A9-TYViHEeONKaUAJkjaFQ" connector="_-xVcsFiGEeONKaUAJkjaFQ"/>
