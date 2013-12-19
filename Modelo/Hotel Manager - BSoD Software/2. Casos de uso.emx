@@ -4220,7 +4220,7 @@
           <node xmi:type="uml:InitialNode" xmi:id="_Uo91YE4VEeOMk9UeQ3hpQQ" name="Inicio" outgoing="_2hBU8E4VEeOMk9UeQ3hpQQ"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_VQ-QkE4VEeOMk9UeQ3hpQQ" name="FIN" incoming="_9i5cQE4VEeOMk9UeQ3hpQQ __8yr0E4VEeOMk9UeQ3hpQQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_dr9f4E4VEeOMk9UeQ3hpQQ" name="Buscar cliente por DNI" outgoing="_3C5S8E4VEeOMk9UeQ3hpQQ" incoming="_2hBU8E4VEeOMk9UeQ3hpQQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_sC03wE4VEeOMk9UeQ3hpQQ" name="Existe" outgoing="_33SkUE4VEeOMk9UeQ3hpQQ _7vzuAE4VEeOMk9UeQ3hpQQ" incoming="_3C5S8E4VEeOMk9UeQ3hpQQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_sC03wE4VEeOMk9UeQ3hpQQ" name="" outgoing="_33SkUE4VEeOMk9UeQ3hpQQ _7vzuAE4VEeOMk9UeQ3hpQQ" incoming="_3C5S8E4VEeOMk9UeQ3hpQQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_teK0YE4VEeOMk9UeQ3hpQQ" name="Tratar error e informar" outgoing="_9i5cQE4VEeOMk9UeQ3hpQQ" incoming="_33SkUE4VEeOMk9UeQ3hpQQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_wETJIE4VEeOMk9UeQ3hpQQ" name="Buscar sus reservas" outgoing="__iWykE4VEeOMk9UeQ3hpQQ" incoming="_7vzuAE4VEeOMk9UeQ3hpQQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_04OyME4VEeOMk9UeQ3hpQQ" name="Mostrar las reservas" outgoing="__8yr0E4VEeOMk9UeQ3hpQQ" incoming="__iWykE4VEeOMk9UeQ3hpQQ"/>
@@ -4241,14 +4241,14 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_33SkUE4VEeOMk9UeQ3hpQQ" source="_sC03wE4VEeOMk9UeQ3hpQQ" target="_teK0YE4VEeOMk9UeQ3hpQQ">
             <guard xmi:type="uml:OpaqueExpression" xmi:id="_33SkUU4VEeOMk9UeQ3hpQQ">
               <language></language>
-              <body>No</body>
+              <body>No existe</body>
             </guard>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_33SkUk4VEeOMk9UeQ3hpQQ" value="1"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_7vzuAE4VEeOMk9UeQ3hpQQ" source="_sC03wE4VEeOMk9UeQ3hpQQ" target="_wETJIE4VEeOMk9UeQ3hpQQ">
             <guard xmi:type="uml:OpaqueExpression" xmi:id="_7vzuAU4VEeOMk9UeQ3hpQQ">
               <language></language>
-              <body>Si</body>
+              <body>Si existe</body>
             </guard>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_7vzuAk4VEeOMk9UeQ3hpQQ" value="1"/>
           </edge>
