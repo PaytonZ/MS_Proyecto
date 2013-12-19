@@ -14909,7 +14909,7 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_qLl4MWKAEeOmx_09XlyM3g" name="Eventodeoperaciónderecepción19" operation="_rIa54FnaEeOzxunbBxEB6g"/>
     <packagedElement xmi:type="uml:CreationEvent" xmi:id="_uLSA42KAEeOmx_09XlyM3g" name="Eventodecreación1"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="integración">
+  <packagedElement xmi:type="uml:Package" xmi:id="_xrJrAEIIEeOpNrFH38e2Nw" name="integración" clientDependency="_TdHLEGiUEeOF8oL4MGiTNQ">
     <eAnnotations xmi:id="_xrKSEEIIEeOpNrFH38e2Nw" source="uml2.diagrams"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_07kwME4MEeOMMLo_SYkG7A" name="transacciones">
       <eAnnotations xmi:id="_294mME4MEeOMMLo_SYkG7A" source="uml2.diagrams">
@@ -23399,6 +23399,9 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_bFpH4FxNEeOKvNVwxop5fQ" supplier="_4pHp0E7ZEeODfo0qbPNkDg" client="_kU3EQFE7EeOZkpA6zjdLWw"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_cCWAsFxNEeOKvNVwxop5fQ" supplier="_4NvZMFhMEeO5YZXdA-e8pA" client="_kU3EQFE7EeOZkpA6zjdLWw"/>
       </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_TdHLEGiUEeOF8oL4MGiTNQ" client="_xrJrAEIIEeOpNrFH38e2Nw">
+      <supplier xmi:type="uml:Artifact" href="4.%20Despliege.emx#_PX7eYGiUEeOF8oL4MGiTNQ?4.%20Despliegue/bsod%20BBDD?"/>
     </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_gn8otUIIEeOpNrFH38e2Nw">
