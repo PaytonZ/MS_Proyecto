@@ -5312,7 +5312,7 @@
                       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tmtfQH6PEeOs1tEpi7q9LA" id="1260:1481"/>
                       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tmtfQX6PEeOs1tEpi7q9LA" id="1313:0"/>
                     </edges>
-                    <edges xmi:type="umlnotation:UMLConnector" xmi:id="_tm998H6PEeOs1tEpi7q9LA" element="_tmJekH6PEeOs1tEpi7q9LA" source="_fJeZoH6PEeOs1tEpi7q9LA" target="_TaoioHvLEeOwipaLjhbuRQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                    <edges xmi:type="umlnotation:UMLConnector" xmi:id="_tm998H6PEeOs1tEpi7q9LA" element="_tmJekH6PEeOs1tEpi7q9LA" source="_fJeZoH6PEeOs1tEpi7q9LA" target="_TaoioHvLEeOwipaLjhbuRQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" showListSignature="true" lineColor="8421504" lineWidth="1" showStereotype="Text">
                       <children xmi:type="notation:DecorationNode" xmi:id="_tm998n6PEeOs1tEpi7q9LA" type="MessageNameLabel">
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_tm-lAH6PEeOs1tEpi7q9LA" type="Stereotype"/>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_tm-lAX6PEeOs1tEpi7q9LA" type="Name"/>
@@ -5427,8 +5427,8 @@
                 <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_YikzkH6OEeOs1tEpi7q9LA" covered="_Wiw38H6OEeOs1tEpi7q9LA" start="_YikMgH6OEeOs1tEpi7q9LA" finish="_YilaoH6OEeOs1tEpi7q9LA"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YilaoH6OEeOs1tEpi7q9LA" covered="_Wiw38H6OEeOs1tEpi7q9LA" event="_ZY9B8H6OEeOs1tEpi7q9LA" message="_YilaoX6OEeOs1tEpi7q9LA"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YimBsH6OEeOs1tEpi7q9LA" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_ZY9pAH6OEeOs1tEpi7q9LA" message="_YilaoX6OEeOs1tEpi7q9LA"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1fXEHvLEeOwipaLjhbuRQ" covered="_KZSd8HvLEeOwipaLjhbuRQ" event="_VX7VwHvLEeOwipaLjhbuRQ" message="_U1eI8HvLEeOwipaLjhbuRQ"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1fXEXvLEeOwipaLjhbuRQ" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_VX780HvLEeOwipaLjhbuRQ" message="_U1eI8HvLEeOwipaLjhbuRQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1fXEHvLEeOwipaLjhbuRQ" covered="_KZSd8HvLEeOwipaLjhbuRQ" event="_ZXnBUH6SEeOs1tEpi7q9LA" message="_U1eI8HvLEeOwipaLjhbuRQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1fXEXvLEeOwipaLjhbuRQ" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_ZXnoYH6SEeOs1tEpi7q9LA" message="_U1eI8HvLEeOwipaLjhbuRQ"/>
                 <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_U1fXEnvLEeOwipaLjhbuRQ" covered="_Tak4QHvLEeOwipaLjhbuRQ" start="_U1fXEXvLEeOwipaLjhbuRQ" finish="_U1f-IHvLEeOwipaLjhbuRQ"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nP9jIH6QEeOs1tEpi7q9LA" covered="_Tak4QHvLEeOwipaLjhbuRQ" message="_nP88EH6QEeOs1tEpi7q9LA"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nP-KMH6QEeOs1tEpi7q9LA" covered="_9W6eEH6OEeOs1tEpi7q9LA" event="_ywvJkH6OEeOs1tEpi7q9LA" message="_nP88EH6QEeOs1tEpi7q9LA"/>
@@ -5467,10 +5467,10 @@
                 <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_iBxnAX6QEeOs1tEpi7q9LA" covered="_9W6eEH6OEeOs1tEpi7q9LA" start="_iBxnAH6QEeOs1tEpi7q9LA" finish="_iByOEH6QEeOs1tEpi7q9LA"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iByOEH6QEeOs1tEpi7q9LA" covered="_9W6eEH6OEeOs1tEpi7q9LA" event="_igotQH6QEeOs1tEpi7q9LA" message="_iBy1IH6QEeOs1tEpi7q9LA"/>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iBy1IX6QEeOs1tEpi7q9LA" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_igpUUH6QEeOs1tEpi7q9LA" message="_iBy1IH6QEeOs1tEpi7q9LA"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1f-IHvLEeOwipaLjhbuRQ" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_VX7VwHvLEeOwipaLjhbuRQ" message="_U1f-IXvLEeOwipaLjhbuRQ"/>
-                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1f-InvLEeOwipaLjhbuRQ" covered="_KZSd8HvLEeOwipaLjhbuRQ" event="_VX780HvLEeOwipaLjhbuRQ" message="_U1f-IXvLEeOwipaLjhbuRQ"/>
-                <message xmi:id="_U1eI8HvLEeOwipaLjhbuRQ" name="actualizarDepartamento" receiveEvent="_U1fXEXvLEeOwipaLjhbuRQ" sendEvent="_U1fXEHvLEeOwipaLjhbuRQ" connector="_U1hzUHvLEeOwipaLjhbuRQ"/>
-                <message xmi:id="_U1f-IXvLEeOwipaLjhbuRQ" name="actualizarDepartamento" messageSort="reply" receiveEvent="_U1f-InvLEeOwipaLjhbuRQ" sendEvent="_U1f-IHvLEeOwipaLjhbuRQ" connector="_U1hzUHvLEeOwipaLjhbuRQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1f-IHvLEeOwipaLjhbuRQ" covered="_Tak4QHvLEeOwipaLjhbuRQ" event="_ZXnBUH6SEeOs1tEpi7q9LA" message="_U1f-IXvLEeOwipaLjhbuRQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_U1f-InvLEeOwipaLjhbuRQ" covered="_KZSd8HvLEeOwipaLjhbuRQ" event="_ZXnoYH6SEeOs1tEpi7q9LA" message="_U1f-IXvLEeOwipaLjhbuRQ"/>
+                <message xmi:id="_U1eI8HvLEeOwipaLjhbuRQ" name="anadirDepartamento" receiveEvent="_U1fXEXvLEeOwipaLjhbuRQ" sendEvent="_U1fXEHvLEeOwipaLjhbuRQ" connector="_U1hzUHvLEeOwipaLjhbuRQ"/>
+                <message xmi:id="_U1f-IXvLEeOwipaLjhbuRQ" name="anadirDepartamento" messageSort="reply" receiveEvent="_U1f-InvLEeOwipaLjhbuRQ" sendEvent="_U1f-IHvLEeOwipaLjhbuRQ" connector="_U1hzUHvLEeOwipaLjhbuRQ"/>
                 <message xmi:id="_Yii-YH6OEeOs1tEpi7q9LA" name="createEntityManagerFactory(&quot;EclipseLink&quot;)" receiveEvent="_YikMgH6OEeOs1tEpi7q9LA" sendEvent="_YijlcH6OEeOs1tEpi7q9LA" connector="_YimowH6OEeOs1tEpi7q9LA"/>
                 <message xmi:id="_YilaoX6OEeOs1tEpi7q9LA" name="createEntityManagerFactory(&quot;EclipseLink&quot;)" messageSort="reply" receiveEvent="_YimBsH6OEeOs1tEpi7q9LA" sendEvent="_YilaoH6OEeOs1tEpi7q9LA" connector="_YimowH6OEeOs1tEpi7q9LA"/>
                 <message xmi:id="_ywtUYH6OEeOs1tEpi7q9LA" name="new" messageSort="createMessage" receiveEvent="_ywuigH6OEeOs1tEpi7q9LA" sendEvent="_ywt7cH6OEeOs1tEpi7q9LA" connector="_U1hzUHvLEeOwipaLjhbuRQ"/>
@@ -5481,7 +5481,7 @@
                 <message xmi:id="_quG6cH6PEeOs1tEpi7q9LA" name="begin" receiveEvent="_quHhgX6PEeOs1tEpi7q9LA" sendEvent="_quHhgH6PEeOs1tEpi7q9LA" connector="_quJWsX6PEeOs1tEpi7q9LA"/>
                 <message xmi:id="_quIvoH6PEeOs1tEpi7q9LA" name="begin" messageSort="reply" receiveEvent="_quJWsH6PEeOs1tEpi7q9LA" sendEvent="_quIIkX6PEeOs1tEpi7q9LA" connector="_quJWsX6PEeOs1tEpi7q9LA"/>
                 <message xmi:id="_tmHCUH6PEeOs1tEpi7q9LA" name="persist(departamento)" receiveEvent="_tmIQcH6PEeOs1tEpi7q9LA" sendEvent="_tmHpYH6PEeOs1tEpi7q9LA" connector="_jtA2QH6PEeOs1tEpi7q9LA"/>
-                <message xmi:id="_tmJekH6PEeOs1tEpi7q9LA" name="persist" messageSort="reply" receiveEvent="_tmJekX6PEeOs1tEpi7q9LA" sendEvent="_tmI3gH6PEeOs1tEpi7q9LA" connector="_jtA2QH6PEeOs1tEpi7q9LA"/>
+                <message xmi:id="_tmJekH6PEeOs1tEpi7q9LA" name="persist(departamento)" messageSort="reply" receiveEvent="_tmJekX6PEeOs1tEpi7q9LA" sendEvent="_tmI3gH6PEeOs1tEpi7q9LA" connector="_jtA2QH6PEeOs1tEpi7q9LA"/>
                 <message xmi:id="_3DjNIH6PEeOs1tEpi7q9LA" name="commit" receiveEvent="_3Dj0MX6PEeOs1tEpi7q9LA" sendEvent="_3Dj0MH6PEeOs1tEpi7q9LA" connector="_quJWsX6PEeOs1tEpi7q9LA"/>
                 <message xmi:id="_3DlCUX6PEeOs1tEpi7q9LA" name="commit" messageSort="reply" receiveEvent="_3DlpYH6PEeOs1tEpi7q9LA" sendEvent="_3DlCUH6PEeOs1tEpi7q9LA" connector="_quJWsX6PEeOs1tEpi7q9LA"/>
                 <message xmi:id="_FN2IoH6QEeOs1tEpi7q9LA" name="close" receiveEvent="_FN3WwH6QEeOs1tEpi7q9LA" sendEvent="_FN2vsH6QEeOs1tEpi7q9LA" connector="_jtA2QH6PEeOs1tEpi7q9LA"/>
@@ -5557,6 +5557,8 @@
             <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_igpUUH6QEeOs1tEpi7q9LA" name="Eventodeoperaciónderecepción9">
               <operation href="mmi:///#jmethod%5Ename=close%5Esign=()V%5Bjbintype%5Ename=javax.persistence.EntityManagerFactory%5Bproject%5Eid=Hotel%20Manager%20-%20BSoD%20Software%5D%5D$uml.Operation"/>
             </packagedElement>
+            <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ZXnBUH6SEeOs1tEpi7q9LA" name="Eventodeoperacióndeenvío10" operation="_fYsFN1YdEeOHp4jDXmSerQ"/>
+            <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ZXnoYH6SEeOs1tEpi7q9LA" name="Eventodeoperaciónderecepción10" operation="_fYsFN1YdEeOHp4jDXmSerQ"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_fYsFQlYdEeOHp4jDXmSerQ" name="objetonegocio">
