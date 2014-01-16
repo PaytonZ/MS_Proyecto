@@ -9576,14 +9576,6 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U3BdsXB-EeOVwfGXlNjpAQ" x="-660" y="12276"/>
             </children>
             <element xsi:nil="true"/>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vBBG4VbLEeOfU6amWAehQg" element="_vBBG4FbLEeOfU6amWAehQg" source="_ruEIYFbLEeOfU6amWAehQg" target="_sbRMoFbLEeOfU6amWAehQg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_vBBG41bLEeOfU6amWAehQg" type="NameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vBBG5VbLEeOfU6amWAehQg" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vBHNgFbLEeOfU6amWAehQg" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vBBG5FbLEeOfU6amWAehQg" y="-186"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vBBG4lbLEeOfU6amWAehQg" points="[-89, 3, 123, 6]$[-144, 3, 68, 6]"/>
-            </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_9wOGQFbLEeOfU6amWAehQg" element="_9wB5AFbLEeOfU6amWAehQg" source="_sbRMoFbLEeOfU6amWAehQg" target="_59ZU4FbLEeOfU6amWAehQg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
               <children xmi:type="notation:DecorationNode" xmi:id="_9wOGQlbLEeOfU6amWAehQg" type="NameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_9wOGRFbLEeOfU6amWAehQg" type="Stereotype"/>
@@ -10035,13 +10027,20 @@
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g1bwcXB-EeOVwfGXlNjpAQ" points="[109, 26, -549, -118]$[549, 143, -109, -1]"/>
             </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_VZSEwH75EeOa9MIdd09Lbw" element="_VY_w4H75EeOa9MIdd09Lbw" source="_sbRMoFbLEeOfU6amWAehQg" target="_ruEIYFbLEeOfU6amWAehQg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_VZSEwn75EeOa9MIdd09Lbw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZSExH75EeOa9MIdd09Lbw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZYLYH75EeOa9MIdd09Lbw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VZSEw375EeOa9MIdd09Lbw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VZSEwX75EeOa9MIdd09Lbw" points="[-25, -24, 278, 130]$[-194, -216, 109, -62]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_oGqOwFbJEeOfU6amWAehQg" name="GUIEmpleados" clientDependency="_fDR2UHB-EeOVwfGXlNjpAQ _fPMycHB-EeOVwfGXlNjpAQ _fbmPsHB-EeOVwfGXlNjpAQ _fvn-8HB-EeOVwfGXlNjpAQ _gFFRkHB-EeOVwfGXlNjpAQ _gaKJsHB-EeOVwfGXlNjpAQ _g1Vp0HB-EeOVwfGXlNjpAQ" isAbstract="true">
           <eAnnotations xmi:id="_6Xgv8FbJEeOfU6amWAehQg" source="http://www.eclipse.org/uml2/2.0.0/UML">
             <details xmi:id="_6ufskFbJEeOfU6amWAehQg" key="Singleton"/>
           </eAnnotations>
-          <generalization xmi:id="_vBBG4FbLEeOfU6amWAehQg" general="_DBQXgFbLEeOfU6amWAehQg"/>
           <ownedAttribute xmi:id="_NwSGAFbLEeOfU6amWAehQg" name="selfInstance" visibility="private" isStatic="true" type="_oGqOwFbJEeOfU6amWAehQg">
             <eAnnotations xmi:id="_OfA0QFbLEeOfU6amWAehQg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
           </ownedAttribute>
@@ -10108,6 +10107,7 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_ghfrUHB_EeOVwfGXlNjpAQ" name="imp">
           <eAnnotations xmi:id="_ghfrUXB_EeOVwfGXlNjpAQ" source="uml2.diagrams"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_DBQXgFbLEeOfU6amWAehQg" name="GUIEmpleadosImp">
+            <generalization xmi:id="_VY_w4H75EeOa9MIdd09Lbw" general="_oGqOwFbJEeOfU6amWAehQg"/>
             <ownedAttribute xmi:id="_KzQewVbMEeOfU6amWAehQg" name="frameBajaTareaEmpleados" visibility="private" type="_nL16YFbLEeOfU6amWAehQg" association="_KzQewFbMEeOfU6amWAehQg">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KzQew1bMEeOfU6amWAehQg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KzQewlbMEeOfU6amWAehQg" value="1"/>
@@ -12313,14 +12313,6 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DaGMd3CBEeOVwfGXlNjpAQ" y="-186"/>
                   </children>
                   <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DaGMdXCBEeOVwfGXlNjpAQ" points="[1533, 377, -7749, -6479]$[9322, 377, 40, -6479]$[9322, 4225, 40, -2631]"/>
-                </edges>
-                <edges xmi:type="umlnotation:UMLConnector" xmi:id="_HNF88HCBEeOVwfGXlNjpAQ" element="_vBBG4FbLEeOfU6amWAehQg" source="_DaAF0HCBEeOVwfGXlNjpAQ" target="_HM_2UHCBEeOVwfGXlNjpAQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                  <children xmi:type="notation:DecorationNode" xmi:id="_HNF88nCBEeOVwfGXlNjpAQ" type="NameLabel">
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HNF89HCBEeOVwfGXlNjpAQ" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HNF89XCBEeOVwfGXlNjpAQ" type="Name"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNF883CBEeOVwfGXlNjpAQ" y="-186"/>
-                  </children>
-                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HNF88XCBEeOVwfGXlNjpAQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
                 </edges>
                 <edges xmi:type="umlnotation:UMLConnector" xmi:id="_MNJWcHCBEeOVwfGXlNjpAQ" element="_dpcqsHCAEeOVwfGXlNjpAQ" source="_2d35QF2KEeO5O4GJOoDxSA" target="_MNDP0HCBEeOVwfGXlNjpAQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
                   <children xmi:type="notation:DecorationNode" xmi:id="_MNJWcnCBEeOVwfGXlNjpAQ" type="NameLabel">
