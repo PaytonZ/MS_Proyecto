@@ -4,6 +4,11 @@
 package presentación.clientes.imp;
 
 import presentación.clientes.GUICliente;
+import presentación.clientes.paneles.PanelAltaClientes;
+import presentación.clientes.paneles.PanelBajaClientes;
+import presentación.clientes.paneles.PanelModificacionClientes;
+import presentación.clientes.paneles.PanelConsultaClientes;
+import presentación.clientes.paneles.PanelConsultaMultipleClientes;
 import presentación.clientes.frames.FrameAltaClientes;
 import presentación.clientes.frames.FrameBajaClientes;
 import presentación.clientes.frames.FrameModificacionClientes;
@@ -13,152 +18,51 @@ import presentación.clientes.frames.FrameConsultaMultipleClientes;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class GUIClienteImp extends GUICliente {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameAltaClientes frameAlta;
-
-	/** 
-	 * @return el frameAlta
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameAltaClientes getFrameAlta() {
-		// begin-user-code
-		return frameAlta;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameAlta el frameAlta a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameAlta(FrameAltaClientes frameAlta) {
-		// begin-user-code
-		this.frameAlta = frameAlta;
-		// end-user-code
-	}
+	private PanelAltaClientes frameAlta;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameBajaClientes frameBaja;
-
-	/** 
-	 * @return el frameBaja
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameBajaClientes getFrameBaja() {
-		// begin-user-code
-		return frameBaja;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameBaja el frameBaja a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameBaja(FrameBajaClientes frameBaja) {
-		// begin-user-code
-		this.frameBaja = frameBaja;
-		// end-user-code
-	}
+	private PanelBajaClientes frameBaja;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameModificacionClientes frameModificación;
-
-	/** 
-	 * @return el frameModificación
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameModificacionClientes getFrameModificación() {
-		// begin-user-code
-		return frameModificación;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameModificación el frameModificación a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameModificación(FrameModificacionClientes frameModificación) {
-		// begin-user-code
-		this.frameModificación = frameModificación;
-		// end-user-code
-	}
+	private PanelModificacionClientes frameModificación;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameConsultaClientes frameConsulta;
-
-	/** 
-	 * @return el frameConsulta
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameConsultaClientes getFrameConsulta() {
-		// begin-user-code
-		return frameConsulta;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameConsulta el frameConsulta a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameConsulta(FrameConsultaClientes frameConsulta) {
-		// begin-user-code
-		this.frameConsulta = frameConsulta;
-		// end-user-code
-	}
+	private PanelConsultaClientes frameConsulta;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameConsultaMultipleClientes frameConsultaMúltiple;
-
-	/** 
-	 * @return el frameConsultaMúltiple
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameConsultaMultipleClientes getFrameConsultaMúltiple() {
-		// begin-user-code
-		return frameConsultaMúltiple;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameConsultaMúltiple el frameConsultaMúltiple a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameConsultaMúltiple(
-			FrameConsultaMultipleClientes frameConsultaMúltiple) {
-		// begin-user-code
-		this.frameConsultaMúltiple = frameConsultaMúltiple;
-		// end-user-code
-	}
+	private PanelConsultaMultipleClientes frameConsultaMúltiple;
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#update(Integer idEvento, Object datos)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#update(Clase idEvento, Object datos)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void update(Integer idEvento, Object datos) {
+	public void update(Clase idEvento, Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -167,10 +71,10 @@ public class GUIClienteImp extends GUICliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#getFrameConsultaMultipleClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#getPanelConsultaMultipleClientes()
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaMultipleClientes getFrameConsultaMultipleClientes() {
+	public PanelConsultaMultipleClientes getPanelConsultaMultipleClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -179,10 +83,10 @@ public class GUIClienteImp extends GUICliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#getFrameAltaClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#getPanelAltaClientes()
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameAltaClientes getFrameAltaClientes() {
+	public PanelAltaClientes getPanelAltaClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -191,10 +95,10 @@ public class GUIClienteImp extends GUICliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#getFrameBajaClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#getPanelBajaClientes()
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameBajaClientes getFrameBajaClientes() {
+	public PanelBajaClientes getPanelBajaClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -203,10 +107,10 @@ public class GUIClienteImp extends GUICliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#getFrameConsultaClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#getPanelConsultaClientes()
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaClientes getFrameConsultaClientes() {
+	public PanelConsultaClientes getPanelConsultaClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -215,10 +119,10 @@ public class GUIClienteImp extends GUICliente {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUICliente#getFameModificacionClientes()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUICliente#getPanelModificacionClientes()
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameModificacionClientes getFameModificacionClientes() {
+	public PanelModificacionClientes getPanelModificacionClientes() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

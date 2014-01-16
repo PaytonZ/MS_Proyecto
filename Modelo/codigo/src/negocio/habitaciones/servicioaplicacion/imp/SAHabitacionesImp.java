@@ -12,16 +12,16 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class SAHabitacionesImp implements SAHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see SAHabitaciones#anadirHabitacion(TransferHabitacionNormal habitacionNueva)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Integer anadirHabitacion(TransferHabitacionNormal habitacionNueva) {
+	public Clase anadirHabitacion(TransferHabitacionNormal habitacionNueva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -31,9 +31,9 @@ public class SAHabitacionesImp implements SAHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see SAHabitaciones#actualizarHabitacion(TransferHabitacionNormal habitacionModificada)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean actualizarHabitacion(
+	public Clase actualizarHabitacion(
 			TransferHabitacionNormal habitacionModificada) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
@@ -43,10 +43,10 @@ public class SAHabitacionesImp implements SAHabitaciones {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAHabitaciones#borrarHabitacion(Integer idHabitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAHabitaciones#borrarHabitacion(Clase idHabitacion)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean borrarHabitacion(Integer idHabitacion) {
+	public Clase borrarHabitacion(Clase idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -56,9 +56,9 @@ public class SAHabitacionesImp implements SAHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see SAHabitaciones#obtenerTodaslasHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public ArrayList obtenerTodaslasHabitaciones() {
+	public Clase obtenerTodaslasHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -67,10 +67,10 @@ public class SAHabitacionesImp implements SAHabitaciones {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAHabitaciones#obtenerHabitacion(Integer idHabitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAHabitaciones#obtenerHabitacion(Clase idHabitacion)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public TransferHabitacionNormal obtenerHabitacion(Integer idHabitacion) {
+	public TransferHabitacionNormal obtenerHabitacion(Clase idHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

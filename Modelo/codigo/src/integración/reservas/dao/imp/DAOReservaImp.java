@@ -10,14 +10,14 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class DAOReservaImp implements DAOReserva {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOReserva#addReserva(TransferReserva reserva)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Integer addReserva(TransferReserva reserva) {
 		// begin-user-code
@@ -28,10 +28,10 @@ public class DAOReservaImp implements DAOReserva {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#deleteReserva(Integer idReserva)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see DAOReserva#deleteReserva(Clase idReserva)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean deleteReserva(Integer idReserva) {
+	public Boolean deleteReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -40,10 +40,10 @@ public class DAOReservaImp implements DAOReserva {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#getAllReservas()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see DAOReserva#getAllReservas(Clase idCliente)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public ArrayList getAllReservas() {
+	public ArrayList getAllReservas(Clase idCliente) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -52,10 +52,10 @@ public class DAOReservaImp implements DAOReserva {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see DAOReserva#getReserva(Integer idReserva)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see DAOReserva#getReserva(Clase idReserva)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public TransferReserva getReserva(Integer idReserva) {
+	public TransferReserva getReserva(Clase idReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -65,7 +65,7 @@ public class DAOReservaImp implements DAOReserva {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOReserva#updateReserva(TransferReserva reserva)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Boolean updateReserva(TransferReserva reserva) {
 		// begin-user-code

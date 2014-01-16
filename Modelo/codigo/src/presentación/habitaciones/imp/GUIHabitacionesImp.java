@@ -4,6 +4,11 @@
 package presentación.habitaciones.imp;
 
 import presentación.habitaciones.GUIHabitaciones;
+import presentación.habitaciones.paneles.PanelAltaHabitaciones;
+import presentación.habitaciones.paneles.PanelBajaHabitaciones;
+import presentación.habitaciones.paneles.PanelModificacionHabitaciones;
+import presentación.habitaciones.paneles.PanelConsultaHabitaciones;
+import presentación.habitaciones.paneles.PanelConsultaMultiplesHabitaciones;
 import presentación.habitaciones.FrameAltaHabitaciones;
 import presentación.habitaciones.FrameBajaHabitaciones;
 import presentación.habitaciones.FrameModificacionHabitaciones;
@@ -13,153 +18,51 @@ import presentación.habitaciones.FrameConsultaMultiplesHabitaciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameAltaHabitaciones frameAlta;
-
-	/** 
-	 * @return el frameAlta
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameAltaHabitaciones getFrameAlta() {
-		// begin-user-code
-		return frameAlta;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameAlta el frameAlta a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameAlta(FrameAltaHabitaciones frameAlta) {
-		// begin-user-code
-		this.frameAlta = frameAlta;
-		// end-user-code
-	}
+	private PanelAltaHabitaciones frameAlta;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameBajaHabitaciones frameBaja;
-
-	/** 
-	 * @return el frameBaja
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameBajaHabitaciones getFrameBaja() {
-		// begin-user-code
-		return frameBaja;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameBaja el frameBaja a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameBaja(FrameBajaHabitaciones frameBaja) {
-		// begin-user-code
-		this.frameBaja = frameBaja;
-		// end-user-code
-	}
+	private PanelBajaHabitaciones frameBaja;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameModificacionHabitaciones frameModificación;
-
-	/** 
-	 * @return el frameModificación
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameModificacionHabitaciones getFrameModificación() {
-		// begin-user-code
-		return frameModificación;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameModificación el frameModificación a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameModificación(
-			FrameModificacionHabitaciones frameModificación) {
-		// begin-user-code
-		this.frameModificación = frameModificación;
-		// end-user-code
-	}
+	private PanelModificacionHabitaciones frameModificación;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameConsultaHabitaciones frameConsulta;
-
-	/** 
-	 * @return el frameConsulta
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameConsultaHabitaciones getFrameConsulta() {
-		// begin-user-code
-		return frameConsulta;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameConsulta el frameConsulta a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameConsulta(FrameConsultaHabitaciones frameConsulta) {
-		// begin-user-code
-		this.frameConsulta = frameConsulta;
-		// end-user-code
-	}
+	private PanelConsultaHabitaciones frameConsulta;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private FrameConsultaMultiplesHabitaciones frameConsultaMúltiple;
-
-	/** 
-	 * @return el frameConsultaMúltiple
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public FrameConsultaMultiplesHabitaciones getFrameConsultaMúltiple() {
-		// begin-user-code
-		return frameConsultaMúltiple;
-		// end-user-code
-	}
-
-	/** 
-	 * @param frameConsultaMúltiple el frameConsultaMúltiple a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFrameConsultaMúltiple(
-			FrameConsultaMultiplesHabitaciones frameConsultaMúltiple) {
-		// begin-user-code
-		this.frameConsultaMúltiple = frameConsultaMúltiple;
-		// end-user-code
-	}
+	private PanelConsultaMultiplesHabitaciones frameConsultaMúltiple;
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIHabitaciones#update(Integer idEvento, Object datos)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see GUIHabitaciones#update(Clase idEvento, Object datos)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void update(Integer idEvento, Object datos) {
+	public void update(Clase idEvento, Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -169,9 +72,9 @@ public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see GUIHabitaciones#getFrameAltaHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameAltaHabitaciones getFrameAltaHabitaciones() {
+	public PanelAltaHabitaciones getFrameAltaHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -181,9 +84,9 @@ public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see GUIHabitaciones#getFrameBajaHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameBajaHabitaciones getFrameBajaHabitaciones() {
+	public PanelBajaHabitaciones getFrameBajaHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -193,9 +96,9 @@ public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see GUIHabitaciones#getFrameModificacionHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameModificacionHabitaciones getFrameModificacionHabitaciones() {
+	public PanelModificacionHabitaciones getFrameModificacionHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -205,9 +108,9 @@ public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see GUIHabitaciones#getFrameConsultaHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaHabitaciones getFrameConsultaHabitaciones() {
+	public PanelConsultaHabitaciones getFrameConsultaHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -217,9 +120,9 @@ public class GUIHabitacionesImp extends GUIHabitaciones {
 	/** 
 	 * (sin Javadoc)
 	 * @see GUIHabitaciones#getFrameConsultaMultiplesHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaMultiplesHabitaciones getFrameConsultaMultiplesHabitaciones() {
+	public PanelConsultaMultiplesHabitaciones getFrameConsultaMultiplesHabitaciones() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

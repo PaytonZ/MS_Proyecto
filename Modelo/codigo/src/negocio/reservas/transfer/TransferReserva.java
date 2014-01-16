@@ -8,59 +8,86 @@ import java.util.Date;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private Integer numeroReserva;
+	private Clase numeroReserva;
 
 	/** 
-	 * @return el numeroReserva
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Integer getNumeroReserva() {
+	public Clase getNumeroReserva() {
 		// begin-user-code
 		return numeroReserva;
 		// end-user-code
 	}
 
 	/** 
-	 * @param numeroReserva el numeroReserva a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setNumeroReserva(Integer numeroReserva) {
+	private int idCliente;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public int getIdCliente() {
 		// begin-user-code
-		this.numeroReserva = numeroReserva;
+		return idCliente;
 		// end-user-code
 	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param idCliente
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private Integer numeroHabitacion;
+	public void setIdCliente(int idCliente) {
+		// begin-user-code
+		this.idCliente = idCliente;
+		// end-user-code
+	}
 
 	/** 
-	 * @return el numeroHabitacion
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Integer getNumeroHabitacion() {
+	private Clase numeroHabitacion;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public Clase getNumeroHabitacion() {
 		// begin-user-code
 		return numeroHabitacion;
 		// end-user-code
 	}
 
 	/** 
-	 * @param numeroHabitacion el numeroHabitacion a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param numHabitacion
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setNumeroHabitacion(Integer numeroHabitacion) {
+	public void setNumeroHabitacion(Clase numHabitacion) {
 		// begin-user-code
 		this.numeroHabitacion = numeroHabitacion;
 		// end-user-code
@@ -69,52 +96,29 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private String DNI;
-
-	/** 
-	 * @return el DNI
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public String getDNI() {
-		// begin-user-code
-		return DNI;
-		// end-user-code
-	}
-
-	/** 
-	 * @param DNI el DNI a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setDNI(String DNI) {
-		// begin-user-code
-		this.DNI = DNI;
-		// end-user-code
-	}
+	private Clase fechaReserva;
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private Date fechaReserva;
-
-	/** 
-	 * @return el fechaReserva
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Date getFechaReserva() {
+	public Clase getFechaReserva() {
 		// begin-user-code
 		return fechaReserva;
 		// end-user-code
 	}
 
 	/** 
-	 * @param fechaReserva el fechaReserva a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param fechaReserva
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setFechaReserva(Date fechaReserva) {
+	public void setFechaReserva(Clase fechaReserva) {
 		// begin-user-code
 		this.fechaReserva = fechaReserva;
 		// end-user-code
@@ -123,25 +127,29 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private Date fechaSalida;
+	private Clase fechaSalida;
 
 	/** 
-	 * @return el fechaSalida
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Date getFechaSalida() {
+	public Clase getFechaSalida() {
 		// begin-user-code
 		return fechaSalida;
 		// end-user-code
 	}
 
 	/** 
-	 * @param fechaSalida el fechaSalida a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param fechaSalida
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setFechaSalida(Date fechaSalida) {
+	public void setFechaSalida(Clase fechaSalida) {
 		// begin-user-code
 		this.fechaSalida = fechaSalida;
 		// end-user-code
@@ -150,25 +158,29 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	private Date fechaEntrada;
+	private Clase fechaEntrada;
 
 	/** 
-	 * @return el fechaEntrada
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Date getFechaEntrada() {
+	public Clase getFechaEntrada() {
 		// begin-user-code
 		return fechaEntrada;
 		// end-user-code
 	}
 
 	/** 
-	 * @param fechaEntrada el fechaEntrada a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param fechaEntrada
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setFechaEntrada(Date fechaEntrada) {
+	public void setFechaEntrada(Clase fechaEntrada) {
 		// begin-user-code
 		this.fechaEntrada = fechaEntrada;
 		// end-user-code
@@ -177,9 +189,10 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param numero
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setID() {
+	public void setnumeroReserva(Clase numero) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -189,9 +202,10 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param numHabitacion
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setNumeroHabitacion() {
+	public void setNumeroHabitacion(Clase numHabitacion) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -201,9 +215,10 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param fechaReserva
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setDNI() {
+	public void setFechaReserva(Clase fechaReserva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -213,9 +228,10 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param fechaSalida
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setFechaReserva() {
+	public void setFechaSalida(Clase fechaSalida) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -225,33 +241,10 @@ public class TransferReserva {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @param fechaEntrada
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void setFechaSalida() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setFechaEntrada() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
-		// end-user-code
-	}
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void getID() {
+	public void setFechaEntrada(Clase fechaEntrada) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 

@@ -10,14 +10,14 @@ import negocio.habitaciones.transfer.TransferHabitacion;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOHabitacion#addHabitacion(TransferHabitacionNormal habitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Object addHabitacion(TransferHabitacionNormal habitacion) {
 		// begin-user-code
@@ -29,7 +29,7 @@ public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOHabitacion#getHabitacion(Object idHabitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public TransferHabitacionNormal getHabitacion(Object idHabitacion) {
 		// begin-user-code
@@ -41,7 +41,7 @@ public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOHabitacion#getAllHabitaciones()
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Object getAllHabitaciones() {
 		// begin-user-code
@@ -53,7 +53,7 @@ public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOHabitacion#updateHabitacion(TransferHabitacionNormal habitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public void updateHabitacion(TransferHabitacionNormal habitacion) {
 		// begin-user-code
@@ -65,7 +65,7 @@ public class DAOHabitacionImp implements DAOHabitacion {
 	/** 
 	 * (sin Javadoc)
 	 * @see DAOHabitacion#deleteHabitacion(Object idHabitacion)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public void deleteHabitacion(Object idHabitacion) {
 		// begin-user-code

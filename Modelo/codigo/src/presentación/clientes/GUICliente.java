@@ -3,6 +3,11 @@
  */
 package presentación.clientes;
 
+import presentación.clientes.paneles.PanelConsultaMultipleClientes;
+import presentación.clientes.paneles.PanelAltaClientes;
+import presentación.clientes.paneles.PanelBajaClientes;
+import presentación.clientes.paneles.PanelConsultaClientes;
+import presentación.clientes.paneles.PanelModificacionClientes;
 import presentación.clientes.frames.FrameConsultaMultipleClientes;
 import presentación.clientes.frames.FrameAltaClientes;
 import presentación.clientes.frames.FrameBajaClientes;
@@ -12,51 +17,31 @@ import presentación.clientes.frames.FrameModificacionClientes;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public abstract class GUICliente {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private static GUICliente selfInstance;
-
-	/** 
-	 * @return el selfInstance
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static GUICliente getSelfInstance() {
-		// begin-user-code
-		return selfInstance;
-		// end-user-code
-	}
-
-	/** 
-	 * @param selfInstance el selfInstance a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static void setSelfInstance(GUICliente selfInstance) {
-		// begin-user-code
-		this.selfInstance = selfInstance;
-		// end-user-code
-	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idEvento
 	 * @param datos
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract void update(Integer idEvento, Object datos);
+	public abstract void update(Clase idEvento, Object datos);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public static GUICliente getInstance() {
 		// begin-user-code
@@ -69,39 +54,39 @@ public abstract class GUICliente {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaMultipleClientes getFrameConsultaMultipleClientes();
+	public abstract PanelConsultaMultipleClientes getPanelConsultaMultipleClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameAltaClientes getFrameAltaClientes();
+	public abstract PanelAltaClientes getPanelAltaClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameBajaClientes getFrameBajaClientes();
+	public abstract PanelBajaClientes getPanelBajaClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaClientes getFrameConsultaClientes();
+	public abstract PanelConsultaClientes getPanelConsultaClientes();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameModificacionClientes getFameModificacionClientes();
+	public abstract PanelModificacionClientes getPanelModificacionClientes();
 }
