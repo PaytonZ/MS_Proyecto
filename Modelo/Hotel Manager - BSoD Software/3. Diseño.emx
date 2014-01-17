@@ -4748,6 +4748,10 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_ADq44H6HEeOpNYdBxIkFYg" name="Departamento">
             <ownedAttribute xmi:id="_AFJfkH6HEeOpNYdBxIkFYg" name="id" visibility="private"/>
             <ownedAttribute xmi:id="_P1WB4H6HEeOpNYdBxIkFYg" name="nombre" visibility="private"/>
+            <ownedAttribute xmi:id="_eXWjAH-pEeOs78RmFX7cKg" name="listaEmpleados" visibility="private">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UB_ioX-yEeOs78RmFX7cKg" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UB_ioH-yEeOs78RmFX7cKg"/>
+            </ownedAttribute>
             <ownedOperation xmi:id="_M0W9IH6HEeOpNYdBxIkFYg" name="getNombre"/>
             <ownedOperation xmi:id="_OCs_kH6HEeOpNYdBxIkFYg" name="setNombre"/>
           </packagedElement>
@@ -28641,9 +28645,9 @@
       <appliedProfile href="pathmap://JPAProfiles/JPAProfile.epx#_GPVcYBFyEd2Jx-4QotXzXA?Java%20Persistence%20API%20Transformation?"/>
     </profileApplication>
   </uml:Package>
-  <JavaPersistenceAPITransformation:Entity xmi:id="_AE5A4H6HEeOpNYdBxIkFYg" base_Class="_ADq44H6HEeOpNYdBxIkFYg"/>
+  <JavaPersistenceAPITransformation:Entity xmi:id="_AE5A4H6HEeOpNYdBxIkFYg" base_Class="_ADq44H6HEeOpNYdBxIkFYg" name="departamentos"/>
   <JavaPersistenceAPITransformation:Id xmi:id="_AFtgQH6HEeOpNYdBxIkFYg" base_Property="_AFJfkH6HEeOpNYdBxIkFYg"/>
-  <JavaPersistenceAPITransformation:Entity xmi:id="_4-hlsH6HEeOpNYdBxIkFYg" base_Class="_4-cGIH6HEeOpNYdBxIkFYg"/>
+  <JavaPersistenceAPITransformation:Entity xmi:id="_4-hlsH6HEeOpNYdBxIkFYg" base_Class="_4-cGIH6HEeOpNYdBxIkFYg" name="empleados"/>
   <JavaPersistenceAPITransformation:Id xmi:id="_4-nFQH6HEeOpNYdBxIkFYg" base_Property="_4-iMwH6HEeOpNYdBxIkFYg"/>
   <JavaPersistenceAPITransformation:Entity xmi:id="_a_amQH6KEeOpNYdBxIkFYg" base_Class="_a_VtwH6KEeOpNYdBxIkFYg"/>
   <JavaPersistenceAPITransformation:Id xmi:id="_a_fewH6KEeOpNYdBxIkFYg" base_Property="_a_bNUH6KEeOpNYdBxIkFYg"/>
