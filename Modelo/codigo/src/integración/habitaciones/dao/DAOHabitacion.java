@@ -9,8 +9,8 @@ import negocio.habitaciones.transfer.TransferHabitacion;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public interface DAOHabitacion {
 	/** 
@@ -18,7 +18,7 @@ public interface DAOHabitacion {
 	 * <!-- end-UML-doc -->
 	 * @param habitacion
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Object addHabitacion(TransferHabitacionNormal habitacion);
 
@@ -27,7 +27,7 @@ public interface DAOHabitacion {
 	 * <!-- end-UML-doc -->
 	 * @param idHabitacion
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public TransferHabitacionNormal getHabitacion(Object idHabitacion);
 
@@ -35,7 +35,7 @@ public interface DAOHabitacion {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public Object getAllHabitaciones();
 
@@ -43,7 +43,7 @@ public interface DAOHabitacion {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param habitacion
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public void updateHabitacion(TransferHabitacionNormal habitacion);
 
@@ -51,7 +51,7 @@ public interface DAOHabitacion {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idHabitacion
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public void deleteHabitacion(Object idHabitacion);
 }

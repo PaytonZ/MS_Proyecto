@@ -3,48 +3,34 @@
  */
 package presentación.tareas;
 
+import presentación.tareas.paneles.PanelAltaTareas;
+import presentación.tareas.paneles.PanelBajaTareas;
+import presentación.tareas.paneles.PanelConsultaMultipleTareas;
+import presentación.tareas.paneles.PanelConsultaTarea;
+import presentación.tareas.paneles.PanelModificacionTareas;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class GUITareas {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private GUITareas selfInstance;
 
 	/** 
-	 * @return el selfInstance
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public GUITareas getSelfInstance() {
-		// begin-user-code
-		return selfInstance;
-		// end-user-code
-	}
-
-	/** 
-	 * @param selfInstance el selfInstance a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public void setSelfInstance(GUITareas selfInstance) {
-		// begin-user-code
-		this.selfInstance = selfInstance;
-		// end-user-code
-	}
-
-	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @param idVentana
+	 * @param idEvento
 	 * @param datos
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void update(Object idVentana, Object datos) {
+	public void update(Object idEvento, Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -55,7 +41,7 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public static GUITareas getInstance() {
 		// begin-user-code
@@ -68,9 +54,9 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameAltaTareas getFrameAltaTareas() {
+	public PanelAltaTareas getPanelAltaTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -81,9 +67,9 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameBajaTareas getFrameBajaTareas() {
+	public PanelBajaTareas getPanelBajaTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -94,9 +80,9 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaMultipleTareas getFrameConsultaMultipleTareas() {
+	public PanelConsultaMultipleTareas getPanelConsultaMultipleTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -107,9 +93,9 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameConsultaTarea getFrameConsultaTarea() {
+	public PanelConsultaTarea getPanelConsultaTarea() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -120,9 +106,9 @@ public class GUITareas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public FrameModificacionTareas getFrameModificacionTareas() {
+	public PanelModificacionTareas getPanelModificacionTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

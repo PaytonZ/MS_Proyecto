@@ -3,54 +3,40 @@
  */
 package presentación.habitaciones;
 
+import presentación.habitaciones.paneles.PanelAltaHabitaciones;
+import presentación.habitaciones.paneles.PanelBajaHabitaciones;
+import presentación.habitaciones.paneles.PanelModificacionHabitaciones;
+import presentación.habitaciones.paneles.PanelConsultaHabitaciones;
+import presentación.habitaciones.paneles.PanelConsultaMultiplesHabitaciones;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public abstract class GUIHabitaciones {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private static GUIHabitaciones selfInstance;
-
-	/** 
-	 * @return el selfInstance
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static GUIHabitaciones getSelfInstance() {
-		// begin-user-code
-		return selfInstance;
-		// end-user-code
-	}
-
-	/** 
-	 * @param selfInstance el selfInstance a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static void setSelfInstance(GUIHabitaciones selfInstance) {
-		// begin-user-code
-		this.selfInstance = selfInstance;
-		// end-user-code
-	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idEvento
 	 * @param datos
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract void update(Integer idEvento, Object datos);
+	public abstract void update(Clase idEvento, Object datos);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public static GUIHabitaciones getInstance() {
 		// begin-user-code
@@ -63,39 +49,39 @@ public abstract class GUIHabitaciones {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameAltaHabitaciones getFrameAltaHabitaciones();
+	public abstract PanelAltaHabitaciones getFrameAltaHabitaciones();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameBajaHabitaciones getFrameBajaHabitaciones();
+	public abstract PanelBajaHabitaciones getFrameBajaHabitaciones();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameModificacionHabitaciones getFrameModificacionHabitaciones();
+	public abstract PanelModificacionHabitaciones getFrameModificacionHabitaciones();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaHabitaciones getFrameConsultaHabitaciones();
+	public abstract PanelConsultaHabitaciones getFrameConsultaHabitaciones();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaMultiplesHabitaciones getFrameConsultaMultiplesHabitaciones();
+	public abstract PanelConsultaMultiplesHabitaciones getFrameConsultaMultiplesHabitaciones();
 }

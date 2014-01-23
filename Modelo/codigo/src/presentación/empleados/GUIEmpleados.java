@@ -3,111 +3,104 @@
  */
 package presentación.empleados;
 
+import presentación.empleados.imp.GUIEmpleadosImp;
+import presentación.empleados.paneles.PanelAltaEmpleados;
+import presentación.empleados.paneles.PanelConsultaEmpleados;
+import presentación.empleados.paneles.PanelConsultaMultipleEmpleados;
+import presentación.empleados.paneles.PanelModificacionEmpleados;
+import presentación.empleados.paneles.PanelBajaEmpleados;
+import presentación.empleados.paneles.PanelAltaTareaEmpleados;
+import presentación.empleados.paneles.PanelBajaTareaEmpleados;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
-public abstract class GUIEmpleados extends GUIEmpleadosImp {
+public abstract class GUIEmpleados {
 	/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
 	private static GUIEmpleados selfInstance;
 
 	/** 
- * @return el selfInstance
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
-	public static GUIEmpleados getSelfInstance() {
-		// begin-user-code
-		return selfInstance;
-		// end-user-code
-}
-
-	/** 
- * @param selfInstance el selfInstance a establecer
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
-	public static void setSelfInstance(GUIEmpleados selfInstance) {
-		// begin-user-code
-		this.selfInstance = selfInstance;
-		// end-user-code
-}
-
-	/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
 	public static GUIEmpleados getInstance() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
 		// end-user-code
-}
-
-	/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */
-	public abstract void update() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
-		// end-user-code
 	}
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameAltaEmpleados getFrameAltaEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param idEvento
+	 * @param datos
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract void update(Object idEvento, Object datos);
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameConsultaEmpleados getFrameConsultaEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelAltaEmpleados getPanelAltaEmpleados();
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameConsultaMultipleEmpleados getFrameConsultaMultipleEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelConsultaEmpleados getPanelConsultaEmpleados();
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameModificacionEmpleados getFrameModificacionEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelConsultaMultipleEmpleados getPanelConsultaMultipleEmpleados();
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameBajaEmpleados getFrameBajaEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelModificacionEmpleados getPanelModificacionEmpleados();
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameAltaTareaEmpleados getFrameAltaTareaEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelBajaEmpleados getPanelBajaEmpleados();
 
-    /** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @return
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
- */public abstract FrameBajaTareaEmpleados getFrameBajaTareaEmpleados();
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelAltaTareaEmpleados getPanelAltaTareaEmpleados();
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public abstract PanelBajaTareaEmpleados getPanelBajaTareaEmpleados();
 }

@@ -4,22 +4,23 @@
 package presentación.comandos.cliente;
 
 import presentación.comandos.Command;
+import presentación.comandos.commandFactory.CommandResponse;
 import presentación.comandos.CommandResponse;
 import presentación.comandos.ResponseCommand;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
-public class CommandAltaCliente implements Command {
+public class CommandAltaCliente implements Command, Command {
 	/** 
 	 * (sin Javadoc)
-	 * @see Command#execute(Object datos)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see Command#execute(Clase datos)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public CommandResponse execute(Object datos) {
+	public CommandResponse execute(Clase datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

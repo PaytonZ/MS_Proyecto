@@ -10,8 +10,8 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public interface SAHabitaciones {
 	/** 
@@ -19,18 +19,18 @@ public interface SAHabitaciones {
 	 * <!-- end-UML-doc -->
 	 * @param habitacionNueva
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Integer anadirHabitacion(TransferHabitacionNormal habitacionNueva);
+	public Clase anadirHabitacion(TransferHabitacionNormal habitacionNueva);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param habitacionModificada
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean actualizarHabitacion(
+	public Clase actualizarHabitacion(
 			TransferHabitacionNormal habitacionModificada);
 
 	/** 
@@ -38,24 +38,24 @@ public interface SAHabitaciones {
 	 * <!-- end-UML-doc -->
 	 * @param idHabitacion
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean borrarHabitacion(Integer idHabitacion);
+	public Clase borrarHabitacion(Clase idHabitacion);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public ArrayList obtenerTodaslasHabitaciones();
+	public Clase obtenerTodaslasHabitaciones();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idHabitacion
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public TransferHabitacionNormal obtenerHabitacion(Integer idHabitacion);
+	public TransferHabitacionNormal obtenerHabitacion(Clase idHabitacion);
 }

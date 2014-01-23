@@ -10,29 +10,16 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class SAempleadosImp implements SAEmpleados {
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#anadirEmpleado(TransferEmpleado empleadoNuevo)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#altaEmpleado(Object empleadoNuevo)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean anadirEmpleado(TransferEmpleado empleadoNuevo) {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
-		// end-user-code
-
-	}
-
-	/** 
-	 * (sin Javadoc)
-	 * @see SAEmpleados#borrarEmpleado(String dniEmpleado)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Boolean borrarEmpleado(String dniEmpleado) {
+	public Clase altaEmpleado(Object empleadoNuevo) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -41,10 +28,10 @@ public class SAempleadosImp implements SAEmpleados {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#actualizarEmpleado(Integer empleado)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#bajaEmpleado(Clase dniEmpleado)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean actualizarEmpleado(Integer empleado) {
+	public Clase bajaEmpleado(Clase dniEmpleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -53,10 +40,10 @@ public class SAempleadosImp implements SAEmpleados {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#obtenerEmpleado(String dniEmpleado)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#actualizarEmpleado(Clase empleado)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public TransferEmpleado obtenerEmpleado(String dniEmpleado) {
+	public Clase actualizarEmpleado(Clase empleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -65,10 +52,10 @@ public class SAempleadosImp implements SAEmpleados {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#obtenerEmpleadosporTareas(Integer idTarea)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#obtenerEmpleado(Clase dniEmpleado)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public ArrayList obtenerEmpleadosporTareas(Integer idTarea) {
+	public Object obtenerEmpleado(Clase dniEmpleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -77,10 +64,10 @@ public class SAempleadosImp implements SAEmpleados {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#anadirTareaEmpleado(String dniEmpleado, Integer idTarea)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#obtenerTodosEmpleadosPorTarea(Clase idTarea)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean anadirTareaEmpleado(String dniEmpleado, Integer idTarea) {
+	public Clase obtenerTodosEmpleadosPorTarea(Clase idTarea) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -89,10 +76,22 @@ public class SAempleadosImp implements SAEmpleados {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SAEmpleados#borrarTareaEmpleado(String empleado, Integer idTarea)
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @see SAEmpleados#altaTareaEmpleado(Clase dniEmpleado, Clase idTarea)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Boolean borrarTareaEmpleado(String empleado, Integer idTarea) {
+	public Clase altaTareaEmpleado(Clase dniEmpleado, Clase idTarea) {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * (sin Javadoc)
+	 * @see SAEmpleados#bajaTareaEmpleado(Clase empleado, Clase idTarea)
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public Clase bajaTareaEmpleado(Clase empleado, Clase idTarea) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

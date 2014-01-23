@@ -3,54 +3,40 @@
  */
 package presentación.reservas;
 
+import presentación.reservas.paneles.PanelConsultaMultipleReservas;
+import presentación.reservas.paneles.PanelAltaReservas;
+import presentación.reservas.paneles.PanelBajaReservas;
+import presentación.reservas.paneles.PanelConsultaReservas;
+import presentación.reservas.paneles.PanelModificacionReservas;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author NASAIII
- * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ * @author usuario_local
+ * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public abstract class GUIReservas {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private static GUIReservas selfInstance;
-
-	/** 
-	 * @return el selfInstance
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static GUIReservas getSelfInstance() {
-		// begin-user-code
-		return selfInstance;
-		// end-user-code
-	}
-
-	/** 
-	 * @param selfInstance el selfInstance a establecer
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public static void setSelfInstance(GUIReservas selfInstance) {
-		// begin-user-code
-		this.selfInstance = selfInstance;
-		// end-user-code
-	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idEvento
 	 * @param datos
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract void update(Integer idEvento, Object datos);
+	public abstract void update(Enumeración idEvento, Object datos);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public static GUIReservas getInstance() {
 		// begin-user-code
@@ -63,39 +49,39 @@ public abstract class GUIReservas {
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaMultipleReservas getFrameConsultaMultipleReservas();
+	public abstract PanelConsultaMultipleReservas getPanelConsultaMultipleReservas();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameAltaReservas getFrameAltaReservas();
+	public abstract PanelAltaReservas getPanelAltaReservas();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameBajaReservas getFrameBajaReservas();
+	public abstract PanelBajaReservas getPanelBajaReservas();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameConsultaReservas getFrameConsultaReservas();
+	public abstract PanelConsultaReservas getPanelConsultaReservas();
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @return
-	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public abstract FrameModificacionReservas getFrameModificacionReservas();
+	public abstract PanelModificacionReservas getPanelModificacionReservas();
 }
