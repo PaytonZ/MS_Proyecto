@@ -4,11 +4,6 @@
 package presentación.reservas.imp;
 
 import presentación.reservas.GUIReservas;
-import presentación.reservas.paneles.PanelAltaReservas;
-import presentación.reservas.paneles.PanelBajaReservas;
-import presentación.reservas.paneles.PanelModificacionReservas;
-import presentación.reservas.paneles.PanelConsultaReservas;
-import presentación.reservas.paneles.PanelConsultaMultipleReservas;
 import presentación.reservas.FrameAltaReservas;
 import presentación.reservas.FrameBajaReservas;
 import presentación.reservas.FrameModificacionReservas;
@@ -18,51 +13,152 @@ import presentación.reservas.FrameConsultaMultipleReservas;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
- * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+ * @author NASAIII
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class GUIReservasImp extends GUIReservas {
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private PanelAltaReservas frameAlta;
+	private FrameAltaReservas frameAlta;
+
+	/** 
+	 * @return el frameAlta
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameAltaReservas getFrameAlta() {
+		// begin-user-code
+		return frameAlta;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameAlta el frameAlta a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameAlta(FrameAltaReservas frameAlta) {
+		// begin-user-code
+		this.frameAlta = frameAlta;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private PanelBajaReservas frameBaja;
+	private FrameBajaReservas frameBaja;
+
+	/** 
+	 * @return el frameBaja
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameBajaReservas getFrameBaja() {
+		// begin-user-code
+		return frameBaja;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameBaja el frameBaja a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameBaja(FrameBajaReservas frameBaja) {
+		// begin-user-code
+		this.frameBaja = frameBaja;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private PanelModificacionReservas frameModificación;
+	private FrameModificacionReservas frameModificación;
+
+	/** 
+	 * @return el frameModificación
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameModificacionReservas getFrameModificación() {
+		// begin-user-code
+		return frameModificación;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameModificación el frameModificación a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameModificación(FrameModificacionReservas frameModificación) {
+		// begin-user-code
+		this.frameModificación = frameModificación;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private PanelConsultaReservas frameConsulta;
+	private FrameConsultaReservas frameConsulta;
+
+	/** 
+	 * @return el frameConsulta
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameConsultaReservas getFrameConsulta() {
+		// begin-user-code
+		return frameConsulta;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameConsulta el frameConsulta a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameConsulta(FrameConsultaReservas frameConsulta) {
+		// begin-user-code
+		this.frameConsulta = frameConsulta;
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private PanelConsultaMultipleReservas frameConsultaMúltiple;
+	private FrameConsultaMultipleReservas frameConsultaMúltiple;
+
+	/** 
+	 * @return el frameConsultaMúltiple
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public FrameConsultaMultipleReservas getFrameConsultaMúltiple() {
+		// begin-user-code
+		return frameConsultaMúltiple;
+		// end-user-code
+	}
+
+	/** 
+	 * @param frameConsultaMúltiple el frameConsultaMúltiple a establecer
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setFrameConsultaMúltiple(
+			FrameConsultaMultipleReservas frameConsultaMúltiple) {
+		// begin-user-code
+		this.frameConsultaMúltiple = frameConsultaMúltiple;
+		// end-user-code
+	}
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#update(Enumeración idEvento, Object datos)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#update(Integer idEvento, Object datos)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void update(Enumeración idEvento, Object datos) {
+	public void update(Integer idEvento, Object datos) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -71,10 +167,10 @@ public class GUIReservasImp extends GUIReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#getPanelConsultaMultipleReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#getFrameConsultaMultipleReservas()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public PanelConsultaMultipleReservas getPanelConsultaMultipleReservas() {
+	public FrameConsultaMultipleReservas getFrameConsultaMultipleReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -83,10 +179,10 @@ public class GUIReservasImp extends GUIReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#getPanelAltaReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#getFrameAltaReservas()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public PanelAltaReservas getPanelAltaReservas() {
+	public FrameAltaReservas getFrameAltaReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -95,10 +191,10 @@ public class GUIReservasImp extends GUIReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#getPanelBajaReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#getFrameBajaReservas()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public PanelBajaReservas getPanelBajaReservas() {
+	public FrameBajaReservas getFrameBajaReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -107,10 +203,10 @@ public class GUIReservasImp extends GUIReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#getPanelConsultaReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#getFrameConsultaReservas()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public PanelConsultaReservas getPanelConsultaReservas() {
+	public FrameConsultaReservas getFrameConsultaReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -119,10 +215,10 @@ public class GUIReservasImp extends GUIReservas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see GUIReservas#getPanelModificacionReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see GUIReservas#getFrameModificacionReservas()
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public PanelModificacionReservas getPanelModificacionReservas() {
+	public FrameModificacionReservas getFrameModificacionReservas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;

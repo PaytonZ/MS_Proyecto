@@ -14,15 +14,15 @@ import negocio.habitaciones.servicioaplicacion.SAHabitaciones;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
- * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+ * @author NASAIII
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class FactorySAImp extends FactorySA {
 
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSAClientes()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SAClientes getSAClientes() {
 		// begin-user-code
@@ -34,7 +34,7 @@ public class FactorySAImp extends FactorySA {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSAReservas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SAReservas getSAReservas() {
 		// begin-user-code
@@ -46,7 +46,7 @@ public class FactorySAImp extends FactorySA {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSADepartamentos()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SADepartamentos getSADepartamentos() {
 		// begin-user-code
@@ -58,7 +58,7 @@ public class FactorySAImp extends FactorySA {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSAEmpleados()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SAEmpleados getSAEmpleados() {
 		// begin-user-code
@@ -70,7 +70,7 @@ public class FactorySAImp extends FactorySA {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSATareas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SATareas getSATareas() {
 		// begin-user-code
@@ -82,7 +82,7 @@ public class FactorySAImp extends FactorySA {
 	/** 
 	 * (sin Javadoc)
 	 * @see FactorySA#getSAHabitaciones()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public SAHabitaciones getSAHabitaciones() {
 		// begin-user-code

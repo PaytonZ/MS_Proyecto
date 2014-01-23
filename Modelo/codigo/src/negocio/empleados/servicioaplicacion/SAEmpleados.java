@@ -9,8 +9,8 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
- * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+ * @author NASAIII
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public interface SAEmpleados {
 	/** 
@@ -18,45 +18,45 @@ public interface SAEmpleados {
 	 * <!-- end-UML-doc -->
 	 * @param empleadoNuevo
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase altaEmpleado(Object empleadoNuevo);
+	public Boolean anadirEmpleado(TransferEmpleado empleadoNuevo);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param dniEmpleado
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase bajaEmpleado(Clase dniEmpleado);
+	public Boolean borrarEmpleado(String dniEmpleado);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param empleado
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase actualizarEmpleado(Clase empleado);
+	public Boolean actualizarEmpleado(Integer empleado);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param dniEmpleado
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object obtenerEmpleado(Clase dniEmpleado);
+	public TransferEmpleado obtenerEmpleado(String dniEmpleado);
 
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
 	 * @param idTarea
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase obtenerTodosEmpleadosPorTarea(Clase idTarea);
+	public ArrayList obtenerEmpleadosporTareas(Integer idTarea);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -64,9 +64,9 @@ public interface SAEmpleados {
 	 * @param dniEmpleado
 	 * @param idTarea
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase altaTareaEmpleado(Clase dniEmpleado, Clase idTarea);
+	public Boolean anadirTareaEmpleado(String dniEmpleado, Integer idTarea);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -74,7 +74,8 @@ public interface SAEmpleados {
 	 * @param empleado
 	 * @param idTarea
 	 * @return
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Clase bajaTareaEmpleado(Clase empleado, Clase idTarea);
+	public Boolean borrarTareaEmpleado(
+			org.apache.xpath.operations.String empleado, Integer idTarea);
 }

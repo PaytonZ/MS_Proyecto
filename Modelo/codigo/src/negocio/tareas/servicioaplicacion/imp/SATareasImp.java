@@ -9,16 +9,16 @@ import negocio.tareas.transfer.TransferTarea;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
- * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+ * @author NASAIII
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class SATareasImp implements SATareas {
 	/** 
 	 * (sin Javadoc)
-	 * @see SATareas#anadirTarea(Object tareaNueva)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see SATareas#anadirTarea(TransferTarea tareaNueva)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void anadirTarea(Object tareaNueva) {
+	public void anadirTarea(TransferTarea tareaNueva) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -28,7 +28,7 @@ public class SATareasImp implements SATareas {
 	/** 
 	 * (sin Javadoc)
 	 * @see SATareas#borrarTarea(Object idTarea)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Object borrarTarea(Object idTarea) {
 		// begin-user-code
@@ -39,10 +39,10 @@ public class SATareasImp implements SATareas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SATareas#actualizarTarea(Object tarea)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see SATareas#actualizarTarea(TransferTarea tarea)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void actualizarTarea(Object tarea) {
+	public void actualizarTarea(TransferTarea tarea) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -52,9 +52,9 @@ public class SATareasImp implements SATareas {
 	/** 
 	 * (sin Javadoc)
 	 * @see SATareas#obternerTarea(Object idTarea)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object obternerTarea(Object idTarea) {
+	public TransferTarea obternerTarea(Object idTarea) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -64,7 +64,7 @@ public class SATareasImp implements SATareas {
 	/** 
 	 * (sin Javadoc)
 	 * @see SATareas#obtenerTodaslasTareas()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void obtenerTodaslasTareas() {
 		// begin-user-code
@@ -75,13 +75,13 @@ public class SATareasImp implements SATareas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SATareas#obtenerTareasAEmpleado(Object idEmpleado)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see SATareas#obtenerTareasPorEmpleados(Object idEmpleado)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Interfaz obtenerTareasAEmpleado(Object idEmpleado) {
+	public void obtenerTareasPorEmpleados(Object idEmpleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-		return null;
+
 		// end-user-code
 	}
 }

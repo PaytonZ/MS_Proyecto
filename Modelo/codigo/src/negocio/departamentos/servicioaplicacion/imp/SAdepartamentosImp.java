@@ -9,23 +9,16 @@ import negocio.departamentos.transfer.transferDepartamento;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
- * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+ * @author NASAIII
+ * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
  */
 public class SAdepartamentosImp implements SADepartamentos {
 	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
-	 */
-	private Object entityManagerFactory;
-
-	/** 
 	 * (sin Javadoc)
-	 * @see SADepartamentos#anadirDepartamento(Object departamentoNuevo)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see SADepartamentos#anadirDepartamento(transferDepartamento departamentoNuevo)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void anadirDepartamento(Object departamentoNuevo) {
+	public void anadirDepartamento(transferDepartamento departamentoNuevo) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -35,7 +28,7 @@ public class SAdepartamentosImp implements SADepartamentos {
 	/** 
 	 * (sin Javadoc)
 	 * @see SADepartamentos#borrarDepartamento(Object idDepartamento)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public Object borrarDepartamento(Object idDepartamento) {
 		// begin-user-code
@@ -46,10 +39,10 @@ public class SAdepartamentosImp implements SADepartamentos {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SADepartamentos#actualizarDepartamento(Object departamento)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @see SADepartamentos#actualizarDepartamento(transferDepartamento departamento)
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public void actualizarDepartamento(Object departamento) {
+	public void actualizarDepartamento(transferDepartamento departamento) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 
@@ -59,9 +52,9 @@ public class SAdepartamentosImp implements SADepartamentos {
 	/** 
 	 * (sin Javadoc)
 	 * @see SADepartamentos#obternerDepartamento(Object idDepartamento)
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Object obternerDepartamento(Object idDepartamento) {
+	public transferDepartamento obternerDepartamento(Object idDepartamento) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 		return null;
@@ -71,7 +64,7 @@ public class SAdepartamentosImp implements SADepartamentos {
 	/** 
 	 * (sin Javadoc)
 	 * @see SADepartamentos#obtenerTodoslosDepartamentos()
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 * @generated "UML a Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
 	public void obtenerTodoslosDepartamentos() {
 		// begin-user-code
