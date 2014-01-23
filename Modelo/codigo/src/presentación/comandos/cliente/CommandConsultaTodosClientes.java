@@ -11,7 +11,7 @@ import presentación.comandos.ResponseCommand;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class CommandConsultaTodosClientes implements Command {

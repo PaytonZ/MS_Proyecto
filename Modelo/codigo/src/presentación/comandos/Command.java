@@ -8,7 +8,7 @@ import presentación.comandos.commandFactory.CommandResponse;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public interface Command {

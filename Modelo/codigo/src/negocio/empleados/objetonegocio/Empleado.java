@@ -5,9 +5,20 @@ package negocio.empleados.objetonegocio;
 
 import javax.persistence.Entity;
 import java.io.Serializable;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
 import javax.persistence.NamedQuery;
 import javax.persistence.NamedQueries;
+import negocio.departamentos.objetonegocio.Departamento;
+import javax.persistence.CascadeType;
+import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
+import java.util.Set;
+import javax.persistence.ManyToMany;
+import javax.persistence.InheritanceType;
+import javax.persistence.Inheritance;
 import javax.persistence.Column;
 
 /** 
@@ -16,6 +27,8 @@ import javax.persistence.Column;
  * @author usuario_local
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
+@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name = "empleados", uniqueConstraints = { @UniqueConstraint(columnNames = "DNI") })
 @Entity
 @NamedQueries({
 		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findByid", query = "select obj from Empleado obj where obj.id = :id"),
@@ -23,7 +36,9 @@ import javax.persistence.Column;
 		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findBynombre", query = "select obj from Empleado obj where obj.nombre = :nombre"),
 		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findByprimerApellido", query = "select obj from Empleado obj where obj.primerApellido = :primerApellido"),
 		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findBysegundoApellido", query = "select obj from Empleado obj where obj.segundoApellido = :segundoApellido"),
-		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findByidDepartamento", query = "select obj from Empleado obj where obj.idDepartamento = :idDepartamento") })
+		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findBydepartamento", query = "select obj from Empleado obj where obj.departamento = :departamento"),
+		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findBytarea", query = "select obj from Empleado obj where obj.tarea = :tarea"),
+		@NamedQuery(name = "negocio.empleados.objetonegocio.Empleado.findByactivo", query = "select obj from Empleado obj where obj.activo = :activo") })
 public class Empleado implements Serializable {
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -45,6 +60,7 @@ public class Empleado implements Serializable {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
+	@GeneratedValue
 	@Id
 	private Object id;
 
@@ -114,6 +130,31 @@ public class Empleado implements Serializable {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
+	@ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY, optional = true)
+	private Departamento departamento;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @uml.annotations for <code>tarea</code>
+	 *     collection_type="negocio.tareas.objetonegocio.Tarea"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	@ManyToMany(cascade = { CascadeType.REFRESH, CascadeType.REMOVE }, fetch = FetchType.LAZY)
+	private Set tarea;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	private boolean activo;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
 	public void getSegundoApellido() {
 		// begin-user-code
 		return segundoApellido;
@@ -132,13 +173,12 @@ public class Empleado implements Serializable {
 		// end-user-code
 	}
 
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
-	 */
-	@Column(table = "departamentos")
-	private Object idDepartamento;
+	ipo() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+
+		// end-user-code
+	}
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -212,6 +252,18 @@ public class Empleado implements Serializable {
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	public void setIdDepartamento() {
+		// begin-user-code
+		// TODO Apéndice de método generado automáticamente
+
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	public void getTareas() {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
 

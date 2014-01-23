@@ -9,7 +9,7 @@ import negocio.tareas.transfer.TransferTarea;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class SATareasImp implements SATareas {
@@ -75,13 +75,13 @@ public class SATareasImp implements SATareas {
 
 	/** 
 	 * (sin Javadoc)
-	 * @see SATareas#obtenerTareasPorEmpleados(Object idEmpleado)
+	 * @see SATareas#obtenerTareasAEmpleado(Object idEmpleado)
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public void obtenerTareasPorEmpleados(Object idEmpleado) {
+	public Interfaz obtenerTareasAEmpleado(Object idEmpleado) {
 		// begin-user-code
 		// TODO Apéndice de método generado automáticamente
-
+		return null;
 		// end-user-code
 	}
 }

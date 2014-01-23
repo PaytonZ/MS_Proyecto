@@ -6,20 +6,25 @@ package negocio.tareas.objetonegocio;
 import javax.persistence.Entity;
 import java.io.Serializable;
 import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
 import javax.persistence.NamedQuery;
 import javax.persistence.NamedQueries;
+import java.util.Set;
+import javax.persistence.ManyToMany;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 @Entity
 @NamedQueries({
 		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findByid", query = "select obj from Tarea obj where obj.id = :id"),
 		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findBynombre", query = "select obj from Tarea obj where obj.nombre = :nombre"),
-		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findBydescripcion", query = "select obj from Tarea obj where obj.descripcion = :descripcion") })
+		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findBydescripcion", query = "select obj from Tarea obj where obj.descripcion = :descripcion"),
+		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findByempleado", query = "select obj from Tarea obj where obj.empleado = :empleado"),
+		@NamedQuery(name = "negocio.tareas.objetonegocio.Tarea.findByactivo", query = "select obj from Tarea obj where obj.activo = :activo") })
 public class Tarea implements Serializable {
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -41,6 +46,7 @@ public class Tarea implements Serializable {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
+	@GeneratedValue
 	@Id
 	private Object id;
 
@@ -79,6 +85,22 @@ public class Tarea implements Serializable {
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private Object descripcion;
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @uml.annotations for <code>empleado</code>
+	 *     collection_type="negocio.empleados.objetonegocio.Empleado"
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	@ManyToMany(mappedBy = "tarea")
+	private Set empleado;
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
+	 */
+	private boolean activo;
 
 	/** 
 	 * <!-- begin-UML-doc -->

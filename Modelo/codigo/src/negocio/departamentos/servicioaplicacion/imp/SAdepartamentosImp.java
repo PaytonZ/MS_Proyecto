@@ -9,17 +9,10 @@ import negocio.departamentos.transfer.transferDepartamento;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class SAdepartamentosImp implements SADepartamentos {
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
-	 */
-	private Object entityManagerFactory;
-
 	/** 
 	 * (sin Javadoc)
 	 * @see SADepartamentos#anadirDepartamento(Object departamentoNuevo)

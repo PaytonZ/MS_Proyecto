@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public interface SAEmpleados {
@@ -56,7 +56,7 @@ public interface SAEmpleados {
 	 * @return
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
-	public Clase obtenerTodosEmpleados(Clase idTarea);
+	public Clase obtenerTodosEmpleadosPorTarea(Clase idTarea);
 
 	/** 
 	 * <!-- begin-UML-doc -->

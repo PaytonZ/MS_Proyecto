@@ -13,7 +13,7 @@ import presentación.departamentos.paneles.PanelAltaDepartamentos;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author usuario_local
+ * @author Emilio
  * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
  */
 public class GUIDepartamentosImp extends GUIDepartamentos {
@@ -51,18 +51,6 @@ public class GUIDepartamentosImp extends GUIDepartamentos {
 	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
 	 */
 	private PanelAltaDepartamentos frameAltaDepartamentos;
-
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @generated "UML a JPA (com.ibm.xtools.transform.uml2.ejb3.java.jpa.internal.UML2JPATransform)"
-	 */
-	public void update() {
-		// begin-user-code
-		// TODO Apéndice de método generado automáticamente
-
-		// end-user-code
-	}
 
 	/** 
 	 * (sin Javadoc)

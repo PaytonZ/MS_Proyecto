@@ -4962,7 +4962,7 @@
                 </edges>
               </contents>
             </eAnnotations>
-            <packagedElement xmi:type="uml:Collaboration" xmi:id="_BWK3oHvLEeOwipaLjhbuRQ" name="Diagrama de secuencia SA empleado alta empleado">
+            <packagedElement xmi:type="uml:Collaboration" xmi:id="_BWK3oHvLEeOwipaLjhbuRQ" name="Diagramas de secuencia">
               <ownedBehavior xmi:type="uml:Interaction" xmi:id="_tIoOwH7UEeO22P33Ra6ekA" name="ConsultaEmpleado">
                 <eAnnotations xmi:id="_tIo10H7UEeO22P33Ra6ekA" source="uml2.diagrams">
                   <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_tIo10X7UEeO22P33Ra6ekA" type="Sequence" element="_tIoOwH7UEeO22P33Ra6ekA" name="ConsultaEmpleado" measurementUnit="Himetric">
@@ -7389,6 +7389,7 @@
             <ownedOperation xmi:id="_xuzaMH6IEeOpNYdBxIkFYg" name="setSegundoApellido"/>
             <ownedOperation xmi:id="_IISIMH6KEeOpNYdBxIkFYg" name="setIdDepartamento"/>
             <ownedOperation xmi:id="_Ka2G0IQTEeO7A7vdGVy3ww" name="getTareas"/>
+            <ownedOperation xmi:id="_jcdfoIRfEeOTsvLJ1F2u-g" name="setTareas"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_SWHN4IQLEeO7A7vdGVy3ww" memberEnd="_SWJDEIQLEeO7A7vdGVy3ww _SWMGYIQLEeO7A7vdGVy3ww"/>
         </packagedElement>
@@ -7516,6 +7517,8 @@
             <ownedOperation xmi:id="_lvh54H6KEeOpNYdBxIkFYg" name="setId"/>
             <ownedOperation xmi:id="_r70dAH6KEeOpNYdBxIkFYg" name="setNombre"/>
             <ownedOperation xmi:id="_3L-tMH6LEeOs1tEpi7q9LA" name="setDescripcion"/>
+            <ownedOperation xmi:id="_9WOvcIReEeOTsvLJ1F2u-g" name="getEmpleados"/>
+            <ownedOperation xmi:id="_Gg7kcIRfEeOTsvLJ1F2u-g" name="setEmpleados"/>
           </packagedElement>
         </packagedElement>
       </packagedElement>
