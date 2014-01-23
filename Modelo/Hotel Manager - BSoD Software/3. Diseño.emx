@@ -60,7 +60,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_ApzAUYQPEeO7A7vdGVy3ww" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_ApznYIQPEeO7A7vdGVy3ww" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Ap0OcIQPEeO7A7vdGVy3ww" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Apv9AYQPEeO7A7vdGVy3ww" x="4356" y="9372"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Apv9AYQPEeO7A7vdGVy3ww" x="9636" y="13068"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_bD12MIQPEeO7A7vdGVy3ww" element="_bDoa0IQPEeO7A7vdGVy3ww" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
           <children xmi:type="notation:DecorationNode" xmi:id="_bD2dQIQPEeO7A7vdGVy3ww" type="ImageCompartment">
@@ -73,7 +73,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_bD3EUoQPEeO7A7vdGVy3ww" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_bD3EU4QPEeO7A7vdGVy3ww" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_bD3rYIQPEeO7A7vdGVy3ww" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bD12MYQPEeO7A7vdGVy3ww" x="5412" y="1188"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bD12MYQPEeO7A7vdGVy3ww" x="13992" y="13068"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_pkCYMINqEeOi-q3CqvwmCw" element="_RSTLgILOEeOyIr1nW8k7xg" source="_pj080INqEeOi-q3CqvwmCw" target="_n_NvcINqEeOi-q3CqvwmCw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -7355,6 +7355,7 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_bDoa0IQPEeO7A7vdGVy3ww" name="EmpleadoTotal">
             <generalization xmi:id="_cWWm8IQPEeO7A7vdGVy3ww" general="_4-cGIH6HEeOpNYdBxIkFYg"/>
             <ownedAttribute xmi:id="_bDtTUIQPEeO7A7vdGVy3ww" name="id" visibility="private"/>
+            <ownedAttribute xmi:id="_v8DDEIQuEeOeY4F07UzwEg" name="plazaAparcamiento" visibility="private"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_ApgFYIQPEeO7A7vdGVy3ww" name="EmpleadoParcial">
             <generalization xmi:id="_RHlocIQPEeO7A7vdGVy3ww" general="_4-cGIH6HEeOpNYdBxIkFYg"/>
