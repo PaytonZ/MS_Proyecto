@@ -3,6 +3,7 @@
  */
 package negocio.departamentos.objetonegocio;
 
+
 import javax.persistence.Entity;
 import java.io.Serializable;
 import javax.persistence.Table;
