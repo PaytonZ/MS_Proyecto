@@ -4893,6 +4893,8 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
             </ownedAttribute>
             <ownedOperation xmi:id="_M0W9IH6HEeOpNYdBxIkFYg" name="getNombre"/>
+            <ownedOperation xmi:id="_dqzRoIXhEeODZMkNgTre1w" name="getActivo"/>
+            <ownedOperation xmi:id="_jRaU0IXhEeODZMkNgTre1w" name="setActivo"/>
             <ownedOperation xmi:id="_OCs_kH6HEeOpNYdBxIkFYg" name="setNombre"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_RSTLgILOEeOyIr1nW8k7xg" memberEnd="_RSVAsILOEeOyIr1nW8k7xg _RSYEAILOEeOyIr1nW8k7xg"/>
@@ -7378,6 +7380,8 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
             </ownedAttribute>
             <ownedOperation xmi:id="_OEyNwH6IEeOpNYdBxIkFYg" name="getDNI"/>
+            <ownedOperation xmi:id="_pyEa4IXgEeODZMkNgTre1w" name="setActivo"/>
+            <ownedOperation xmi:id="_MDNv4IXhEeODZMkNgTre1w" name="isActivo"/>
             <ownedOperation xmi:id="_PCM4QH6IEeOpNYdBxIkFYg" name="getNombre"/>
             <ownedOperation xmi:id="_P5E14H6IEeOpNYdBxIkFYg" name="getPrimerApellido"/>
             <ownedOperation xmi:id="_jlsxgH6IEeOpNYdBxIkFYg" name="getSegundoApellido"/>
@@ -7512,6 +7516,8 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
             </ownedAttribute>
             <ownedOperation xmi:id="_hJMA4H6KEeOpNYdBxIkFYg" name="getId"/>
+            <ownedOperation xmi:id="_Yr680IXhEeODZMkNgTre1w" name="setActivo"/>
+            <ownedOperation xmi:id="_ZvUTgIXhEeODZMkNgTre1w" name="getActivo"/>
             <ownedOperation xmi:id="_iMsFQH6KEeOpNYdBxIkFYg" name="getNombre"/>
             <ownedOperation xmi:id="_kcPGAH6KEeOpNYdBxIkFYg" name="getDescripcion"/>
             <ownedOperation xmi:id="_lvh54H6KEeOpNYdBxIkFYg" name="setId"/>
