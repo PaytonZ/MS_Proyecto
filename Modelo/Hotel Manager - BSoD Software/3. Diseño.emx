@@ -9122,10 +9122,15 @@
             <generalization xmi:id="_cWWm8IQPEeO7A7vdGVy3ww" general="_4-cGIH6HEeOpNYdBxIkFYg"/>
             <ownedAttribute xmi:id="_bDtTUIQPEeO7A7vdGVy3ww" name="id" visibility="private"/>
             <ownedAttribute xmi:id="_v8DDEIQuEeOeY4F07UzwEg" name="plazaAparcamiento" visibility="private"/>
+            <ownedOperation xmi:id="_J4KMUIaLEeOKDY201xkkpg" name="getPlazaAparcamiento"/>
+            <ownedOperation xmi:id="_MPyyEIaLEeOKDY201xkkpg" name="setPlazaAparcamiento"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_ApgFYIQPEeO7A7vdGVy3ww" name="EmpleadoParcial">
             <generalization xmi:id="_RHlocIQPEeO7A7vdGVy3ww" general="_4-cGIH6HEeOpNYdBxIkFYg"/>
             <ownedAttribute xmi:id="_ApmzEIQPEeO7A7vdGVy3ww" name="id" visibility="private"/>
+            <ownedAttribute xmi:id="_8JrqIIaKEeOKDY201xkkpg" name="horas" visibility="private"/>
+            <ownedOperation xmi:id="_Eimc4IaLEeOKDY201xkkpg" name="getHoras"/>
+            <ownedOperation xmi:id="_GMdWoIaLEeOKDY201xkkpg" name="setHoras"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_4-cGIH6HEeOpNYdBxIkFYg" name="Empleado">
             <ownedAttribute xmi:id="_4-iMwH6HEeOpNYdBxIkFYg" name="id" visibility="private"/>
@@ -9223,7 +9228,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_2JgXE4BNEeO1OsaxZFUALw" type="Name"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2JgXEYBNEeO1OsaxZFUALw" y="-186"/>
                   </children>
-                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2JXNIYBNEeO1OsaxZFUALw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2JXNIYBNEeO1OsaxZFUALw" points="[47, -282, 9424, -1117]$[-7394, -282, 1983, -1117]"/>
                   <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XcEGUIRTEeO6h-gESWbvvg" id="(0.42811755361397935,1.0)"/>
                 </edges>
               </contents>
@@ -9254,17 +9259,11 @@
             <ownedOperation xmi:id="_jqFpJlYdEeOHp4jDXmSerQ" name="actualizarTarea">
               <ownedParameter xmi:id="_jqFpJ1YdEeOHp4jDXmSerQ" name="tarea"/>
             </ownedOperation>
-            <ownedOperation xmi:id="_jqFpKFYdEeOHp4jDXmSerQ" name="obternerTarea">
+            <ownedOperation xmi:id="_jqFpKFYdEeOHp4jDXmSerQ" name="obtenerTarea">
               <ownedParameter xmi:id="_jqFpKVYdEeOHp4jDXmSerQ" name="idTarea"/>
               <ownedParameter xmi:id="_jqFpKlYdEeOHp4jDXmSerQ" name="Parámetro1" direction="return"/>
             </ownedOperation>
             <ownedOperation xmi:id="_jqFpK1YdEeOHp4jDXmSerQ" name="obtenerTodaslasTareas"/>
-            <ownedOperation xmi:id="_jqFpLFYdEeOHp4jDXmSerQ" name="obtenerTareasAEmpleado">
-              <ownedParameter xmi:id="_jqFpLVYdEeOHp4jDXmSerQ" name="idEmpleado"/>
-              <ownedParameter xmi:id="_VALJYIE3EeOaJJNihOEZug" name="Parámetro1" direction="return">
-                <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Interface"/>
-              </ownedParameter>
-            </ownedOperation>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_jqFpLlYdEeOHp4jDXmSerQ" name="objetonegocio">
