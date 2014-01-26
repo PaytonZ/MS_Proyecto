@@ -12673,18 +12673,18 @@
           <ownedOperation xmi:id="_3JZREFndEeOzxunbBxEB6g" name="getPanelBajaEmpleados" isAbstract="true">
             <ownedParameter xmi:id="_ImFxcFneEeOzxunbBxEB6g" name="Parámetro1" type="_XsSRkFbKEeOfU6amWAehQg" direction="return"/>
           </ownedOperation>
-          <ownedOperation xmi:id="_5fxSkFndEeOzxunbBxEB6g" name="getPanelAltaTareaEmpleados" isAbstract="true">
+          <ownedOperation xmi:id="_5fxSkFndEeOzxunbBxEB6g" name="getPanelAsignarTareasEmpleado" isAbstract="true">
             <ownedParameter xmi:id="_J0UfIFneEeOzxunbBxEB6g" name="Parámetro1" type="_e7IBYFbLEeOfU6amWAehQg" direction="return"/>
           </ownedOperation>
-          <ownedOperation xmi:id="__KG_MFndEeOzxunbBxEB6g" name="getPanelBajaTareaEmpleados" isAbstract="true">
+          <ownedOperation xmi:id="__KG_MFndEeOzxunbBxEB6g" name="getPanelConsultaEmpleadosPorTarea" isAbstract="true">
             <ownedParameter xmi:id="_LD-wMFneEeOzxunbBxEB6g" name="Parámetro1" type="_nL16YFbLEeOfU6amWAehQg" direction="return"/>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_c3nz0GAnEeO-04bBe5xDmQ" name="paneles">
           <eAnnotations xmi:id="_c3nz0WAnEeO-04bBe5xDmQ" source="uml2.diagrams"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_WCC9UFbKEeOfU6amWAehQg" name="PanelAltaEmpleados" clientDependency="_mQrkUFnZEeOzxunbBxEB6g _bk2AkHB-EeOVwfGXlNjpAQ"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_e7IBYFbLEeOfU6amWAehQg" name="PanelAltaTareaEmpleados" clientDependency="_l_BMkFnZEeOzxunbBxEB6g _YULhEHB-EeOVwfGXlNjpAQ"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_XsSRkFbKEeOfU6amWAehQg" name="PanelBajaEmpleados" clientDependency="_m_vCsFnZEeOzxunbBxEB6g _YrKdsHB-EeOVwfGXlNjpAQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_e7IBYFbLEeOfU6amWAehQg" name="PanelAsignarTareasEmpleado" clientDependency="_l_BMkFnZEeOzxunbBxEB6g _YULhEHB-EeOVwfGXlNjpAQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XsSRkFbKEeOfU6amWAehQg" name="PanelConsultaEmpleadosPorTarea" clientDependency="_m_vCsFnZEeOzxunbBxEB6g _YrKdsHB-EeOVwfGXlNjpAQ"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_nL16YFbLEeOfU6amWAehQg" name="PanelBajaTareaEmpleados" clientDependency="_l0CroFnZEeOzxunbBxEB6g _YEQOsHB-EeOVwfGXlNjpAQ"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_ZYJWcFbKEeOfU6amWAehQg" name="PanelConsultaEmpleados" clientDependency="_n9o1YFnZEeOzxunbBxEB6g _bD8S8HB-EeOVwfGXlNjpAQ"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_bL7BMFbKEeOfU6amWAehQg" name="PanelConsultaMultipleEmpleados" clientDependency="_nnOggFnZEeOzxunbBxEB6g _alCwcHB-EeOVwfGXlNjpAQ"/>
@@ -12715,11 +12715,11 @@
           <eAnnotations xmi:id="_ghfrUXB_EeOVwfGXlNjpAQ" source="uml2.diagrams"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_DBQXgFbLEeOfU6amWAehQg" name="GUIEmpleadosImp">
             <generalization xmi:id="_EYJqYIE7EeOaJJNihOEZug" general="_oGqOwFbJEeOfU6amWAehQg"/>
-            <ownedAttribute xmi:id="_KzQewVbMEeOfU6amWAehQg" name="frameBajaTareaEmpleados" visibility="private" type="_nL16YFbLEeOfU6amWAehQg" association="_KzQewFbMEeOfU6amWAehQg">
+            <ownedAttribute xmi:id="_KzQewVbMEeOfU6amWAehQg" name="frameConsultaEmpleadosPorTarea" visibility="private" type="_nL16YFbLEeOfU6amWAehQg" association="_KzQewFbMEeOfU6amWAehQg">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KzQew1bMEeOfU6amWAehQg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KzQewlbMEeOfU6amWAehQg" value="1"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_IxFLoVbMEeOfU6amWAehQg" name="frameAltaTareaEmpleados" visibility="private" type="_e7IBYFbLEeOfU6amWAehQg" association="_IxFLoFbMEeOfU6amWAehQg">
+            <ownedAttribute xmi:id="_IxFLoVbMEeOfU6amWAehQg" name="frameAsignarTareasEmpleado" visibility="private" type="_e7IBYFbLEeOfU6amWAehQg" association="_IxFLoFbMEeOfU6amWAehQg">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IxFLo1bMEeOfU6amWAehQg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IxFLolbMEeOfU6amWAehQg" value="1"/>
             </ownedAttribute>
@@ -23485,12 +23485,12 @@
           <message xmi:id="_7R2H4HuBEeO7UtwoRvZeig" name="getInstance" messageSort="reply" receiveEvent="_7R2u8HuBEeO7UtwoRvZeig" sendEvent="_7R1g0HuBEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_CsQrAHuCEeO7UtwoRvZeig" name="getPanelAltaEmpleados" receiveEvent="_CsR5IHuCEeO7UtwoRvZeig" sendEvent="_CsRSEHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_CsTHQXuCEeO7UtwoRvZeig" name="getPanelAltaEmpleados" messageSort="reply" receiveEvent="_CsTuUHuCEeO7UtwoRvZeig" sendEvent="_CsTHQHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
-          <message xmi:id="_D0-mkHuCEeO7UtwoRvZeig" name="getPanelAltaTareaEmpleados" receiveEvent="_D0_NoXuCEeO7UtwoRvZeig" sendEvent="_D0_NoHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
-          <message xmi:id="_D1BC0HuCEeO7UtwoRvZeig" name="getPanelAltaTareaEmpleados" messageSort="reply" receiveEvent="_D1BC0XuCEeO7UtwoRvZeig" sendEvent="_D1AbwHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
+          <message xmi:id="_D0-mkHuCEeO7UtwoRvZeig" name="getPanelAsignarTareasEmpleado" receiveEvent="_D0_NoXuCEeO7UtwoRvZeig" sendEvent="_D0_NoHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
+          <message xmi:id="_D1BC0HuCEeO7UtwoRvZeig" name="getPanelAsignarTareasEmpleado" messageSort="reply" receiveEvent="_D1BC0XuCEeO7UtwoRvZeig" sendEvent="_D1AbwHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_FnyA8HuCEeO7UtwoRvZeig" name="getPanelBajaEmpleados" receiveEvent="_FnyoAXuCEeO7UtwoRvZeig" sendEvent="_FnyoAHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_Fnz2IHuCEeO7UtwoRvZeig" name="getPanelBajaEmpleados" messageSort="reply" receiveEvent="_Fnz2IXuCEeO7UtwoRvZeig" sendEvent="_FnzPEXuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
-          <message xmi:id="_HIUmoHuCEeO7UtwoRvZeig" name="getPanelBajaTareaEmpleados" receiveEvent="_HIVNsXuCEeO7UtwoRvZeig" sendEvent="_HIVNsHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
-          <message xmi:id="_HIV0wXuCEeO7UtwoRvZeig" name="getPanelBajaTareaEmpleados" messageSort="reply" receiveEvent="_HIV0wnuCEeO7UtwoRvZeig" sendEvent="_HIV0wHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
+          <message xmi:id="_HIUmoHuCEeO7UtwoRvZeig" name="getPanelConsultaEmpleadosPorTarea" receiveEvent="_HIVNsXuCEeO7UtwoRvZeig" sendEvent="_HIVNsHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
+          <message xmi:id="_HIV0wXuCEeO7UtwoRvZeig" name="getPanelConsultaEmpleadosPorTarea" messageSort="reply" receiveEvent="_HIV0wnuCEeO7UtwoRvZeig" sendEvent="_HIV0wHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_KZy-cHuCEeO7UtwoRvZeig" name="getPanelConsultaEmpleados" receiveEvent="_KZzlgXuCEeO7UtwoRvZeig" sendEvent="_KZzlgHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_KZ0zoXuCEeO7UtwoRvZeig" name="getPanelConsultaEmpleados" messageSort="reply" receiveEvent="_KZ1asHuCEeO7UtwoRvZeig" sendEvent="_KZ0zoHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
           <message xmi:id="_MGZDIHuCEeO7UtwoRvZeig" name="getPanelConsultaMultipleEmpleados" receiveEvent="_MGaRQHuCEeO7UtwoRvZeig" sendEvent="_MGZqMHuCEeO7UtwoRvZeig" connector="_7R3WAHuBEeO7UtwoRvZeig"/>
