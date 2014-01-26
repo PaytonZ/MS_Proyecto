@@ -7590,6 +7590,17 @@
                 <message xmi:id="_2IM2IIInEeOGa5dkaP8rVA" name="persist(tarea)" receiveEvent="_2IM2IoInEeOGa5dkaP8rVA" sendEvent="_2IM2IYInEeOGa5dkaP8rVA" connector="_NKRyB4IlEeOGa5dkaP8rVA"/>
                 <message xmi:id="_2IM2JYInEeOGa5dkaP8rVA" name="persist" messageSort="reply" receiveEvent="_2IM2JoInEeOGa5dkaP8rVA" sendEvent="_2IM2JIInEeOGa5dkaP8rVA" connector="_NKRyB4IlEeOGa5dkaP8rVA"/>
               </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_M0fLQIYiEeOwOOpQ_q_SPw" name="ConsultaTodosEmpleados">
+                <eAnnotations xmi:id="_M0hngIYiEeOwOOpQ_q_SPw" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_M0hngYYiEeOwOOpQ_q_SPw" type="Sequence" element="_M0fLQIYiEeOwOOpQ_q_SPw" name="ConsultaTodosEmpleados" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_M0iOkIYiEeOwOOpQ_q_SPw" element="_M0fLQIYiEeOwOOpQ_q_SPw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_M0iOkYYiEeOwOOpQ_q_SPw" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_M0iOkoYiEeOwOOpQ_q_SPw" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M0iOk4YiEeOwOOpQ_q_SPw" x="793" y="793"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
               <ownedAttribute xmi:id="_KZSd8XvLEeOwipaLjhbuRQ" name=""/>
               <ownedAttribute xmi:id="_Mwx5wHvLEeOwipaLjhbuRQ" name="sAdepartamentosImp" type="_fYsFM1YdEeOHp4jDXmSerQ"/>
               <ownedAttribute xmi:id="_TalfUHvLEeOwipaLjhbuRQ" name="" type="_hR2mdFYdEeOHp4jDXmSerQ"/>
