@@ -4896,6 +4896,8 @@
             <ownedOperation xmi:id="_dqzRoIXhEeODZMkNgTre1w" name="getActivo"/>
             <ownedOperation xmi:id="_jRaU0IXhEeODZMkNgTre1w" name="setActivo"/>
             <ownedOperation xmi:id="_OCs_kH6HEeOpNYdBxIkFYg" name="setNombre"/>
+            <ownedOperation xmi:id="_c4yHIIaXEeOKDY201xkkpg" name="getID"/>
+            <ownedOperation xmi:id="_du2zgIaXEeOKDY201xkkpg" name="setID"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_RSTLgILOEeOyIr1nW8k7xg" memberEnd="_RSVAsILOEeOyIr1nW8k7xg _RSYEAILOEeOyIr1nW8k7xg"/>
         </packagedElement>
@@ -9098,7 +9100,7 @@
                 <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:id="_hR3NU1YdEeOHp4jDXmSerQ" name="altaTareaEmpleado">
+            <ownedOperation xmi:id="_hR3NU1YdEeOHp4jDXmSerQ" name="anadirTareaEmpleado">
               <ownedParameter xmi:id="_hR3NVFYdEeOHp4jDXmSerQ" name="dniEmpleado">
                 <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=ManageTel%20-%20BSoD%20Software%5D$uml.Class"/>
               </ownedParameter>
@@ -20989,8 +20991,8 @@
               <message xmi:id="__snGNXuFEeO7UtwoRvZeig" name="getInstance" messageSort="reply" receiveEvent="__snGNnuFEeO7UtwoRvZeig" sendEvent="__snGNHuFEeO7UtwoRvZeig" connector="__snGN3uFEeO7UtwoRvZeig"/>
               <message xmi:id="_AaMk8HuGEeO7UtwoRvZeig" name="getSAEmpleados" receiveEvent="_AaSrkHuGEeO7UtwoRvZeig" sendEvent="_AaMk8XuGEeO7UtwoRvZeig" connector="__snGN3uFEeO7UtwoRvZeig"/>
               <message xmi:id="_AaSrk3uGEeO7UtwoRvZeig" name="getSAEmpleados" messageSort="reply" receiveEvent="_AaSrlHuGEeO7UtwoRvZeig" sendEvent="_AaSrknuGEeO7UtwoRvZeig" connector="__snGN3uFEeO7UtwoRvZeig"/>
-              <message xmi:id="_BRy7UHuGEeO7UtwoRvZeig" name="altaTareaEmpleado" receiveEvent="_BRy7UnuGEeO7UtwoRvZeig" sendEvent="_BRy7UXuGEeO7UtwoRvZeig" connector="_BRy7V3uGEeO7UtwoRvZeig"/>
-              <message xmi:id="_BRy7VXuGEeO7UtwoRvZeig" name="altaTareaEmpleado" messageSort="reply" receiveEvent="_BRy7VnuGEeO7UtwoRvZeig" sendEvent="_BRy7VHuGEeO7UtwoRvZeig" connector="_BRy7V3uGEeO7UtwoRvZeig"/>
+              <message xmi:id="_BRy7UHuGEeO7UtwoRvZeig" name="anadirTareaEmpleado" receiveEvent="_BRy7UnuGEeO7UtwoRvZeig" sendEvent="_BRy7UXuGEeO7UtwoRvZeig" connector="_BRy7V3uGEeO7UtwoRvZeig"/>
+              <message xmi:id="_BRy7VXuGEeO7UtwoRvZeig" name="anadirTareaEmpleado" messageSort="reply" receiveEvent="_BRy7VnuGEeO7UtwoRvZeig" sendEvent="_BRy7VHuGEeO7UtwoRvZeig" connector="_BRy7V3uGEeO7UtwoRvZeig"/>
               <message xmi:id="_EwGOMHuGEeO7UtwoRvZeig" name="new" messageSort="createMessage" receiveEvent="_EwGOMnuGEeO7UtwoRvZeig" sendEvent="_EwGOMXuGEeO7UtwoRvZeig" connector="_EwGOM3uGEeO7UtwoRvZeig"/>
               <message xmi:id="_G3VAcHuGEeO7UtwoRvZeig" name="setEvento" receiveEvent="_G3VAcnuGEeO7UtwoRvZeig" sendEvent="_G3VAcXuGEeO7UtwoRvZeig" connector="_EwGOM3uGEeO7UtwoRvZeig"/>
               <message xmi:id="_G3VAdXuGEeO7UtwoRvZeig" name="setEvento" messageSort="reply" receiveEvent="_G3VAdnuGEeO7UtwoRvZeig" sendEvent="_G3VAdHuGEeO7UtwoRvZeig" connector="_EwGOM3uGEeO7UtwoRvZeig"/>
