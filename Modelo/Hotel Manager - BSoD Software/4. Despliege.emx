@@ -323,6 +323,15 @@
           <element xmi:type="uml:Dependency" href="3.%20Diseño.emx#_yPzU8IRbEeO6h-gESWbvvg?3.%20Diseño/negocio/%3CDependencia%3E?"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yPzU8oRbEeO6h-gESWbvvg" points="[245, -421, -2489, 4159]$[245, -1775, -2489, 2805]$[1339, -1775, -1395, 2805]$[1339, -4092, -1395, 488]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_5OHkEIhPEeO6RL6pxnd63Q" source="_OcjUAIRbEeO6h-gESWbvvg" target="_PX_IwGiUEeOF8oL4MGiTNQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5OHkEohPEeO6RL6pxnd63Q" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_5OHkFIhPEeO6RL6pxnd63Q" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_5OHkFYhPEeO6RL6pxnd63Q" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5OHkE4hPEeO6RL6pxnd63Q" y="-186"/>
+          </children>
+          <element xmi:type="uml:Dependency" href="3.%20Diseño.emx#_5N7W0IhPEeO6RL6pxnd63Q?3.%20Diseño/negocio/%3CDependencia%3E?"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5OHkEYhPEeO6RL6pxnd63Q" points="[938, -205, -14533, 3187]$[15511, -205, 40, 3187]$[15511, -2904, 40, 488]"/>
+        </edges>
       </contents>
     </eAnnotations>
     <packagedElement xmi:type="uml:Package" xmi:id="_pVa5sEIJEeOpNrFH38e2Nw" name="Negocio">
